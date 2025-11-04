@@ -214,7 +214,7 @@ export default function Success() {
 
       <div className="flex justify-center pt-7">
         <Link href={"/testimonials"}>
-          <button className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
+          <button className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
             Read More Success Stories
           </button>
         </Link>

@@ -34,7 +34,7 @@ export default function StudentProjects() {
         <div className="flex justify-center mt-[75px] mt[75px] z-[9999]">
           <Link href="/hire-from-us">
             <button
-              className="group rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-8 py-[14px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d14] hoverext-white"
+              className="group rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-8 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d14] hoverext-white"
               style={{
                 boxShadow:
                   "0 0 0 1px rgba(34,225,157,0.18) inset, 0 0 20px rgba(34,225,157,0.14)",

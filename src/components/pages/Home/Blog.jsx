@@ -29,7 +29,7 @@ export default function Blog() {
 
         {/* CTA */}
         <div className="flex justify-center pt-2 z-[99999]">
-          <button className="group font-['Graphikmid'] rounded-[8px] border hover:bg-[#30E29D] hover:text-[#292929] border-[#30E29D] px-8 py-[14px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d14]">
+          <button className="group font-['Graphikmid'] rounded-[8px] border hover:bg-[#30E29D] hover:text-[#292929] border-[#30E29D] px-8 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d14]">
             View all Blogs
           </button>
         </div>

@@ -1,30 +1,37 @@
-[00:00:01.866] Server  LOG      ✓ Ready in 1633ms
-[00:00:04.339] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
-[00:00:04.340] Server  ERROR   Invalid DOM property `fill-opacity`. Did you mean `fillOpacity`?
-[00:00:04.340] Server  ERROR   Invalid DOM property `color-interpolation-filters`. Did you mean `colorInterpolationFilters`?
-[00:00:04.340] Server  ERROR   Invalid DOM property `flood-opacity`. Did you mean `floodOpacity`?
-[00:00:04.341] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[00:00:04.353] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
-[00:00:04.353] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
-[00:00:04.359] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
-[00:00:04.359] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
-[00:00:05.199] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:00:05.420] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:00:05.420] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:05.420] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:05.420] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:05.420] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:05.420] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:05.423] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.596] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.841] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.841] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:10.841] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:03.896] Server  LOG      ✓ Ready in 3.6s
+[00:00:07.392] Server  LOG      ○ Compiling / ...
+[00:00:08.237] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
+[00:00:08.237] Server  ERROR   Invalid DOM property `fill-opacity`. Did you mean `fillOpacity`?
+[00:00:08.238] Server  ERROR   Invalid DOM property `color-interpolation-filters`. Did you mean `colorInterpolationFilters`?
+[00:00:08.238] Server  ERROR   Invalid DOM property `flood-opacity`. Did you mean `floodOpacity`?
+[00:00:08.238] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:00:08.259] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[00:00:08.260] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+[00:00:08.267] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:00:08.272] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:00:09.887] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:10.601] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:10.601] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.601] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.601] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.601] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.601] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:10.601] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.601] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:16.403] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.404] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.404] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:58.162] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:58.171] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.172] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:24.525] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:24.525] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:24.525] Browser WARN    GSAP target  not found. https://gsap.com
