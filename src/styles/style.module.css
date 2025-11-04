@@ -1,0 +1,478 @@
+.backgroundcolor {
+  background: linear-gradient(270deg, #2e2af3 0%, rgba(0, 0, 0, 0) 100%);
+  width: 914.18px;
+  position: absolute;
+  top: 0;
+  right: -442.12px;
+  height: 822px;
+}
+.backgroundcolor2 {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  width: 914.18px;
+  position: absolute;
+  top: 0;
+  right: -141.85px;
+  height: 711px;
+}
+.backgroundcolor3 {
+  background: linear-gradient(270deg, #2e2af3 0%, rgba(0, 0, 0, 0) 100%);
+  width: 914.18px;
+  position: absolute;
+  top: 0;
+  right: -141.85px;
+  height: 711px;
+}
+.backgroundbox {
+  background-image: url("/logos/full-grid.svg");
+  width: 1080px;
+  position: absolute;
+  top: 101px;
+  right: 0px;
+  height: 710px;
+  background-repeat: no-repeat;
+  mix-blend-mode: color-dodge;
+  z-index: 22;
+}
+.backgroundbox123 {
+  background-image: url("/logos/full-grid.svg");
+  width: 100%;
+  position: absolute;
+  top: 101px;
+  right: 0px;
+  height: 710px;
+  background-repeat: no-repeat;
+  mix-blend-mode: color-dodge;
+  z-index: 22;
+  opacity: 0.3;
+}
+
+.backgroundbox2 {
+  background-image: url("/logos/full-grid.svg");
+  background-size: contain;
+  width: 100%;
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  height: 710px;
+  background-repeat: no-repeat;
+  mix-blend-mode: color-dodge;
+  z-index: 22;
+  opacity: 0.4;
+}
+
+.backgroundbox2222 {
+  background-image: url("/logos/full-grid.svg");
+  background-size: contain;
+  width: 100%;
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  height: 710px;
+  background-repeat: no-repeat;
+  mix-blend-mode: exclusion;
+  z-index: 22;
+  opacity: 0.4;
+}
+.backgroundbox22223 {
+  background-image: url("/logos/full-grid.svg");
+  background-size: contain;
+  width: 100%;
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  height: 710px;
+  background-repeat: no-repeat;
+  mix-blend-mode: exclusion;
+  z-index: 22;
+  opacity: 0.3;
+}
+.fullgrid {
+  background-image: url("/logos/full-grid.svg");
+  width: 100%;
+  position: absolute;
+  top: 101px;
+  left: 0px;
+  z-index: 1;
+  height: 710px;
+}
+.backgroundboxworkshop {
+  background-image: url("/public/Group\ 1.svg");
+  width: 1440px;
+  position: absolute;
+  top: 101px;
+  z-index: 1;
+  height: 811px;
+  background-repeat: no-repeat;
+}
+.coloredborder {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(149, 255, 147, 0.77) 0%,
+    rgba(153, 153, 153, 0.01) 60.9%
+  );
+}
+.yellowcoloredborder {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 215, 7, 0.77) 0%,
+    rgba(153, 153, 153, 0.01) 60.9%
+  );
+}
+.bluecoloredborder {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(7, 225, 255, 0.77) 0%,
+    rgba(153, 153, 153, 0.01) 60.9%
+  );
+}
+.purplecoloredborder {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 65, 213, 0.77) 0%,
+    rgba(153, 153, 153, 0.01) 60.9%
+  );
+}
+.workshopcardgradientcolor1 {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(180deg, rgba(48, 226, 157, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.workshopcardgradientcolor2 {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(180deg, rgba(255, 232, 21, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.workshopcardgradientcolor3 {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(180deg, rgba(255, 1, 230, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.workshopcardgradientcolor4 {
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(180deg, rgba(0, 194, 255, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.bordergradient {
+  position: relative;
+  background-color: #090909;
+  width: 100%;
+  height: 100%;
+}
+.container {
+  padding: 1px;
+  /* z-index: -1; */
+  border-radius: 9px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.52) 0%,
+    #3a3a3a 67.79%
+  );
+}
+.gradientcard {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid #545454;
+}
+.imagecontainer {
+  mix-blend-mode: color-dodge;
+}
+.gradientbackgroundcard {
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    linear-gradient(180deg, rgba(255, 232, 21, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+  border: 1px solid;
+  border-image-source: linear-gradient(
+    360deg,
+    rgba(255, 250, 125, 0.52) 0%,
+    #090909 67.79%
+  );
+}
+.hovercard {
+  transition: 0.3s;
+}
+.gradientcard:hover .hovercard {
+  bottom: 320.08px;
+  font-size: 85.48px;
+  line-height: 73.51px;
+  letter-spacing: -3%;
+  opacity: 1;
+  width: 332.41px;
+}
+.cardbg {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid #545454;
+}
+.cardfsbg {
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid #545454;
+}
+.circle {
+  width: 766.17px;
+  height: 766.17px;
+  position: absolute;
+  top: 116px;
+  left: 865.45px;
+  filter: blur(140px);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #1bd44f 0%,
+    rgba(14, 11, 180, 0.43) 100%
+  );
+}
+.footer {
+  filter: blur(100px);
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #1bd44f 0%,
+    rgba(14, 11, 180, 0.43) 100%
+  );
+
+  width: 1401px;
+  height: 849.12px;
+  opacity: 0.7;
+}
+.client {
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #1bd44f 0%,
+    rgba(14, 11, 180, 0.43) 100%
+  );
+  width: 959px;
+  height: 959px;
+  position: absolute;
+  top: 226px;
+  left: 806.74px;
+  filter: blur(120px);
+}
+.learncard {
+  background: linear-gradient(0deg, rgba(10, 10, 10, 0), rgba(10, 10, 10, 0.1)),
+    linear-gradient(
+      90.41deg,
+      rgba(37, 20, 108, 0) 30.71%,
+      rgba(45, 22, 141, 0.6) 99.65%
+    ),
+    linear-gradient(
+      329.51deg,
+      rgba(37, 20, 108, 0) 68.4%,
+      rgba(22, 141, 134, 0.6) 126.82%
+    );
+}
+.circle1 {
+  width: 849.12px;
+  height: 849.12px;
+  border-radius: 100%;
+  position: absolute;
+  top: 380px;
+  right: -215.61px;
+  background: radial-gradient(
+    50% 60% at 50% 75%,
+    #1bd44f 0%,
+    rgba(14, 11, 180, 0.43) 100%
+  );
+  filter: blur(140px);
+}
+.circle2 {
+  width: 709.17px;
+  height: 709.17px;
+  border-radius: 100%;
+  position: absolute;
+  top: -132px;
+  left: -131.61px;
+  background: #04121a;
+  filter: blur(60px);
+}
+.aicardborder {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.46) 0%,
+    rgba(153, 153, 153, 0.01) 60.9%
+  );
+  padding: 1px;
+  z-index: 1;
+  border-radius: 9px;
+}
+.aicardbg {
+  z-index: 2;
+  overflow: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(
+      89.81% 45.98% at 51.76% 26.74%,
+      rgba(118, 39, 232, 0.5) 0%,
+      rgba(99, 33, 229, 0) 100%
+    ),
+    linear-gradient(
+      0.91deg,
+      rgba(48, 226, 157, 0.1) -13.79%,
+      rgba(48, 226, 157, 0) 20.34%
+    );
+}
+.fscardbg {
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(
+      79.59% 40.79% at 51.06% 24.98%,
+      rgba(27, 196, 94, 0.24) 0%,
+      rgba(12, 244, 35, 0) 100%
+    ),
+    linear-gradient(
+      0.91deg,
+      rgba(48, 226, 157, 0.1) -13.79%,
+      rgba(48, 226, 157, 0) 20.34%
+    );
+}
+.fmcardbg {
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(
+      79.59% 40.79% at 51.06% 24.98%,
+      rgba(255, 17, 17, 0.5) 0%,
+      rgba(125, 17, 17, 0) 100%
+    ),
+    linear-gradient(
+      0.91deg,
+      rgba(48, 226, 157, 0.1) -13.79%,
+      rgba(48, 226, 157, 0) 20.34%
+    );
+}
+.bmcardbg {
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(
+      79.59% 40.79% at 51.06% 24.98%,
+      rgba(85, 92, 255, 0.5) 0%,
+      rgba(85, 92, 255, 0) 100%
+    ),
+    linear-gradient(
+      0.91deg,
+      rgba(48, 226, 157, 0.1) -13.79%,
+      rgba(48, 226, 157, 0) 20.34%
+    );
+}
+.fshomecardbg {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 10px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(
+      64.59% 68.79% at 51.06% 39.98%,
+      rgba(27, 196, 94, 1) 0%,
+      rgba(12, 244, 35, 0) 100%
+    );
+}
+.fsbg {
+  width: 100%;
+  position: relative;
+  z-index: 5;
+  background: radial-gradient(
+    45.92% 146.79% at -10.19% 59.18%,
+    rgba(25, 193, 88, 0.64) 0%,
+    rgba(0, 0, 0, 0) 99.11%
+  );
+}
+.dacardbg {
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(
+      89.81% 45.98% at 51.76% 26.74%,
+      rgba(216, 47, 47, 0.27) 0%,
+      rgba(220, 56, 56, 0.02) 100%
+    ),
+    linear-gradient(
+      0.91deg,
+      rgba(48, 226, 157, 0.1) -13.79%,
+      rgba(48, 226, 157, 0) 20.34%
+    );
+}
+.lccardbg {
+  z-index: 1;
+  overflow: hidden;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ),
+    radial-gradient(
+      89.81% 45.98% at 51.76% 26.74%,
+      rgba(14, 22, 245, 0.5) 0%,
+      rgba(12, 21, 244, 0.05) 100%
+    ),
+    linear-gradient(
+      0.91deg,
+      rgba(48, 226, 157, 0.1) -13.79%,
+      rgba(48, 226, 157, 0) 20.34%
+    );
+}
