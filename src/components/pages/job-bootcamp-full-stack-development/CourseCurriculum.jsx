@@ -40,13 +40,7 @@ const coursePhasesData = [
       "Build projects like “Social Network” to apply frontend concepts in real-world scenarios",
       "Leverage AI coding assistants (GitHub Copilot, Bolt AI) to accelerate UI component generation and debugging ",
     ],
-    logos: [
-      // "/job/Frame 1000003188 copy.svg",
-      // "/job/Frame 1000003191 copy.svg",
-      // "/job/Frame 1000003189 copy.svg",
-      // "/job/Frame 1000003190 copy.svg",
-      "/job/Phase 2 _ Frontend Development.svg",
-    ],
+    logos: ["/job/Phase 2 _ Frontend Development.svg"],
     bgColor: "#0f766e",
     borderColor: "#14b8a6",
   },
@@ -57,11 +51,23 @@ const coursePhasesData = [
     duration: "6-8 Weeks",
     description:
       "Develop, secure, and scale powerful server-side applications. Choose your preferred backend stack:",
-    checkpoints: [
-      "Build RESTful APIs using Express.js",
-      "Integrate with MongoDB for flexible, document-based storage",
-      "Implement authentication, validation, and role-based access",
-      "Learn AI-powered backend optimization via automated code generation and testing assistance",
+    options: [
+      {
+        name: "Option A: JavaScript Stack (Node.js + Express + MongoDB)",
+        checkpoints: [
+          "Build RESTful APIs using Express.js",
+          "Integrate with MongoDB for flexible, document-based storage",
+          "Implement authentication, validation, and role-based access",
+          "Learn AI-powered backend optimization via automated code generation and testing assistance",
+        ],
+      },
+      {
+        name: "Option B: Java + Spring Boot",
+        checkpoints: [
+          "Apply object-oriented programming principles and develop robust microservice",
+          "Master Spring Security, JPA, and RESTful service design",
+        ],
+      },
     ],
     logos: ["/job/Phase 3 _ Backend Development.svg"],
     bgColor: "#155e75",
@@ -496,7 +502,7 @@ export default function CourseCurriculum() {
 
                 {/* Checkpoints */}
                 <div className="space-y-3 mb-8">
-                  {coursePhase.checkpoints.map((checkpoint, idx) => (
+                  {/* {coursePhase.checkpoints.map((checkpoint, idx) => (
                     <div key={idx} className="flex gap-3">
                       <div className="text-green-400 mt-0.5 flex-shrink-0">
                         <svg
@@ -516,7 +522,60 @@ export default function CourseCurriculum() {
                         {checkpoint}
                       </span>
                     </div>
-                  ))}
+                  ))} */}
+
+                  {coursePhase.options
+                    ? // Render options for backend phase
+                      coursePhase.options.map((option, optionIdx) => (
+                        <div key={optionIdx} className="mb-6">
+                          <h4 className="text-white font-medium mb-3 text-lg">
+                            {option.name}
+                          </h4>
+                          {option.checkpoints.map((checkpoint, idx) => (
+                            <div key={idx} className="flex gap-3 ml-4">
+                              <div className="text-green-400 mt-0.5 flex-shrink-0">
+                                <svg
+                                  width="24"
+                                  height="24"
+                                  viewBox="0 0 24 24"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <path
+                                    d="M9.54961 18.0016L3.84961 12.3016L5.27461 10.8766L9.54961 15.1516L18.7246 5.97656L20.1496 7.40156L9.54961 18.0016Z"
+                                    fill="#30E29D"
+                                  />
+                                </svg>
+                              </div>
+                              <span className="text-gray-300 text-sm sm:text-base font-['Graphikthin']">
+                                {checkpoint}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      ))
+                    : // Render regular checkpoints for other phases
+                      coursePhase.checkpoints.map((checkpoint, idx) => (
+                        <div key={idx} className="flex gap-3">
+                          <div className="text-green-400 mt-0.5 flex-shrink-0">
+                            <svg
+                              width="24"
+                              height="24"
+                              viewBox="0 0 24 24"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M9.54961 18.0016L3.84961 12.3016L5.27461 10.8766L9.54961 15.1516L18.7246 5.97656L20.1496 7.40156L9.54961 18.0016Z"
+                                fill="#30E29D"
+                              />
+                            </svg>
+                          </div>
+                          <span className="text-gray-300 text-sm sm:text-base font-['Graphikthin']">
+                            {checkpoint}
+                          </span>
+                        </div>
+                      ))}
                 </div>
 
                 {/* Logos */}

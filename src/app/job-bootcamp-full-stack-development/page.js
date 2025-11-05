@@ -24,8 +24,8 @@ const jobbootcampfullstackdevelopment = () => {
         <PlansPricing />
         <CourseRoadmap />
         <Success />
-        <HeroSection />
         <Blog />
+        <HeroSection />
       </div>
     </>
   );

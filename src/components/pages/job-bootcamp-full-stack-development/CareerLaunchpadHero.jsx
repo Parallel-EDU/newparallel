@@ -66,7 +66,7 @@ export default function CareerLaunchpadHero() {
           Why Choose Parallel
         </span>
         <h1 className="text-white py-6 font-['Graphikthin'] text-5xl sm:text-[64px]">
-          Not just coding. a complete <br />
+          Not just coding. A complete <br />
           career launchpad
         </h1>
         <p className="text-[#E0E0E0] text-[20px] mb-2 max-w-[800px]">

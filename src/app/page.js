@@ -39,8 +39,8 @@ const newHome = () => {
         <Success />
       </div>
       <StudentProjects />
-      <HeroSection />
       <Blog />
+      <HeroSection />
     </div>
   );
 };

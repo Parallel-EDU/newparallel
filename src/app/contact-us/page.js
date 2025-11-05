@@ -163,23 +163,23 @@ export default function Contact() {
                       }
                       className="pl-[17.91px] w-[368px] max-hamburger:w-full cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
-                      Student enrolled in college{" "}
+                      Student - Enrolled in College
                     </li>
                     <li
                       onClick={() =>
-                        handleIamOptionSelect("Passed out student")
+                        handleIamOptionSelect("Student - Final Year College")
                       }
                       className="pl-[17.91px] w-[368px] max-hamburger:w-full cursor-pointer text-black py-[16px] text-[17.95px] border-[1px] border-b-[#00000033] leading-[21.54px]"
                     >
-                      Passed out student{" "}
+                      Student - Final Year College
                     </li>
                     <li
                       onClick={() =>
-                        handleIamOptionSelect("College Representative")
+                        handleIamOptionSelect("Passed Out - Looking for a Job")
                       }
                       className="pl-[17.91px] w-[368px] max-hamburger:w-full cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
-                      College Representative{" "}
+                      Passed Out - Looking for a Job
                     </li>
                     <li
                       onClick={() => handleIamOptionSelect("Recruiter")}
@@ -189,11 +189,19 @@ export default function Contact() {
                     </li>
                     <li
                       onClick={() =>
-                        handleIamOptionSelect("My Role Is Not Listed")
+                        handleIamOptionSelect("Working - Technical Job")
                       }
                       className="pl-[17.91px] w-[368px] max-hamburger:w-full cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
-                      My role is not listed{" "}
+                      Working - Technical Job
+                    </li>
+                    <li
+                      onClick={() =>
+                        handleIamOptionSelect("Working - Non Technical Job")
+                      }
+                      className="pl-[17.91px] w-[368px] max-hamburger:w-full cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
+                    >
+                      Working - Non Technical Job
                     </li>
                   </ul>
                 </div>
@@ -300,7 +308,6 @@ export default function Contact() {
           </p>
         </div>
       </div>
-
     </>
   );
 }

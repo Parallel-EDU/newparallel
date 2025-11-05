@@ -1,6 +1,7 @@
 // app/components/Certifications.jsx
 "use client";
 
+import { useModal } from "@/app/context/ModalContext";
 import { ArrowUpRight } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -8,6 +9,7 @@ import { useState } from "react";
 const accent = { color: "#22E19D" }; // breadcrumb accent
 
 export default function Certifications() {
+  const { openModal } = useModal();
   return (
     <section className="relative overflow-hidden">
       {/* Subtle BG wash like screenshot */}
@@ -59,11 +61,12 @@ export default function Certifications() {
 
         {/* CTA */}
         <div className="flex justify-center mt-[83px]">
-          <Link href="/hire-from-us">
-            <button className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hove:text-white">
-              Explore All Certification Programs
-            </button>
-          </Link>
+          <button
+            onClick={openModal}
+            className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hove:text-white"
+          >
+            Enroll Now
+          </button>
         </div>
       </div>
     </section>

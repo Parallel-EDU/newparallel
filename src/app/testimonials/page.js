@@ -11,20 +11,16 @@ const people = [
     img: "/testimonials/Frame 1000002775.png",
   },
   {
-    name: "Meenal Botadkar",
-    role: "Data Operations Analyst",
+    name: "Sanket Tiwade",
+    role: "AWS Consultant",
     img: "/testimonials/Frame 1000002776 (1).png",
   },
   {
-    name: "Sanket Tiwade",
-    role: "AWS Consultant",
+    name: "Palash A Ranvir ",
+    role: "MERN Stack Developer",
     img: "/testimonials/Frame 1000002776 (2).png",
   },
-  {
-    name: "Palash A Ranvir",
-    role: "MERN Stack Developer",
-    img: "/testimonials/Frame 1000002776 (3).png",
-  },
+
   {
     name: "Vivek Talwekar",
     role: "Python Developer",
@@ -36,94 +32,84 @@ const people = [
     img: "/testimonials/Frame 1000002776 (5).png",
   },
   {
-    name: "Sarthaki Chikhale",
-    role: "Java Engineer",
+    name: "Nikhil Jawalkar ",
+    role: "Frontend Developer",
     img: "/testimonials/Frame 1000002776 (6).png",
   },
   {
-    name: "Nikhil Jawalkar",
-    role: "Frontend Developer",
+    name: "Meenal Botadkar",
+    role: " Data Operations Analyst",
     img: "/testimonials/Frame 1000002776.png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Shubham Ghode",
+    role: " Backend Developer",
     img: "/testimonials/Frame 1000002777 (1).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Amruta Milind Paithankar",
+    role: "Power BI Consultant",
     img: "/testimonials/Frame 1000002777 (2).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
+    name: "Vanashree Lonare  ",
     role: "AWS Consultant",
     img: "/testimonials/Frame 1000002777 (3).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
+    name: "Mahendra Ambule",
     role: "AWS Consultant",
     img: "/testimonials/Frame 1000002777 (4).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Nikhita Mate",
+    role: "Data Operations Analyst",
     img: "/testimonials/Frame 1000002777 (5).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Sarthaki Chikhale",
+    role: "Java Engineer",
     img: "/testimonials/Frame 1000002777.png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Shubham P Urkude ",
+    role: "Frontend Developer",
     img: "/testimonials/Frame 1000002778 (1).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Dharmik Bhuva",
+    role: "Data Analyst",
     img: "/testimonials/Frame 1000002778.png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Monali Sah ",
+    role: "Data Analyst",
     img: "/testimonials/Frame 1000002779 (1).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Aryan Shende ",
+    role: "Data Analyst",
     img: "/testimonials/Frame 1000002779 (2).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Prachee Rahim Meshram ",
+    role: "Data Operations Analyst",
     img: "/testimonials/Frame 1000002779 (3).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Shruti Niranjan Dhole ",
+    role: "Data Analyst",
     img: "/testimonials/Frame 1000002779 (4).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
+    name: "Rupesh Babanrao Deotale ",
     role: "AWS Consultant",
     img: "/testimonials/Frame 1000002779 (5).png",
   },
   {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
+    name: "Nayan Kundan Gour ",
+    role: "Java Developer",
     img: "/testimonials/Frame 1000002779.png",
-  },
-  {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
-    img: "/testimonials/9.png",
-  },
-  {
-    name: "Rushabh Ramkrushna Bandewar",
-    role: "AWS Consultant",
-    img: "/testimonials/9.png",
   },
 ];
 
@@ -139,7 +125,7 @@ export default function Testimonials() {
         {/* Left block: heading + copy + CTA */}
         <div className="max-w-3xl">
           <h2 className=" sm:text-[64px] font-['Graphikthin'] leading-tight tracking-tight text-white/95">
-            Real stories. real transformations. real results.
+            Real stories. Real transformations. Real results.
           </h2>
           <p className="mt-4 text-sm font-['Graphikmid'] sm:text-[16px] text-neutral-300">
             Behind every testimonial is a journey of persistence, mentorship,

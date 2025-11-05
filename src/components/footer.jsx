@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="pl-[80px]  overflow-hidden max-md:px-[40px] max-sm:px-[20px] pt-[125.58px] pb-[14px] flex flex-col gap-[100px] max-sm:gap-[80px] relative pr-[76px]">
+    <footer className="pl-[80px]  overflow-hidden max-md:px-[40px] max-sm:px-[20px] pt-[80.58px] pb-[14px] flex flex-col gap-[40px] max-sm:gap-[80px] relative pr-[76px]">
       {/* <div className="overflow-hidden max-smallphone:hidden absolute w-[100%] bottom-[0] left-0 h-[1449.12px]"> */}
       {/* <div
           className={`w-[100%] h-[849.12px] left-[15.49px] absolute bottom-[275.86px] ${style.footer}`}
@@ -89,7 +89,7 @@ export default function Footer() {
                   "https://www.instagram.com/parallel.edu_/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
                 }
                 target="_blank"
-                className="mt-[12px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid"
+                className="mt-[0px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid"
               >
                 <svg
                   width="28"
@@ -111,7 +111,7 @@ export default function Footer() {
               <a
                 target="_blank"
                 href="https://www.linkedin.com/company/parallel-edutech-pvt-ltd/"
-                className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid"
+                className="mt-[0px]  text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid"
               >
                 <svg
                   width="28"
@@ -126,7 +126,7 @@ export default function Footer() {
                   />
                 </svg>
               </a>
-              <p className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid">
+              <p className="mt-[6px]   text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid">
                 <svg
                   width="28"
                   height="28"

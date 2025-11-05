@@ -95,7 +95,7 @@ export default function Success() {
                   Palash A Ranvir
                 </h1>
                 <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
-                  Placed on 30th May 2024{" "}
+                  MERN Stack Developer
                 </h2>
                 {/* <Image
                   src="/razor.svg"
@@ -131,7 +131,7 @@ export default function Success() {
                   Meenal Botadkar
                 </h1>
                 <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
-                  Placed on 30th May 2024{" "}
+                  Data Operations Analyst
                 </h2>
                 {/* <Image
                   src="/razor.svg"
@@ -168,7 +168,7 @@ export default function Success() {
                   Sanket Tiwade
                 </h1>
                 <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
-                  Placed on 30th May 2024{" "}
+                  AWS Consultant
                 </h2>
                 {/* <Image
                   src="/razor.svg"
