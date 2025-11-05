@@ -51,7 +51,7 @@ export default function Certifications() {
         </p>
 
         {/* Responsive grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 max-lg:justify-center max-lg:items-center gap-4 mb-10 mt-[83px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 max-lg:justify-center max-lg:flex max-lg:flex-col max-lg:items-center gap-4 mb-10 mt-[83px]">
           {certs.map((c) => (
             <CertCard key={c.title} {...c} />
           ))}

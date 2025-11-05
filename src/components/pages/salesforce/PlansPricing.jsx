@@ -18,8 +18,8 @@ const plans = [
       "personalized placement assistance",
       "cancel anytime in first 7 days (full refund)",
     ],
-    price: "₹39,999",
-    mrp: "₹24,000",
+    price: "₹24,999",
+    mrp: "₹39,000",
     cta: "Enroll Now",
   },
 ];
@@ -59,7 +59,7 @@ export default function PlansPricing() {
           {plans.map((p, idx) => (
             <div
               key={idx}
-              className="rounded-2xl border max-w-[413px] mx-auto border-white/10 bg-neutral-900/70 backdrop-blur-md shadow-2xl ring-1 ring-white/5"
+              className="rounded-2xl border max-w-[413px] mx-auto border-white/10 bg-[#0A0A0A] backdrop-blur-md shadow-2xl ring-1 ring-white/5"
             >
               {/* inner stroke like the screenshot */}
               <div className="rounded-2xl py-[24px] px-[18px] flex flex-col justify-between h-full">

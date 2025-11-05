@@ -55,9 +55,9 @@ export default function CareerLaunchpadHero() {
           Why Choose This Certification?
         </span>
         <h1 className="text-white mt-6 font-['Graphikthin'] text-5xl sm:text-[64px] mb-[56px]">
-          Practical Skills, Real Projects,
+          Practical skills, real projects,
           <br />
-          Career-Focused Support
+          career-focused support
         </h1>
         {/* <p className="text-neutral-300 text-[20px] mb-2 max-w-[800px]">
           Hands-on data projects, mentor-led sessions, and GenAI integration

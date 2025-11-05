@@ -236,7 +236,7 @@ const roadmapSteps = [
       </svg>
     ),
     title: "Placement & Career Guidance",
-    description: "Land your dream job with personalized career support.",
+    description: "land your dream job with personalized career support.",
     side: "right",
     items: [
       "Access exclusive job opportunities from partner companies",

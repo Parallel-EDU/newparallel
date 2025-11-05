@@ -935,9 +935,6 @@ video {
 .mb-8 {
   margin-bottom: 2rem;
 }
-.mb-\[100px\] {
-  margin-bottom: 100px;
-}
 .mb-\[10px\] {
   margin-bottom: 10px;
 }
@@ -1072,9 +1069,6 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mt-9 {
-  margin-top: 2.25rem;
 }
 .mt-\[0px\] {
   margin-top: 0px;
@@ -2512,6 +2506,10 @@ video {
 .bg-\[\#07E1FF1A\] {
   background-color: #07E1FF1A;
 }
+.bg-\[\#0A0A0A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(10 10 10 / var(--tw-bg-opacity));
+}
 .bg-\[\#0A0F16\]\/70 {
   background-color: rgb(10 15 22 / 0.7);
 }
@@ -3626,9 +3624,6 @@ video {
 }
 .font-\[100\] {
   font-weight: 100;
-}
-.font-\[16px\] {
-  font-weight: 16px;
 }
 .font-\[19\.2px\] {
   font-weight: 19.2px;
@@ -4819,6 +4814,10 @@ input::placeholder {
     width: 100%;
   }
 
+  .max-xl\:flex-col {
+    flex-direction: column;
+  }
+
   .max-xl\:flex-wrap-reverse {
     flex-wrap: wrap-reverse;
   }
@@ -4831,9 +4830,27 @@ input::placeholder {
     gap: 50px;
   }
 
+  .max-xl\:p-\[\] {
+    padding: ;
+  }
+
+  .max-xl\:p-\[40px\] {
+    padding: 40px;
+  }
+
+  .max-xl\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
   .max-xl\:px-\[40px\] {
     padding-left: 40px;
     padding-right: 40px;
+  }
+
+  .max-xl\:px-8 {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .max-xl\:text-\[24px\] {
@@ -5022,6 +5039,10 @@ input::placeholder {
     margin-top: 110px;
   }
 
+  .max-lg\:flex {
+    display: flex;
+  }
+
   .max-lg\:hidden {
     display: none;
   }
@@ -5036,6 +5057,10 @@ input::placeholder {
 
   .max-lg\:h-\[480px\] {
     height: 480px;
+  }
+
+  .max-lg\:h-full {
+    height: 100%;
   }
 
   .max-lg\:w-full {
@@ -5267,10 +5292,6 @@ input::placeholder {
 
   .max-md\:mb-\[48px\] {
     margin-bottom: 48px;
-  }
-
-  .max-md\:ml-\[50px\] {
-    margin-left: 50px;
   }
 
   .max-md\:mt-\[49px\] {
@@ -5928,6 +5949,10 @@ input::placeholder {
     padding-bottom: 5rem;
   }
 
+  .sm\:pt-0 {
+    padding-top: 0px;
+  }
+
   .sm\:pt-12 {
     padding-top: 3rem;
   }
@@ -5938,14 +5963,6 @@ input::placeholder {
 
   .sm\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .sm\:pt-8 {
-    padding-top: 2rem;
-  }
-
-  .sm\:pt-0 {
-    padding-top: 0px;
   }
 
   .sm\:text-5xl {
@@ -6282,10 +6299,21 @@ input::placeholder {
     font-size: 64px;
   }
 }
+@media (min-width: 1280px) {
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
 @media (min-width: 1900px) {
 
   .widescreen\:left-\[50\%\] {
     left: 50%;
+  }
+
+  .widescreen\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .widescreen\:mt-\[6px\] {
@@ -6350,6 +6378,10 @@ input::placeholder {
 
   .widescreen\:w-\[15\%\] {
     width: 15%;
+  }
+
+  .widescreen\:w-\[170px\] {
+    width: 170px;
   }
 
   .widescreen\:w-\[200px\] {
@@ -6464,12 +6496,8 @@ input::placeholder {
     width: 100%;
   }
 
-  .widescreen\:w-\[\] {
-    width: ;
-  }
-
-  .widescreen\:w-\[170px\] {
-    width: 170px;
+  .widescreen\:max-w-7xl {
+    max-width: 80rem;
   }
 
   .widescreen\:justify-between {
@@ -6478,6 +6506,10 @@ input::placeholder {
 
   .widescreen\:gap-10 {
     gap: 2.5rem;
+  }
+
+  .widescreen\:p-10 {
+    padding: 2.5rem;
   }
 
   .widescreen\:px-\[16px\] {
@@ -6510,6 +6542,10 @@ input::placeholder {
 
   .widescreen\:text-\[114px\] {
     font-size: 114px;
+  }
+
+  .widescreen\:text-\[16px\] {
+    font-size: 16px;
   }
 
   .widescreen\:text-\[20px\] {
@@ -6581,8 +6617,8 @@ input::placeholder {
     line-height: 1.5rem;
   }
 
-  .widescreen\:text-\[16px\] {
-    font-size: 16px;
+  .widescreen\:leading-\[100px\] {
+    line-height: 100px;
   }
 
   .widescreen\:leading-\[108\%\] {
@@ -6599,14 +6635,6 @@ input::placeholder {
 
   .widescreen\:leading-\[150\%\] {
     line-height: 150%;
-  }
-
-  .widescreen\:leading-\[84px\] {
-    line-height: 84px;
-  }
-
-  .widescreen\:leading-\[100px\] {
-    line-height: 100px;
   }
 }
 @media (min-width: 2500px) {
@@ -6755,6 +6783,10 @@ input::placeholder {
     font-size: 125px;
   }
 
+  .widestscreen\:text-\[16px\] {
+    font-size: 16px;
+  }
+
   .widestscreen\:text-\[20px\] {
     font-size: 20px;
   }
@@ -6813,10 +6845,6 @@ input::placeholder {
 
   .widestscreen\:text-\[94px\] {
     font-size: 94px;
-  }
-
-  .widestscreen\:text-\[16px\] {
-    font-size: 16px;
   }
 }
 

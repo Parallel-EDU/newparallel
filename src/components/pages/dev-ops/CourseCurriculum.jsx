@@ -132,14 +132,14 @@ export default function CourseCurriculum() {
         {/* Technologies Section */}
       </div>
 
-      <div className="max-lg:px-8">
+      <div className="max-xl:px-8">
         <h2 className="lg:text-[28px] max-w-7xl mx-auto text-[#E5E5E5] font-['Graphikmedium'] font-light mb-8 md:mb-12">
-          Tools <span className="font-['Graphik'] opacity-80 font-thin">&</span>{" "}
+          Tools <span className="font-['system-ui'] font-[100]">& </span>{" "}
           Technologies You'll Learn
         </h2>
 
         {/* Animated Logos Carousel */}
-        <div className="relative overflow-hidden py-0">
+        <div className="relative overflow-hidden py-0 widescreen:max-w-7xl widescreen:mx-auto">
           <div
             className={`flex gap-6 md:gap-8 ${mounted ? "animate-scroll" : ""}`}
           >

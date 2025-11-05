@@ -38,8 +38,9 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-[99999] max-w-[1080px] mx-auto">
         <h1 className="text-[64px] leading-tight font-['Graphikthin'] text-white max-md:text-[48px] max-sm:text-[36px]">
-          Master the Language of AI. Learn Prompt Engineering & Build the
-          Future.
+          Master the language of AI. learn prompt engineering{" "}
+          <span className="font-['system-ui'] font-[100]">& </span> build the
+          future.
         </h1>
 
         {/* <p className="mt-6 text-white/80 text-lg max-sm:text-base">

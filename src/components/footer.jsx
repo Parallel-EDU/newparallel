@@ -386,7 +386,7 @@ export default function Footer() {
         viewBox="0 0 1287 240"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
-        className="widescreen:w-full"
+        className="widescreen:w-full w-full"
       >
         <g clip-path="url(#clip0_3361_9293)">
           <path

@@ -43,7 +43,7 @@ export default function Success() {
     };
   });
   return (
-    <div className="overflow-x-hidden w-full py-20">
+    <div className="overflow-x-hidden w-full py-20 max-xl:px-10">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-2">
         <span
           style={{
@@ -74,7 +74,7 @@ export default function Success() {
       </div>
       <div
         // ref={successanimation}
-        className="flex gap-[20px] max-w-7xl mx-auto mt-20 ml20 max-sm:ml-[25px] max-md:ml-[50px] w[5880px] widescreen:w-[7000px]"
+        className="flex gap-[20px] max-xpx-10 max-w-7xl mx-auto mt-20 ml20 max-sm:ml-[25px] max-lg:flex-col max-lg:items-center  w[5880px] widescreen:w-[7000px]"
       >
         <div
           className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}
@@ -82,7 +82,7 @@ export default function Success() {
           <div
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
-            <div className="flex gap-[28.36px]">
+            <div className="flex gap-[28.36px] max-xl:flex-col">
               <Image
                 src="/home/Frame 1000002775.png"
                 className="max-sm:w-[80px] max-sm:h-[80px]"
@@ -91,7 +91,7 @@ export default function Success() {
                 alt="Ravi Teja"
               />
               <div>
-                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[40px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
+                <h1 className="text-[24px]  widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[20px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
                   Palash A Ranvir
                 </h1>
                 <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
@@ -118,7 +118,7 @@ export default function Success() {
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
             {" "}
-            <div className="flex gap-[28.36px]">
+            <div className="flex gap-[28.36px] max-xl:flex-col">
               <Image
                 src="/home/Frame 1000002776.png"
                 className="max-sm:w-[80px] max-sm:h-[80px]"
@@ -127,7 +127,7 @@ export default function Success() {
                 alt="Ravi Teja"
               />
               <div>
-                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[40px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
+                <h1 className="text-[24px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[20px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
                   Meenal Botadkar
                 </h1>
                 <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
@@ -155,7 +155,7 @@ export default function Success() {
             className={`max-sm:p-[20px] rounded-[6px] pl-[27.94px] pt-[33.07px] pr-[24.8px] pb-[39.11px] h-[282px] max-sm:h-auto ${style.bordergradient}`}
           >
             {" "}
-            <div className="flex gap-[28.36px]">
+            <div className="flex gap-[28.36px] max-xl:flex-col">
               <Image
                 src="/home/Frame 1000002776 copy.png"
                 className="max-sm:w-[80px] max-sm:h-[80px]"
@@ -164,7 +164,7 @@ export default function Success() {
                 alt="Ravi Teja"
               />
               <div>
-                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[40px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
+                <h1 className="text-[24px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[20px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
                   Sanket Tiwade
                 </h1>
                 <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">

@@ -38,7 +38,7 @@ export default function HeroSection() {
       {/* Hero Content */}
       <div className="relative z-[99999] max-w-[1080px] mx-auto">
         <h1 className="text-[64px] leading-tight font-['Graphikthin'] text-white max-md:text-[48px] max-sm:text-[36px]">
-          Start Your Full Stack Journey Today.
+          Start your Full Stack journey yoday.
         </h1>
 
         <p className="mt-6 text-white/80 text-lg max-sm:text-base">
