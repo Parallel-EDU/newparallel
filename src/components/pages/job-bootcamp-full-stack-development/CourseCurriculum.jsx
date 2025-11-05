@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
@@ -16,7 +17,12 @@ const coursePhasesData = [
       "Master JavaScript (ES6+) fundamentals and DOM manipulation",
       "Explore Git and GitHub for version control and collaboration workflows",
     ],
-    logos: ["VS Code", "Git", "GitHub", "Chrome DevTools"],
+    logos: [
+      "/job/Frame 1000003188.svg",
+      "/job/Frame 1000003189.svg",
+      "/job/Frame 1000003190.svg",
+      "/job/Frame 1000003191.svg",
+    ],
     bgColor: "#30E29D",
     borderColor: "#2dd4bf",
   },
@@ -30,8 +36,16 @@ const coursePhasesData = [
     checkpoints: [
       "Dive deep into React.js, covering hooks, routing, state management (Redux), and component testing using Jest/Cypress",
       "Implement API integrations to build data-driven UIs",
+      "Build projects like “Social Network” to apply frontend concepts in real-world scenarios",
+      "Leverage AI coding assistants (GitHub Copilot, Bolt AI) to accelerate UI component generation and debugging ",
     ],
-    logos: ["React", "TypeScript", "Tailwind", "Redux"],
+    logos: [
+      // "/job/Frame 1000003188 copy.svg",
+      // "/job/Frame 1000003191 copy.svg",
+      // "/job/Frame 1000003189 copy.svg",
+      // "/job/Frame 1000003190 copy.svg",
+      "/job/Phase 2 _ Frontend Development.svg",
+    ],
     bgColor: "#0f766e",
     borderColor: "#14b8a6",
   },
@@ -41,13 +55,14 @@ const coursePhasesData = [
     title: "Backend Development",
     duration: "6-8 Weeks",
     description:
-      "Learn server-side development, database management, and API creation using industry-leading technologies.",
+      "Develop, secure, and scale powerful server-side applications. Choose your preferred backend stack:",
     checkpoints: [
-      "Master Node.js and Express.js for building robust backend services",
-      "Design and manage relational databases with SQL",
-      "Build RESTful APIs and understand authentication/authorization",
+      "Build RESTful APIs using Express.js",
+      "Integrate with MongoDB for flexible, document-based storage",
+      "Implement authentication, validation, and role-based access",
+      "Learn AI-powered backend optimization via automated code generation and testing assistance",
     ],
-    logos: ["Node.js", "Express", "MongoDB", "PostgreSQL"],
+    logos: ["/job/Phase 3 _ Backend Development.svg"],
     bgColor: "#155e75",
     borderColor: "#06b6d4",
   },
@@ -57,13 +72,14 @@ const coursePhasesData = [
     title: "Data Structures, Algorithms & System Design",
     duration: "8-10 Weeks",
     description:
-      "Build strong fundamentals in computer science concepts essential for solving complex problems and scaling systems.",
+      "Strengthen computational thinking and scalable system design skills",
     checkpoints: [
-      "Master arrays, linked lists, trees, graphs, and advanced data structures",
-      "Solve algorithm problems using dynamic programming and greedy approaches",
-      "Understand system design principles and microservices architecture",
+      "Master DS fundamentals: arrays, linked lists, stacks, queues, graphs, and trees",
+      "Leetcode-style problem-solving with 150+ coding challenges",
+      "Dive into software architecture and distributed system concepts like scalability, fault tolerance, and load balancing",
+      "Practice mock whiteboard and scenario-based algorithm sessions",
     ],
-    logos: ["LeetCode", "DSA", "System Design", "Algorithms"],
+    logos: ["/job/Phase 4 _ Data Structures, Algorithms & System Design.svg"],
     bgColor: "#0c4a6e",
     borderColor: "#0284c7",
   },
@@ -73,13 +89,13 @@ const coursePhasesData = [
     title: "Capstone Project & Internship",
     duration: "4-6 Weeks",
     description:
-      "Apply all your learnings by building a full-stack project and gaining real-world experience.",
+      "Bring everything together by building production-grade applications.",
     checkpoints: [
-      "Build a complete full-stack application integrating frontend, backend, and database",
-      "Deploy your project and maintain it in production",
-      "Prepare portfolio and conduct mock interviews",
+      "Construct a full-stack AI-integrated project (like a video streaming app or social network) under mentor supervision",
+      "Work in an Agile environment simulating industry workflows",
+      "Deployment, CI/CD, and performance optimization testing",
     ],
-    logos: ["GitHub", "Vercel", "AWS", "Docker"],
+    logos: ["/job/Phase 6 _ Interview Prep & Placement.svg"],
     bgColor: "#1e1b4b",
     borderColor: "#818cf8",
   },
@@ -89,13 +105,19 @@ const coursePhasesData = [
     title: "Interview Prep & Placement",
     duration: "4-6 Weeks",
     description:
-      "Get job-ready with intensive interview preparation and placement support.",
+      "Finish strong with personalized career coaching and real-world readiness.",
     checkpoints: [
-      "Practice coding interviews and system design questions",
-      "Develop communication and behavioral skills",
-      "Get 1-on-1 mentoring from industry professionals",
+      "Resume and LinkedIn optimization tailored with AI Resume Review Tools",
+      "Mock tech interviews + hours of guided soft skill sessions",
+      "Portfolio enhancement with GitHub and Code Review feedback",
+      "Exclusive Interview Opportunity with Parallel’s hiring partners and industry mentors",
     ],
-    logos: ["Interview", "Placement", "Mentoring", "Career"],
+    logos: [
+      "/job/Frame 1000003188.svg",
+      "/job/Frame 1000003189.svg",
+      "/job/Frame 1000003190.svg",
+      "/job/Frame 1000003191.svg",
+    ],
     bgColor: "#2d1b69",
     borderColor: "#a78bfa",
   },
@@ -106,45 +128,46 @@ export default function CourseCurriculum() {
   const [scrollPhase, setScrollPhase] = useState(1);
   const rightSectionRef = useRef(null);
   const phaseRefsRef = useRef({});
-
+  // Handle scroll detection
   useEffect(() => {
-    const handleScroll = () => {
-      if (!rightSectionRef.current) return;
+    const scrollContainer = rightSectionRef.current;
+    if (!scrollContainer) return;
 
+    const handleScroll = () => {
       const phaseElements = Object.entries(phaseRefsRef.current);
       let currentPhase = 1;
 
       for (const [phaseId, element] of phaseElements) {
         if (element) {
           const rect = element.getBoundingClientRect();
-          if (rect.top < window.innerHeight / 2) {
-            currentPhase = Number.parseInt(phaseId);
+          const containerRect = scrollContainer.getBoundingClientRect();
+          const visibleHeight = containerRect.height;
+
+          if (rect.top - containerRect.top < visibleHeight / 2) {
+            currentPhase = Number(phaseId);
           }
         }
       }
-
       setScrollPhase(currentPhase);
     };
 
-    const scrollContainer = rightSectionRef.current;
-    if (scrollContainer) {
-      scrollContainer.addEventListener("scroll", handleScroll);
-      return () => scrollContainer.removeEventListener("scroll", handleScroll);
-    }
+    scrollContainer.addEventListener("scroll", handleScroll);
+    return () => scrollContainer.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Handle phase click — scroll into view
   const handlePhaseClick = (phaseId) => {
-    setActivePhase(phaseId);
     const element = phaseRefsRef.current[phaseId];
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      setScrollPhase(phaseId);
     }
   };
 
   return (
     <div>
       {/* Header */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-8">
+      <div className="max-w-7xl overflow-visible mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-8">
         <h1 className="text-white mt-10 font-['Graphikthin'] text-5xl sm:text-[64px] font- leading- mb-5">
           Course curriculum
         </h1>
@@ -159,8 +182,8 @@ export default function CourseCurriculum() {
               {coursePhasesData.map((coursePhase) => (
                 <div
                   key={coursePhase.id}
-                  //   onClick={() => handlePhaseClick(coursePhase.id)}
-                  className=" p-4 rounded-lg cursor-pointer transition-all duration-300 h-[100px]"
+                  onClick={() => handlePhaseClick(coursePhase.id)}
+                  className=" py-5 px-6 rounded-lg cursor-pointer transition-all duration-300 h[100px]"
                   style={{
                     background:
                       scrollPhase === coursePhase.id
@@ -201,7 +224,7 @@ export default function CourseCurriculum() {
                 ref={(el) => {
                   if (el) phaseRefsRef.current[coursePhase.id] = el;
                 }}
-                className="bg-[#000000] w-full from-slate-800 to-slate-900 rounded-2xl p-6 sm:p-8 border border-slate-700 hover:border-slate-600 transition-colors"
+                className="bg-[#000000] w-full from-slate-800 to-slate-900 rounded-2xl p-6 sm:p-8  hover:border-slate-600 transition-colors"
               >
                 {/* Phase Header */}
                 <div className="flex justify-between items-start mb-6">
@@ -276,39 +299,22 @@ export default function CourseCurriculum() {
 
                 {/* Animated Logo Marquee */}
                 <div className="relative overflow-hidden">
-                  <div className="flex gap-4 animate-marquee">
+                  <div className="flex gap-4 animatemarquee">
                     {/* First set */}
                     {coursePhase.logos.map((logo, idx) => (
-                      <div
-                        key={idx}
-                        className="flex items-center gap-2 px-4 py-2 bg-slate-700/50 rounded-full whitespace-nowrap border border-slate-600 hover:border-slate-500 transition-colors"
-                      >
-                        <div
-                          className="w-6 h-6 rounded-full"
-                          style={{
-                            background: `linear-gradient(135deg, ${coursePhase.borderColor}, ${coursePhase.bgColor})`,
-                          }}
+                      <div key={idx} className="flex items-center">
+                        <Image
+                          className="w-[90%] object-cover"
+                          src={logo}
+                          width={100}
+                          height={100}
+                          alt="logo"
                         />
-                        <span className="text-sm font-medium">{logo}</span>
                       </div>
                     ))}
                     {/* Duplicate set for seamless loop */}
-                    {coursePhase.logos.map((logo, idx) => (
-                      <div
-                        key={`dup-${idx}`}
-                        className="flex items-center gap-2 px-4 py-2 bg-slate-700/50 rounded-full whitespace-nowrap border border-slate-600 hover:border-slate-500 transition-colors"
-                      >
-                        <div
-                          className="w-6 h-6 rounded-full"
-                          style={{
-                            background: `linear-gradient(135deg, ${coursePhase.borderColor}, ${coursePhase.bgColor})`,
-                          }}
-                        />
-                        <span className="text-sm font-medium">{logo}</span>
-                      </div>
-                    ))}
                   </div>
-                  <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-slate-900 via-transparent to-slate-900" />
+                  {/* <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-slate-900 via-transparent to-slate-900" /> */}
                 </div>
               </div>
             ))}
@@ -319,7 +325,7 @@ export default function CourseCurriculum() {
       {/* CTA Button */}
       <div className="flex justify-center pt-7">
         <Link href={"/hire-from-us"}>
-          <button className="group rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
+          <button className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[14px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
             Join The Next Cohort
           </button>
         </Link>
@@ -348,3 +354,196 @@ export default function CourseCurriculum() {
     </div>
   );
 }
+
+// export default function CourseCurriculum() {
+//   const [scrollPhase, setScrollPhase] = useState(1);
+//   const phaseRefsRef = useRef({});
+
+//   // detect which phase is visible
+//   useEffect(() => {
+//     const handleScroll = () => {
+//       const phaseElements = Object.entries(phaseRefsRef.current);
+//       let currentPhase = 1;
+
+//       for (const [phaseId, element] of phaseElements) {
+//         if (element) {
+//           const rect = element.getBoundingClientRect();
+//           const windowHeight = window.innerHeight;
+
+//           if (rect.top < windowHeight / 2) {
+//             currentPhase = Number(phaseId);
+//           }
+//         }
+//       }
+//       setScrollPhase(currentPhase);
+//     };
+
+//     window.addEventListener("scroll", handleScroll);
+//     return () => window.removeEventListener("scroll", handleScroll);
+//   }, []);
+
+//   const handlePhaseClick = (phaseId) => {
+//     const element = phaseRefsRef.current[phaseId];
+//     if (element) {
+//       element.scrollIntoView({ behavior: "smooth", block: "start" });
+//       setScrollPhase(phaseId);
+//     }
+//   };
+
+//   return (
+//     <div>
+//       {/* Header */}
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-8">
+//         <h1 className="text-white mt-10 font-['Graphikthin'] text-5xl sm:text-[64px] mb-5">
+//           Course curriculum
+//         </h1>
+//       </div>
+
+//       {/* Main Content */}
+//       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 pb-16">
+//         <div className="flex items-start gap-6 lg:gap-8">
+//           {/* Left Section */}
+//           <div className="lg:w-[30%] w-full sticky top-10 self-start">
+//             <div className="space-y-3">
+//               {coursePhasesData.map((coursePhase) => (
+//                 <div
+//                   key={coursePhase.id}
+//                   onClick={() => handlePhaseClick(coursePhase.id)}
+//                   className="py-5 px-6 rounded-lg cursor-pointer transition-all duration-300"
+//                   style={{
+//                     background:
+//                       scrollPhase === coursePhase.id
+//                         ? "linear-gradient(89.66deg,#30E29D -124.78%,rgba(48,226,157,0) 105.61%)"
+//                         : "transparent",
+//                     borderLeft:
+//                       scrollPhase === coursePhase.id
+//                         ? "0px solid transparent"
+//                         : "none",
+//                     borderImage:
+//                       scrollPhase === coursePhase.id
+//                         ? "linear-gradient(89.61deg,#30E29D -19.63%,rgba(0,0,0,0) 97.66%) 1"
+//                         : "none",
+//                   }}
+//                 >
+//                   <div className="text-xs font-light text-gray-400 mb-1 font-['Graphikthin']">
+//                     {coursePhase.phase}
+//                   </div>
+//                   <div className="text-[22px] font-['Graphikthin'] text-[#E0E0E0] font-normal hover:text-white transition-colors">
+//                     {coursePhase.title}
+//                   </div>
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+
+//           {/* Right Section - full height scrolls with page */}
+//           <div className="lg:w-[70%] w-full space-y-6">
+//             {coursePhasesData.map((coursePhase) => (
+//               <div
+//                 key={coursePhase.id}
+//                 ref={(el) => (phaseRefsRef.current[coursePhase.id] = el)}
+//                 className="bg-[#000000] rounded-2xl p-6 sm:p-8"
+//               >
+//                 {/* Phase Header */}
+//                 <div className="flex justify-between items-start mb-6">
+//                   <div>
+//                     <h2 className="text-2xl sm:text-[24px] text-[#E0E0E0] font-['Graphikthin'] font-normal mb-2">
+//                       {coursePhase.phase} : {coursePhase.title}
+//                     </h2>
+//                     <p className="text-[#FFFFFFCC] font-['Graphikthin'] text-sm sm:text-base leading-relaxed max-w-2xl">
+//                       {coursePhase.description}
+//                     </p>
+//                   </div>
+//                   <div className="flex text-[20px] items-center gap-2 text-[#FFFFFFCC] whitespace-nowrap ml-4">
+//                     <svg
+//                       width="24"
+//                       height="24"
+//                       viewBox="0 0 24 24"
+//                       fill="none"
+//                       xmlns="http://www.w3.org/2000/svg"
+//                     >
+//                       <path
+//                         d="M16 2V6M8 2V6M3 10H21M11 14H16M8 14H8.00898M13 18H8M16 18H15.991M13 4H11C7.22876 4 5.34315 4 4.17157 5.17157C3 6.34315 3 8.22876 3 12V14C3 17.7712 3 19.6569 4.17157 20.8284C5.34315 22 7.22876 22 11 22H13C16.7712 22 18.6569 22 19.8284 20.8284C21 19.6569 21 17.7712 21 14V12C21 8.22876 21 6.34315 19.8284 5.17157C18.6569 4 16.7712 4 13 4Z"
+//                         stroke="url(#paint0_linear_2989_8784)"
+//                         strokeWidth="1.5"
+//                         strokeLinecap="round"
+//                         strokeLinejoin="round"
+//                       />
+//                       <defs>
+//                         <linearGradient
+//                           id="paint0_linear_2989_8784"
+//                           x1="1"
+//                           y1="-2.5"
+//                           x2="23.8244"
+//                           y2="34.2456"
+//                           gradientUnits="userSpaceOnUse"
+//                         >
+//                           <stop stopColor="#201DA7" />
+//                           <stop offset="1" stopColor="#30E29D" />
+//                         </linearGradient>
+//                       </defs>
+//                     </svg>
+//                     <span className="text-sm sm:text-base font-normal font-['Graphikthin']">
+//                       {coursePhase.duration}
+//                     </span>
+//                   </div>
+//                 </div>
+
+//                 {/* Checkpoints */}
+//                 <div className="space-y-3 mb-8">
+//                   {coursePhase.checkpoints.map((checkpoint, idx) => (
+//                     <div key={idx} className="flex gap-3">
+//                       <div className="text-green-400 mt-0.5 flex-shrink-0">
+//                         <svg
+//                           width="24"
+//                           height="24"
+//                           viewBox="0 0 24 24"
+//                           fill="none"
+//                           xmlns="http://www.w3.org/2000/svg"
+//                         >
+//                           <path
+//                             d="M9.54961 18.0016L3.84961 12.3016L5.27461 10.8766L9.54961 15.1516L18.7246 5.97656L20.1496 7.40156L9.54961 18.0016Z"
+//                             fill="#30E29D"
+//                           />
+//                         </svg>
+//                       </div>
+//                       <span className="text-gray-300 text-sm sm:text-base font-['Graphikthin']">
+//                         {checkpoint}
+//                       </span>
+//                     </div>
+//                   ))}
+//                 </div>
+
+//                 {/* Logos */}
+//                 <div className="relative overflow-hidden">
+//                   <div className="flex gap-4 animatemarquee">
+//                     {coursePhase.logos.map((logo, idx) => (
+//                       <div key={idx} className="flex items-center">
+//                         <Image
+//                           className="w-[90%] object-cover"
+//                           src={logo}
+//                           width={100}
+//                           height={100}
+//                           alt="logo"
+//                         />
+//                       </div>
+//                     ))}
+//                   </div>
+//                 </div>
+//               </div>
+//             ))}
+//           </div>
+//         </div>
+//       </div>
+
+//       {/* CTA */}
+//       <div className="flex justify-center pt-7">
+//         <Link href="/hire-from-us">
+//           <button className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[14px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10]">
+//             Join The Next Cohort
+//           </button>
+//         </Link>
+//       </div>
+//     </div>
+//   );
+// }

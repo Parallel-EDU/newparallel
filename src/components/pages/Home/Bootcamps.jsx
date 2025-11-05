@@ -50,6 +50,7 @@ export default function Bootcamps() {
               "Build AI-powered applications",
             ]}
             cta="Join The Next Full Stack Cohort"
+            link="/job-bootcamp-full-stack-development"
           />
           <CourseCard
             art="/Frame 1000003002.png"
@@ -60,6 +61,7 @@ export default function Bootcamps() {
               "End-to-end live data projects",
             ]}
             cta="Join The Next Data Science Cohort"
+            link="/data-science-with-genAI-bootcamp"
           />
           <CourseCard
             art="/Frame 1000002996.png"
@@ -70,6 +72,7 @@ export default function Bootcamps() {
               "Real-time deployment projects",
             ]}
             cta="Join The Next DevOps Cohort"
+            link="/devOps-and-cloud-computing-bootcamp"
           />
         </div>
       </div>
@@ -78,7 +81,7 @@ export default function Bootcamps() {
 }
 
 /* =================== Card =================== */
-function CourseCard({ art, title, bullets, cta }) {
+function CourseCard({ art, title, bullets, cta, link }) {
   return (
     <div className="relative rounded-[14px] p-[1px]">
       {/* Subtle neon border */}
@@ -153,7 +156,7 @@ function CourseCard({ art, title, bullets, cta }) {
         </div>
 
         <div className="px-[18px] pb-[20px]">
-          <Link href="/workshops">
+          <Link href={link}>
             <button className="mt-6 font-['Graphikmid']  w-full rounded-[10px] border hover:bg-[#30E29D] hover:text-[#292929] border-[#30E29D] px-4 py-[13px] text-[16px] text-[#30E29D] transition-colors hovertext-white">
               {cta}
             </button>

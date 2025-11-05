@@ -41,7 +41,7 @@ export default function CareerLaunchpadHero() {
       // }}
       className="min-h-screen flex flex-col items-center justify-center  px-4 py-12"
     >
-      <div className="max-w-7xl w-full text-left mb-12">
+      <div className="max-w-7xl w-full text-left">
         <span
           style={{
             background:
@@ -54,7 +54,7 @@ export default function CareerLaunchpadHero() {
         >
           Why Choose This Certification?
         </span>
-        <h1 className="text-white mt-10 font-['Graphikthin'] text-5xl sm:text-[64px] font- leading- mb-5">
+        <h1 className="text-white mt-6 font-['Graphikthin'] text-5xl sm:text-[64px] mb-[56px]">
           Practical Skills, Real Projects,
           <br />
           Career-Focused Support
@@ -81,20 +81,20 @@ export default function CareerLaunchpadHero() {
                 //   background:
                 //     "linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05))",
                 // }}
-                className="font-medium text-[24px] px-5 py-6 text-left text-[#E0E0E0] sm:w-[40%] w-full bg[#FFFFFF0D] "
+                className="font-medium text-[24px] font-['Graphikthin'] px-5  py-6 text-left text-[#E0E0E0] sm:w-[40%] w-full bg[#FFFFFF0D] "
               >
                 {item.title}
               </div>
-              <div className="text- text-[24px]  px-5 py-6 bg[#FFFFFF0D] text-[#E0E0E0E5] text-left sm:w-[70%] w-full mt-1 sm:mt-0">
+              <div className="text- text-[24px] font-['Graphik']  px-5 py-6 bg[#FFFFFF0D] text-[#E0E0E0E5] text-left sm:w-[70%] w-full mt-1 sm:mt-0">
                 {item.desc}
               </div>
             </div>
           ))}
         </div>
       </div>
-      <div className="flex justify-center pt-7">
+      <div className="flex justify-center pt-[56px]">
         <Link href={"/hire-from-us"}>
-          <button className="group rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
+          <button className="group rounded-[8px] hover:bg-[#30E29D] font-['Graphikmid'] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
             Join The Next Cohort
           </button>
         </Link>

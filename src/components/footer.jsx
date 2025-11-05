@@ -213,13 +213,13 @@ export default function Footer() {
               Careers
             </Link>
             <Link
-              href={"/#"}
+              href={"/contact-us"}
               className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] hover:underline cursor-pointer hover:decoration-solid w-[92px] widescreen:w-full text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
             >
               Contact us
             </Link>
             <Link
-              href={"/#"}
+              href={"/testimonials"}
               className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] hover:underline cursor-pointer hover:decoration-solid w-[130px] widescreen:w-full text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
             >
               Alumni Reviews
@@ -251,19 +251,19 @@ export default function Footer() {
               Job Bootcamp Programs{" "}
             </h1>
             <Link
-              href={"/#"}
+              href={"/job-bootcamp-full-stack-development"}
               className="mt-[16px] hover:underline cursor-pointer hover:decoration-solid w-[300px] widescreen:w-full text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
             >
               Full Stack Web Development with GenAI
             </Link>
             <Link
-              href={"/#"}
+              href={"/data-science-with-genAI-bootcamp"}
               className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid w-[300px] widescreen:w-full text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
             >
-              DevOps and Cloud Computing
+              Data Science with GenAI
             </Link>
             <Link
-              href={"/#"}
+              href={"/devOps-and-cloud-computing-bootcamp"}
               className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid w-[300px] widescreen:w-full text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
             >
               DevOps and Cloud Computing
@@ -276,49 +276,49 @@ export default function Footer() {
             <div className="flex mt-[16px]">
               <div className="w-[197.73px] flex flex-col">
                 <Link
-                  href={"/#"}
+                  href={"/tech/javascript"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   JavaScript Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/react-js"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   React.js Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/vue-js"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Vue.js Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/next-js"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Next.js Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/node-js"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Node.js Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/python"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Python Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/java"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Java Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/data-analysis"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Data Analysis Training
@@ -326,43 +326,43 @@ export default function Footer() {
               </div>
               <div className="w-[197.73px] flex flex-col">
                 <Link
-                  href={"/#"}
+                  href={"/tech/tableau"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Tableau Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/dev-ops"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   DevOps Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/aws"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   AWS Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/machine-learning"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Machine Learning Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/salesforce"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   Salesforce Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/ai-agents"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   AI Agents Training
                 </Link>
                 <Link
-                  href={"/#"}
+                  href={"/tech/ai-prompt-eng"}
                   className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] hover:underline cursor-pointer hover:decoration-solid text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
                 >
                   AI Prompt Engineering

@@ -11,12 +11,12 @@ export default function Industry() {
       <div className="relative mx-auto max-w-[1280px] px-4 sm:px-8">
         {/* Heading */}
         <h1 className="text-white/95 font- font-['Graphikthin'] tracking-[-0.018em] leading-[1.08] text-[42px] sm:text-[64px] mb-3">
-          Build Industry-Ready Projects
+          Build Real-World Applications That Employers Notice
         </h1>
         {/* Subhead */}
-        <p className="text-[16px] font-['Graphikthin'] text-[#E0E0E0] max-w-[660px] mb-12">
+        {/* <p className="text-[16px] font-['Graphikthin'] text-[#E0E0E0] max-w-[660px] mb-12">
           Hands-on projects to showcase your skills and impress employers{" "}
-        </p>
+        </p> */}
 
         {/* Responsive grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-7 mb-12">

@@ -1,13 +1,11 @@
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
-import Blog from "@/components/pages/Home/Blog";
-import HeroSection from "@/components/pages/Home/HeroSection";
 import CareerLaunchpadHero from "@/components/pages/java/CareerLaunchpadHero";
 import CourseCurriculum from "@/components/pages/java/CourseCurriculum";
 import HeroBoot from "@/components/pages/java/HeroBoot";
+import HeroSection from "@/components/pages/java/HeroSection";
+import Industry from "@/components/pages/java/Industry";
 import PlacementSupport from "@/components/pages/java/PlacementSupport";
 import PlansPricing from "@/components/pages/java/PlansPricing";
-import React from "react";
+import Success from "@/components/success";
 
 const devOps = () => {
   return (
@@ -16,11 +14,12 @@ const devOps = () => {
         <HeroBoot />
         <CareerLaunchpadHero />
         <CourseCurriculum />
-        {/* <Industry /> */}
         <PlacementSupport />
+        <Industry />
         <PlansPricing />
+        <Success />
         {/* <CourseRoadmap /> */}
-        <Blog />
+        {/* <Blog /> */}
         <HeroSection />
       </div>
     </>

@@ -1,100 +1,137 @@
 "use client";
 
+import Image from "next/image";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const coursePhasesData = [
   {
     id: 1,
     phase: "Phase 1",
-    title: "Foundations",
+    title: "Module 1: Python for Data Science",
     duration: "4-6 Weeks",
-    description:
-      "Start your journey by mastering the core building blocks of web development and version control. This stage ensures holistic understanding before diving into frameworks.",
+    // description:
+    //   "Start your journey by mastering the core building blocks of web development and version control. This stage ensures holistic understanding before diving into frameworks.",
     checkpoints: [
-      "Learn HTML5 and CSS3 to design responsive, accessible layouts",
-      "Master JavaScript (ES6+) fundamentals and DOM manipulation",
-      "Explore Git and GitHub for version control and collaboration workflows",
+      "Learn Python fundamentals for data analysis",
+      "Libraries: NumPy, Pandas, Matplotlib, Seaborn",
+      "Work on data cleaning, wrangling, and visualization",
     ],
-    logos: ["VS Code", "Git", "GitHub", "Chrome DevTools"],
+    logos: ["/job/Module 1_ Python for Data Science.svg"],
     bgColor: "#30E29D",
     borderColor: "#2dd4bf",
   },
   {
     id: 2,
     phase: "Phase 2",
-    title: "Frontend Development",
+    title: "Module 2: SQL & Data Management ",
     duration: "5-7 Weeks",
-    description:
-      "Transition into creating dynamic, interactive, and mobile-friendly user interfaces using industry-standard technologies.",
+    // description:
+    //   "Transition into creating dynamic, interactive, and mobile-friendly user interfaces using industry-standard technologies.",
     checkpoints: [
-      "Dive deep into React.js, covering hooks, routing, state management (Redux), and component testing using Jest/Cypress",
-      "Implement API integrations to build data-driven UIs",
+      "Learn SQL for querying, joins, subqueries, and aggregations",
+      "Work on real datasets for data extraction and analysis",
     ],
-    logos: ["React", "TypeScript", "Tailwind", "Redux"],
+    logos: [
+      // "/job/Frame 1000003188 copy.svg",
+      // "/job/Frame 1000003191 copy.svg",
+      // "/job/Frame 1000003189 copy.svg",
+      // "/job/Frame 1000003190 copy.svg",
+      "/job/Module 2_ SQL & Data Management.svg",
+    ],
     bgColor: "#0f766e",
     borderColor: "#14b8a6",
   },
   {
     id: 3,
     phase: "Phase 3",
-    title: "Backend Development",
+    title: "Module 3: Statistics & Exploratory Data Analysis",
     duration: "6-8 Weeks",
-    description:
-      "Learn server-side development, database management, and API creation using industry-leading technologies.",
+    // description:
+    //   "Develop, secure, and scale powerful server-side applications. Choose your preferred backend stack:",
     checkpoints: [
-      "Master Node.js and Express.js for building robust backend services",
-      "Design and manage relational databases with SQL",
-      "Build RESTful APIs and understand authentication/authorization",
+      "Descriptive & Inferential Statistics, Probability, Hypothesis Testing",
+      "Exploratory data analysis using Pandas, Matplotlib, and Seaborn",
+      "Build visual stories with Power BI and Tableau",
     ],
-    logos: ["Node.js", "Express", "MongoDB", "PostgreSQL"],
+    logos: ["/job/Module 4_ Machine Learning Foundations.svg"],
     bgColor: "#155e75",
     borderColor: "#06b6d4",
   },
   {
     id: 4,
     phase: "Phase 4",
-    title: "Data Structures, Algorithms & System Design",
+    title: "Module 4: Machine Learning Foundations",
     duration: "8-10 Weeks",
-    description:
-      "Build strong fundamentals in computer science concepts essential for solving complex problems and scaling systems.",
+    // description:
+    //   "Strengthen computational thinking and scalable system design skills",
     checkpoints: [
-      "Master arrays, linked lists, trees, graphs, and advanced data structures",
-      "Solve algorithm problems using dynamic programming and greedy approaches",
-      "Understand system design principles and microservices architecture",
+      "Supervised & Unsupervised Learning",
+      "Regression, Classification, Clustering",
+      "Model evaluation, tuning, and validation",
+      "Algorithms: Linear Regression, Decision Trees, Random Forests, K-Means",
     ],
-    logos: ["LeetCode", "DSA", "System Design", "Algorithms"],
+    logos: ["/job/Phase 4 _ Data Structures, Algorithms & System Design.svg"],
     bgColor: "#0c4a6e",
     borderColor: "#0284c7",
   },
   {
     id: 5,
     phase: "Phase 5",
-    title: "Capstone Project & Internship",
+    title: "Module 5: Advanced Machine Learning & AI",
     duration: "4-6 Weeks",
-    description:
-      "Apply all your learnings by building a full-stack project and gaining real-world experience.",
+    // description:
+    //   "Bring everything together by building production-grade applications.",
     checkpoints: [
-      "Build a complete full-stack application integrating frontend, backend, and database",
-      "Deploy your project and maintain it in production",
-      "Prepare portfolio and conduct mock interviews",
+      "NLP, Computer Vision, Time-Series Forecasting",
+      "Deep Learning with TensorFlow & Keras",
+      "Integrating GenAI APIs (OpenAI, Hugging Face) for automation & insights",
+      "AI-Powered project development",
     ],
-    logos: ["GitHub", "Vercel", "AWS", "Docker"],
+    logos: ["/job/Phase 6 _ Interview Prep & Placement.svg"],
     bgColor: "#1e1b4b",
     borderColor: "#818cf8",
   },
   {
     id: 6,
     phase: "Phase 6",
-    title: "Interview Prep & Placement",
+    title: "Module 6: Capstone Project & Internship",
     duration: "4-6 Weeks",
-    description:
-      "Get job-ready with intensive interview preparation and placement support.",
+    // description:
+    //   "Finish strong with personalized career coaching and real-world readiness.",
     checkpoints: [
-      "Practice coding interviews and system design questions",
-      "Develop communication and behavioral skills",
-      "Get 1-on-1 mentoring from industry professionals",
+      "Apply everything in a full-scale data project",
+      "Work with real-world data from finance, healthcare, or e-commerce",
+      "Deploy models and dashboards on the cloud (AWS, Streamlit, Flask)",
     ],
-    logos: ["Interview", "Placement", "Mentoring", "Career"],
+    logos: [
+      "/job/Frame 1000003188.svg",
+      "/job/Frame 1000003189.svg",
+      "/job/Frame 1000003190.svg",
+      "/job/Frame 1000003191.svg",
+    ],
+    bgColor: "#2d1b69",
+    borderColor: "#a78bfa",
+  },
+  {
+    id: 7,
+    phase: "Phase 7",
+    title: "Module 7: Pre-Placement Training & Career Support",
+    duration: "4-6 Weeks",
+    // description:
+    //   "Finish strong with personalized career coaching and real-world readiness.",
+    checkpoints: [
+      "Resume building & LinkedIn optimization",
+      "Mock interviews & technical assessments",
+      "Data Science interview prep (SQL, ML, case studies)",
+      "Placement workshops & referrals ",
+    ],
+    logos: [
+      "/job/Frame 1000003188.svg",
+      "/job/Frame 1000003189.svg",
+      "/job/Frame 1000003190.svg",
+      "/job/Frame 1000003191.svg",
+    ],
     bgColor: "#2d1b69",
     borderColor: "#a78bfa",
   },
@@ -107,44 +144,45 @@ export default function CourseCurriculum() {
   const phaseRefsRef = useRef({});
 
   useEffect(() => {
-    const handleScroll = () => {
-      if (!rightSectionRef.current) return;
+    const scrollContainer = rightSectionRef.current;
+    if (!scrollContainer) return;
 
+    const handleScroll = () => {
       const phaseElements = Object.entries(phaseRefsRef.current);
       let currentPhase = 1;
 
       for (const [phaseId, element] of phaseElements) {
         if (element) {
           const rect = element.getBoundingClientRect();
-          if (rect.top < window.innerHeight / 2) {
-            currentPhase = Number.parseInt(phaseId);
+          const containerRect = scrollContainer.getBoundingClientRect();
+          const visibleHeight = containerRect.height;
+
+          if (rect.top - containerRect.top < visibleHeight / 2) {
+            currentPhase = Number(phaseId);
           }
         }
       }
-
       setScrollPhase(currentPhase);
     };
 
-    const scrollContainer = rightSectionRef.current;
-    if (scrollContainer) {
-      scrollContainer.addEventListener("scroll", handleScroll);
-      return () => scrollContainer.removeEventListener("scroll", handleScroll);
-    }
+    scrollContainer.addEventListener("scroll", handleScroll);
+    return () => scrollContainer.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Handle phase click — scroll into view
   const handlePhaseClick = (phaseId) => {
-    setActivePhase(phaseId);
     const element = phaseRefsRef.current[phaseId];
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      element.scrollIntoView({ behavior: "smooth", block: "start" });
+      setScrollPhase(phaseId);
     }
   };
 
   return (
     <div>
       {/* Header */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-8">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-light tracking-tight">
+      <div className="max-w-7xl overflow-visible mx-auto px-4 sm:px-6 lg:px-8 pt-8 sm:pt-12 pb-8">
+        <h1 className="text-white mt-10 font-['Graphikthin'] text-5xl sm:text-[64px] font- leading- mb-5">
           Course curriculum
         </h1>
       </div>
@@ -153,13 +191,13 @@ export default function CourseCurriculum() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-0 pb-16">
         <div className="flex items-start gap-6 lg:gap-8">
           {/* Left Section - Phase Navigation */}
-          <div className="lg:col-span-1 w-[30%] max-lg:w-full">
+          <div className="lg:col-span-1 w-[30%] max-lg:w-full h-[600px] sticky top-20 overflow-y-scroll">
             <div className="space-y-3">
               {coursePhasesData.map((coursePhase) => (
                 <div
                   key={coursePhase.id}
-                  //   onClick={() => handlePhaseClick(coursePhase.id)}
-                  className=" p-4 rounded-lg cursor-pointer transition-all duration-300 h-[100px]"
+                  onClick={() => handlePhaseClick(coursePhase.id)}
+                  className=" py-5 px-6 rounded-lg cursor-pointer transition-all duration-300 h[100px]"
                   style={{
                     background:
                       scrollPhase === coursePhase.id
@@ -200,7 +238,7 @@ export default function CourseCurriculum() {
                 ref={(el) => {
                   if (el) phaseRefsRef.current[coursePhase.id] = el;
                 }}
-                className="bg-[#000000] w-full from-slate-800 to-slate-900 rounded-2xl p-6 sm:p-8 border border-slate-700 hover:border-slate-600 transition-colors"
+                className="bg-[#000000] w-full from-slate-800 to-slate-900 rounded-2xl p-6 sm:p-8  hover:border-slate-600 transition-colors"
               >
                 {/* Phase Header */}
                 <div className="flex justify-between items-start mb-6">
@@ -275,39 +313,22 @@ export default function CourseCurriculum() {
 
                 {/* Animated Logo Marquee */}
                 <div className="relative overflow-hidden">
-                  <div className="flex gap-4 animate-marquee">
+                  <div className="flex gap-4 animatemarquee">
                     {/* First set */}
                     {coursePhase.logos.map((logo, idx) => (
-                      <div
-                        key={idx}
-                        className="flex items-center gap-2 px-4 py-2 bg-slate-700/50 rounded-full whitespace-nowrap border border-slate-600 hover:border-slate-500 transition-colors"
-                      >
-                        <div
-                          className="w-6 h-6 rounded-full"
-                          style={{
-                            background: `linear-gradient(135deg, ${coursePhase.borderColor}, ${coursePhase.bgColor})`,
-                          }}
+                      <div key={idx} className="flex items-center">
+                        <Image
+                          className="w-[90%] object-cover"
+                          src={logo}
+                          width={100}
+                          height={100}
+                          alt="logo"
                         />
-                        <span className="text-sm font-medium">{logo}</span>
                       </div>
                     ))}
                     {/* Duplicate set for seamless loop */}
-                    {coursePhase.logos.map((logo, idx) => (
-                      <div
-                        key={`dup-${idx}`}
-                        className="flex items-center gap-2 px-4 py-2 bg-slate-700/50 rounded-full whitespace-nowrap border border-slate-600 hover:border-slate-500 transition-colors"
-                      >
-                        <div
-                          className="w-6 h-6 rounded-full"
-                          style={{
-                            background: `linear-gradient(135deg, ${coursePhase.borderColor}, ${coursePhase.bgColor})`,
-                          }}
-                        />
-                        <span className="text-sm font-medium">{logo}</span>
-                      </div>
-                    ))}
                   </div>
-                  <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-slate-900 via-transparent to-slate-900" />
+                  {/* <div className="absolute inset-0 pointer-events-none bg-gradient-to-r from-slate-900 via-transparent to-slate-900" /> */}
                 </div>
               </div>
             ))}
@@ -316,10 +337,12 @@ export default function CourseCurriculum() {
       </div>
 
       {/* CTA Button */}
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 flex justify-center">
-        <button className="px-8 py-3 border-2 border-cyan-400 text-cyan-400 rounded-lg font-medium hover:bg-cyan-400 hover:text-slate-950 transition-all duration-300">
-          Join The Next Cohort
-        </button>
+      <div className="flex justify-center pt-7">
+        <Link href={"/hire-from-us"}>
+          <button className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[14px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
+            Join The Next Cohort
+          </button>
+        </Link>
       </div>
 
       <style jsx>{`

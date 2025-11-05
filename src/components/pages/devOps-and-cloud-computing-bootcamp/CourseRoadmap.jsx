@@ -3,7 +3,6 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
-import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -37,11 +36,11 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "DevOps Foundations",
+    title: "Data Science Foundations",
     side: "left",
     items: [
-      "Learn Linux, networking, and version control to build a strong foundation.",
-      "Hands-on practice with Git, GitHub, and Bash scripting.",
+      "Learn Python, SQL, and data analysis to build your base.",
+      "Work hands-on with Pandas, NumPy, and real datasets.",
     ],
   },
   {
@@ -73,11 +72,10 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Scripting & Automation",
-    description: "Build robust server-side applications and APIs.",
+    title: "Statistics & EDA",
     side: "right",
     items: [
-      "Automate workflows and repetitive tasks using Python and shell scripting.",
+      "Understand data deeply through visualization and storytelling.Use Tableau and Power BI to extract insights that matter.",
     ],
   },
   {
@@ -109,12 +107,11 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "CI/CD & Containerization",
-
+    title: "Machine Learning & AI",
     side: "left",
     items: [
-      "Build pipelines with Jenkins and GitHub Actions.",
-      "Containerize applications with Docker for faster and reliable deployments.",
+      "Train and deploy ML models with Scikit-Learn, TensorFlow, and Keras.",
+      "Build predictive and classification models from scratch.",
     ],
   },
   {
@@ -147,11 +144,13 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Kubernetes & Orchestration",
-
+    title: "GenAI Integration",
     side: "right",
     items: [
-      "Deploy and manage scalable containerized apps using Kubernetes and Helm.",
+      "Use AI-driven tools to automate data pipelines and generate insights faster.",
+      "Integrate LLMs and GenAI APIs in your projects.",
+      "Write comprehensive tests and documentation",
+      "Deploy and maintain your project in production",
     ],
   },
   {
@@ -184,11 +183,12 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Cloud Platforms & Infrastructure",
-
+    title: "Capstone Project & Internship",
+    description: "Get job-ready with intensive interview coaching.",
     side: "left",
     items: [
-      "Work with AWS, Azure, and GCP to provision, secure, and manage cloud resources.",
+      "Work on live projects with real datasets from top domains.",
+      "Gain hands-on experience that hiring managers love.",
     ],
   },
   {
@@ -221,109 +221,17 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Infrastructure as Code (IaC)",
-    side: "right",
-    items: [
-      "Automate infrastructure setup and configuration using Terraform and Ansible.",
-    ],
-  },
-  {
-    id: 7,
-    number: (
-      <svg
-        width="60"
-        height="78"
-        viewBox="0 0 60 78"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M58.6084 0.5V3.29102L58.5791 3.37305L32.5449 76.2285L32.4258 76.5596H9.52344L9.76855 75.8887L30.5205 18.9268H0.5V0.5H58.6084Z"
-          stroke="url(#paint0_linear_2933_16142)"
-          stroke-opacity="0.8"
-        />
-        <defs>
-          <linearGradient
-            id="paint0_linear_2933_16142"
-            x1="29.5503"
-            y1="-16.8714"
-            x2="29.5503"
-            y2="76"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stop-color="#FF6B08" />
-            <stop offset="1" stop-color="#FF6B08" stop-opacity="0" />
-          </linearGradient>
-        </defs>
-      </svg>
-    ),
-    title: "Monitoring, Security & Reliability",
-    side: "left",
-    items: [
-      "Monitor systems with Prometheus, Grafana, and ELK Stack.",
-      "Learn DevSecOps practices and ensure high availability of systems.",
-    ],
-  },
-  {
-    id: 8,
-    number: (
-      <svg
-        width="63"
-        height="77"
-        viewBox="0 0 63 77"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M31.5293 0.5C36.7381 0.500013 41.4491 1.32206 45.6543 2.97656H45.6533C49.8589 4.56328 53.224 6.88321 55.7285 9.94434C58.2531 13.0299 59.5059 16.8091 59.5059 21.251C59.5059 25.0698 58.5318 28.2713 56.5508 30.8184C54.8784 33.0459 52.6894 34.8534 49.9971 36.248C53.8684 37.7571 56.8485 39.9117 58.9014 42.7344C61.1418 45.8151 62.2529 49.4833 62.2529 53.7139C62.2529 58.4895 60.9704 62.6018 58.3867 66.0234C55.8116 69.4336 52.2019 72.0286 47.585 73.8203C42.9688 75.6116 37.5448 76.5 31.3252 76.5C25.1766 76.5 19.7913 75.6802 15.1797 74.0283L15.1738 74.0264C10.5569 72.3036 6.94592 69.7773 4.36914 66.4346C1.78238 63.0788 0.500025 58.9981 0.5 54.2227C0.5 49.9225 1.64643 46.1862 3.95508 43.0381C6.06831 40.0943 9.08013 37.8712 12.96 36.3506C10.2646 34.9545 8.07359 33.144 6.40039 30.9131L6.39648 30.9082C4.49167 28.2979 3.55273 25.1024 3.55273 21.3525C3.55278 16.9072 4.84096 13.1255 7.43555 10.04C10.0064 6.91504 13.404 4.5623 17.6104 2.97559C21.8796 1.32299 26.5211 0.5 31.5293 0.5ZM31.5293 43.3252C28.7819 43.3252 26.5278 44.1069 24.7314 45.6465L24.7227 45.6533C22.9635 47.0984 22.0566 49.2152 22.0566 52.0859C22.0567 54.8881 22.9303 57.0124 24.6328 58.5273C26.4286 60.0651 28.6819 60.8457 31.4277 60.8457C34.2469 60.8456 36.4954 60.062 38.2188 58.5303C39.9233 57.0151 40.7987 54.8899 40.7988 52.0859C40.7988 49.2818 39.9234 47.1559 38.2188 45.6406L38.2119 45.6348C36.5594 44.1094 34.3493 43.3252 31.5293 43.3252ZM31.5293 15.543C29.335 15.543 27.4487 16.2178 25.8467 17.5635C24.2763 18.8827 23.4814 20.6697 23.4814 22.9814C23.4815 25.3656 24.2798 27.1837 25.8467 28.5C27.5183 29.8476 29.4396 30.5205 31.6309 30.5205C33.897 30.5205 35.7777 29.8438 37.3057 28.5068L37.3135 28.5C38.8803 27.1837 39.6786 25.3656 39.6787 22.9814C39.6787 20.6697 38.8839 18.8827 37.3135 17.5635C35.7143 16.2201 33.7952 15.543 31.5293 15.543Z"
-          stroke="url(#paint0_linear_2933_16150)"
-        />
-        <defs>
-          <linearGradient
-            id="paint0_linear_2933_16150"
-            x1="31.3765"
-            y1="1"
-            x2="31.3765"
-            y2="113.5"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stop-color="#8F1D84" />
-            <stop offset="1" stop-opacity="0" />
-          </linearGradient>
-        </defs>
-      </svg>
-    ),
-    title: "Capstone Project & Internship",
-    side: "right",
-    items: [
-      "Deploy a full-scale multi-cloud project with CI/CD, Docker, and Kubernetes under mentor guidance.",
-      "Gain hands-on experience and build a portfolio that impresses recruiters.",
-    ],
-  },
-  {
-    id: 9,
-    number: (
-      <svg
-        width="64"
-        height="77"
-        viewBox="0 0 64 77"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M30.9189 0.5C38.2463 0.50005 44.3192 2.04059 49.1025 5.16016H49.1016C53.8691 8.20133 57.425 12.4524 59.7686 17.8965C62.108 23.2636 63.2705 29.5078 63.2705 36.6172V39.0596C63.2705 50.5669 60.6438 59.6143 55.3271 66.1377L54.8047 66.7607C49.1928 73.2732 41.1018 76.5 30.6133 76.5C21.9307 76.5 15.0594 74.6208 10.0586 70.8008C5.04885 66.9739 2.1775 61.4798 1.41895 54.377L1.35938 53.8242H21.4639L21.5391 54.2334C21.8598 55.9652 22.6232 57.356 23.8232 58.4297C24.9789 59.4635 26.8667 60.0322 29.5957 60.0322C33.7968 60.0322 36.7357 58.5022 38.5283 55.4932L38.5303 55.4902C40.2497 52.6441 41.2663 48.6008 41.5459 43.3193C40.105 45.2496 38.3493 46.8877 36.2793 48.2305L36.2764 48.2324C33.721 49.865 30.1519 50.6523 25.627 50.6523C20.9486 50.6523 16.7021 49.757 12.8965 47.958C9.0798 46.1538 6.05526 43.4773 3.83301 39.9355L3.83105 39.9326C1.60101 36.3088 0.500004 31.8706 0.5 26.6445C0.5 21.4755 1.70726 16.9052 4.13574 12.9502L4.13867 12.9443C6.63609 8.99013 10.1729 5.94391 14.7295 3.80371C19.2882 1.59475 24.6902 0.5 30.9189 0.5ZM30.6133 16.1543C27.8276 16.1543 25.6301 17.1186 23.9697 19.0342L23.9639 19.041C22.2969 20.9005 21.4454 23.318 21.4453 26.3389C21.4453 29.2194 22.2601 31.5724 23.8623 33.4346L24.1797 33.7695C25.8 35.3947 27.9288 36.2187 30.6133 36.2188C33.4821 36.2188 35.7537 35.3111 37.4785 33.5225C39.2124 31.657 40.0859 29.3422 40.0859 26.543C40.0859 23.4563 39.2025 20.9696 37.4668 19.041L37.4609 19.0342C35.8053 17.1238 33.5428 16.1543 30.6133 16.1543Z"
-          stroke="#0035F7"
-        />
-      </svg>
-    ),
     title: "Career Launch & Placement Support",
-    side: "left",
+
+    side: "right",
     items: [
-      "Resume optimization, mock interviews, portfolio review, and 1:1 placement guidance.",
+      "Optimize your portfolio, practice interview questions, and get placed.",
+      "Receive personalized resume and portfolio reviews",
+      "Get 1-on-1 mentoring from industry professionals",
+      "Negotiate offers and launch your tech career",
     ],
   },
 ];
-
 export default function CourseRoadmap() {
   const roadmapRef = useRef(null);
   const diamondRef = useRef(null);
@@ -354,8 +262,8 @@ export default function CourseRoadmap() {
       ref={roadmapRef}
       className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24"
     >
-      <h2 className=" font-['Graphikthin']   lg:text-[64px] font-light tracking-tight mb-16 text-pretty">
-        Your Next 6-9 Months Fast-Track Path to a DevOps & Cloud Career{" "}
+      <h2 className="leading-tight lg:text-[64px] font-['Graphikthin'] font-light tracking-tight mb-16 text-pretty">
+        Your Next 6-9 Months Fast-Track Roadmap to a Data Science Career{" "}
       </h2>
 
       {/* Timeline Container */}
@@ -460,7 +368,7 @@ export default function CourseRoadmap() {
                               : "bggradient-to-br from-yellow-400 to-orange-400"
                           }`}
                         >
-                          {idx % 2 === 0 ? (
+                          {idx === 0 && (
                             <svg
                               width="11"
                               height="12"
@@ -499,7 +407,9 @@ export default function CourseRoadmap() {
                                 </clipPath>
                               </defs>
                             </svg>
-                          ) : (
+                          )}
+
+                          {idx === 1 && (
                             <svg
                               width="11"
                               height="12"
@@ -539,6 +449,168 @@ export default function CourseRoadmap() {
                               </defs>
                             </svg>
                           )}
+                          {idx === 2 && (
+                            <svg
+                              width="11"
+                              height="12"
+                              viewBox="0 0 11 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g
+                                clip-path="url(#paint0_angular_2882_9139_clip_path)"
+                                data-figma-skip-parse="true"
+                              >
+                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
+                                  <foreignObject
+                                    x="-961.988"
+                                    y="-961.988"
+                                    width="1923.98"
+                                    height="1923.98"
+                                  >
+                                    <div
+                                      xmlns="http://www.w3.org/1999/xhtml"
+                                      style={{
+                                        background:
+                                          "conic-gradient(from 90deg,rgba(195, 49, 163, 1) 0deg,rgba(195, 49, 163, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
+                                      }}
+                                      // style="background:conic-gradient(from 90deg,rgba(195, 49, 163, 1) 0deg,rgba(195, 49, 163, 0.4) 360deg);height:100%;width:100%;opacity:0.8"
+                                    ></div>
+                                  </foreignObject>
+                                </g>
+                              </g>
+                              <path
+                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
+                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
+                              />
+                              <defs>
+                                <clipPath id="paint0_angular_2882_9139_clip_path">
+                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                          )}
+                          {idx === 3 && (
+                            <svg
+                              width="11"
+                              height="12"
+                              viewBox="0 0 11 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g
+                                clip-path="url(#paint0_angular_2882_9120_clip_path)"
+                                data-figma-skip-parse="true"
+                              >
+                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
+                                  <foreignObject
+                                    x="-961.988"
+                                    y="-961.988"
+                                    width="1923.98"
+                                    height="1923.98"
+                                  >
+                                    <div
+                                      xmlns="http://www.w3.org/1999/xhtml"
+                                      style={{
+                                        background:
+                                          "conic-gradient(from 90deg,rgba(5, 173, 196, 1) 0deg,rgba(5, 173, 196, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
+                                      }}
+                                    ></div>
+                                  </foreignObject>
+                                </g>
+                              </g>
+                              <path
+                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
+                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
+                              />
+                              <defs>
+                                <clipPath id="paint0_angular_2882_9120_clip_path">
+                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                          )}
+                          {idx === 4 && (
+                            <svg
+                              width="11"
+                              height="12"
+                              viewBox="0 0 11 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g
+                                clip-path="url(#paint0_angular_2882_9177_clip_path)"
+                                data-figma-skip-parse="true"
+                              >
+                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
+                                  <foreignObject
+                                    x="-961.988"
+                                    y="-961.988"
+                                    width="1923.98"
+                                    height="1923.98"
+                                  >
+                                    <div
+                                      xmlns="http://www.w3.org/1999/xhtml"
+                                      style={{
+                                        background:
+                                          "conic-gradient(from 90deg,rgba(255, 17, 17, 1) 0deg,rgba(255, 17, 17, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
+                                      }}
+                                    ></div>
+                                  </foreignObject>
+                                </g>
+                              </g>
+                              <path
+                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
+                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
+                              />
+                              <defs>
+                                <clipPath id="paint0_angular_2882_9177_clip_path">
+                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                          )}
+
+                          {idx === 5 && (
+                            <svg
+                              width="11"
+                              height="12"
+                              viewBox="0 0 11 12"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g
+                                clip-path="url(#paint0_angular_2882_9155_clip_path)"
+                                data-figma-skip-parse="true"
+                              >
+                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
+                                  <foreignObject
+                                    x="-961.988"
+                                    y="-961.988"
+                                    width="1923.98"
+                                    height="1923.98"
+                                  >
+                                    <div
+                                      xmlns="http://www.w3.org/1999/xhtml"
+                                      style={{
+                                        background:
+                                          "conic-gradient(from 90deg,rgba(255, 136, 8, 1) 0deg,rgba(255, 136, 8, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
+                                      }}
+                                    ></div>
+                                  </foreignObject>
+                                </g>
+                              </g>
+                              <path
+                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
+                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
+                              />
+                              <defs>
+                                <clipPath id="paint0_angular_2882_9155_clip_path">
+                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                          )}
                         </div>
                         <span className="text-gray-300 font-['Graphikthin'] font-light text-[16px] opacity-80 text-sm sm:text-base">
                           {item}
@@ -556,14 +628,6 @@ export default function CourseRoadmap() {
             </div>
           ))}
         </div>
-      </div>
-
-      <div className="flex justify-center pt-7 mt-20">
-        <Link href={"/hire-from-us"}>
-          <button className="group rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
-            Start Your Full Stack Journey Today – Enroll Now!
-          </button>
-        </Link>
       </div>
 
       <style jsx>{`

@@ -72,7 +72,7 @@ export default function CourseCurriculum() {
     <div className="min-h-screen bg-black text-white py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4 md:px-6">
         {/* Course Curriculum Section */}
-        <div className="mb-16 md:mb-24">
+        <div className="mb-16 md:mb-[56px]">
           <h1 className="text-3xl md:text-4xl lg:text-6xl  font-['Graphikthin'] font-light mb-12 md:mb-16">
             Course curriculum
           </h1>
@@ -84,11 +84,11 @@ export default function CourseCurriculum() {
             {modules.map((module) => (
               <div
                 key={module.id}
-                className="flex items-start gap-6 md:gap-8 mb-8 md:mb-12 lg:mb-16 max-lg:flex-col"
+                className="flex items-start gap-6 md:gap-8 mb-8 md:mb-12 lg:mb-[20px] max-lg:flex-col"
               >
                 {/* Left: Module Name */}
                 <div className="w-24 md:w-24 flex-shrink-0 pt-8">
-                  <span className="text-base md:text-lg font-light text-white">
+                  <span className="text-base md:text-[16px] font-light text-white">
                     Module {module.id}
                   </span>
                 </div>
@@ -117,11 +117,11 @@ export default function CourseCurriculum() {
 
                 {/* Right: Content Card */}
                 <div className="flex-1">
-                  <div className="p-6 md:p-8 rounded-2xl bg-[#000000]  transition-all">
+                  <div className="p-6 md:px-[16px] pt-[16px] pb-[20px] rounded-2xl bg-[#000000]  transition-all">
                     <h3 className="text-[20px] leading-normal md:text-[24px] font-semibold mb-3 text-[#E0E0E0]">
                       {module.title}
                     </h3>
-                    <p className="text-sm md:text-base font-['Graphikmedium'] text-[#FFFFFFCC]">
+                    <p className="text-sm md:text-[18px] font-['Graphikmedium'] text-[#FFFFFFCC]">
                       {module.description}
                     </p>
                   </div>
@@ -166,7 +166,7 @@ export default function CourseCurriculum() {
         </div>
 
         {/* CTA Button */}
-        <div className="flex justify-center mt-12 md:mt-16">
+        <div className="flex justify-center mt-12 md:mt-[56px]">
           <button className="px-8 md:px-10 py-3 md:py-4 border border-green-500 text-green-500 rounded-lg font-semibold hover:bg-green-500 hover:text-black transition-all text-sm md:text-base">
             Join The Next Cohort
           </button>

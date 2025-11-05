@@ -74,14 +74,14 @@ const HeroBoot = () => {
           <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%] w-[60%]">
             <div className="relative z-30 w-full">
               <h1 className="w-[685.41px] widescreen:w-full text-[56.07px] widescreen:text-[84px] widestscreen:text-[94px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[65.73px] text-[#E5E5E5] font-['Graphikmedium'] font-light mb-[20px]">
-                Become a Job-Ready Full Stack Developer and Get Placed in Just
-                6-9 Months
+                Become a job-ready Full Stack Developer and get placed in just
+                6-9 months
                 {/* <span className="font-['Graphik'] font-semibold">
                   {" "}
                   an affordable price.
                 </span> */}
               </h1>
-              <p className="text-[16px] font-['Graphikthin']  mb-10 mt-4  font-[400] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] mb[12px] w-[80%] leading-[24px] text-[#C7C7C7]">
+              <p className="text-[16px] font-['Graphikthin']   mt-6  font-[400] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] mb[12px] w-[80%] leading-[24px] text-[#C7C7C7]">
                 Master{" "}
                 <span className="font-semibold font-['Graphik']">
                   Full Stack Development, Data Structures & Algorithms, System
@@ -92,7 +92,7 @@ const HeroBoot = () => {
                 companies.
               </p>
               <Link href="/signup">
-                <button className="w-[128px] mt-10 h-[53px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-[8px] font-[500]  text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[16px]">
+                <button className="w-[128px] font-['Graphikmid'] mt-9 mb-[100px] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-[8px] font-[500]  text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[16px]">
                   Enroll Now
                 </button>
               </Link>
@@ -102,6 +102,9 @@ const HeroBoot = () => {
           </div>
           <div className="w-[457px] widescreen:h-[calc(100%-110px)] h-full widescreen:w-[35%] relative max-sm:w-full z-30 backdrop-blur-sm max-hamburger:w-[70%] flex flex-col z-20 gap-[32px] max-sm:gap-[20px] max-sm:h-auto h-589px] px-[16px] max-sm:px-[20px] max-sm:py-[16px] py-[16px] rounded-[14px] bg-[#FFFFFF1A]">
             <div className="flex flex-col gap-[16px]">
+              <p className="text-[24px]  mb10   font-['Graphikmid'] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] mb[12px] w-[80%] leading-6 text-[#fff]">
+                Looking out for a job ?
+              </p>
               <div className="flex justify-between">
                 <p
                   className={
@@ -110,7 +113,7 @@ const HeroBoot = () => {
                       : "text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Name
+                  Name *
                 </p>
                 <p
                   className={
@@ -142,7 +145,7 @@ const HeroBoot = () => {
                       : "text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Email
+                  Email *
                 </p>
                 <p
                   className={
@@ -174,7 +177,7 @@ const HeroBoot = () => {
                       : "text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Phone Number
+                  Phone Number *
                 </p>
                 <p
                   className={
@@ -206,7 +209,7 @@ const HeroBoot = () => {
                       : "text-[16px] font-[400] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] leading-[19.2px]"
                   }
                 >
-                  Program of Interest
+                  I{"'"}m *
                 </p>
                 <p
                   className={

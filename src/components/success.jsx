@@ -44,7 +44,7 @@ export default function Success() {
   });
   return (
     <div className="overflow-x-hidden w-full py-20">
-      <div className="relative mx-auto max-w-[1280px] px-4 sm:px-8">
+      <div className="relative mx-auto max-w-7xl px-4 sm:px-2">
         <span
           style={{
             background:
@@ -186,7 +186,7 @@ export default function Success() {
         </div>
       </div>
 
-      <div className="flex items-center opacity-80 justify-center gap-10 py-10   text-gray-300">
+      <div className="flex items-center opacity-80 justify-center gap-10 py-[56px]   text-gray-300">
         {/* Average Rating */}
         <div className="flex items-center flex-col gap-3">
           <p className="text-[16px] text-[#FFFFFF]">Average Rating</p>
@@ -195,7 +195,7 @@ export default function Success() {
             <p className="text-[32px] text-[#FFFFFF]">4.9/5</p>
           </div>
         </div>
-        <div className="h-8 w-[1px] bg-gray-600/50" />
+        <div className="h-12 w-[1px] bg-[#C9C9C966]" />
         <div className="flex items-start flex-col gap-3">
           <p className="text-[16px] text-[#FFFFFF]">Alumni Testimonials</p>
           <div className="flex items-center gap-3">
@@ -212,7 +212,7 @@ export default function Success() {
         </div> */}
       </div>
 
-      <div className="flex justify-center pt-7">
+      <div className="flex justify-center pt-0">
         <Link href={"/testimonials"}>
           <button className="group font-['Graphikmid'] rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
             Read More Success Stories

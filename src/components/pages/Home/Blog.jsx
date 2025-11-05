@@ -2,6 +2,7 @@
 "use client";
 import style from "@/styles/style.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Blog() {
   return (
@@ -28,20 +29,23 @@ export default function Blog() {
         </div>
 
         {/* CTA */}
-        <div className="flex justify-center pt-2 z-[99999]">
+        <Link href="/blogs" className="flex justify-center pt-2 z-[99999]">
           <button className="group font-['Graphikmid'] rounded-[8px] border hover:bg-[#30E29D] hover:text-[#292929] border-[#30E29D] px-8 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d14]">
             View all Blogs
           </button>
-        </div>
+        </Link>
       </div>
     </section>
   );
 }
 
 /* ==== Card ==== */
-function ProjectCard({ color, img, title, desc }) {
+function ProjectCard({ color, img, title, desc, link }) {
   return (
-    <div className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group bg-transparent hover:shadow-[0_2px_16px_0_rgba(48,226,151,0.05)] cursor-pointer flex flex-col overflow-hidden">
+    <Link
+      href={link}
+      className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group bg-transparent hover:shadow-[0_2px_16px_0_rgba(48,226,151,0.05)] cursor-pointer flex flex-col overflow-hidden"
+    >
       <div
         className="w-full  flex items-center justify-center"
         // style={{ background: color }}
@@ -69,36 +73,41 @@ function ProjectCard({ color, img, title, desc }) {
         </div>
         <div className="text-[#E0E0E0] mt-1 text-[15px]">{desc}</div>
       </div>
-    </div>
+    </Link>
   );
 }
 
 /* ==== Projects Definition ==== */
 // You can swap the inner span for img tags or svg as needed
+
 const projects = [
   {
     color: "#EB39C2",
     img: "/home/Frame 1000003040.png",
-    title: "Lorem ipsum dolor sit amet, consectetur ",
+    title: "Choosing Between Full Stack",
     desc: "",
+    link: "/blogs/choosing-between-full-stack",
   },
   {
     color: "#2277ea",
     img: "/home/Frame 1000003040 copy.png",
 
-    title: "Lorem ipsum dolor sit amet, consectetur ",
+    title: "Communication: The Most Underrated ",
     desc: "",
+    link: "/blogs/communication-the-most-underrated-skill-in-the-AI-world",
   },
   {
     color: "#781fe0",
     img: "/home/Frame 1000003040 (1).png",
-    title: "Lorem ipsum dolor sit amet, consectetur ",
+    title: "AI Agents: The Co-Workers You",
     desc: "",
+    link: "/blogs/ai-agents-the-Co-Workers-you",
   },
   {
     color: "#DDFB22",
     img: "/home/Frame 1000003038 (1).png",
-    title: "Lorem ipsum dolor sit amet, consectetur ",
+    title: "How AWS is Quietly Building",
     desc: "",
+    link: "/blogs/how-aws-is-quietly-building",
   },
 ];

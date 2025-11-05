@@ -39,7 +39,8 @@ export default function PlacementSupport() {
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
         {/* Heading */}
         <h2 className="text-4xl sm:text-5xl md:text-[64px] font-['Graphikthin'] tracking-tight font-normal text-white/95">
-          Placement <span className="font-['Graphik']">& </span> career support
+          Placement <span className="font-['system-ui'] font-[100]">& </span>{" "}
+          career support
         </h2>
 
         {/* Subheading */}
@@ -48,15 +49,15 @@ export default function PlacementSupport() {
         </p>
 
         {/* Grid */}
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 bg-[#000]">
+        <div className="mt-[71px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 bg-[#000]">
           {features.map((f, i) => (
             <div
               key={i}
-              className="group relative rounded-xl bg-neutral-900 p-6 flex flex-col justify-between min-h-[200px] hover:bg-neutral-900 transition"
+              className="group relative rounded-lg bg-neutral-900 p-6 flex flex-col justify-between min-h-[200px] hover:bg-neutral-900 transition"
             >
               <div className="mb-6">
                 {/* Icon placeholder box to match screenshot spacing */}
-                <div className="inline-flex items-center justify-center rounded-lg  p-4">
+                <div className="inline-flex items-center justify-center rounded[8px]  p-4">
                   {f.icon ? (
                     <Image
                       width={105}
@@ -87,9 +88,9 @@ export default function PlacementSupport() {
 
         {/* CTA */}
 
-        <div className="mt-14 flex justify-center">
+        <div className="mt-[75px] flex justify-center">
           <Link href={"/hire-from-us"}>
-            <button className="group rounded-[8px] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
+            <button className="group rounded-[8px] font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
               Join The&nbsp;&nbsp;Next Cohort
             </button>
           </Link>

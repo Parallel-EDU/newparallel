@@ -1,36 +1,129 @@
 // app/components/Testimonials.jsx  (Next.js 13+)
 // or components/Testimonials.jsx for pages router
+import HeroSection from "@/components/pages/testimonials/HeroSection";
+import Link from "next/link";
 import React from "react";
 
 const people = [
-  { name: "Aryan Arjun Kedar", role: "Data Analyst", img: "/avatars/1.png" },
+  {
+    name: "Aryan Arjun Kedar",
+    role: "Data Analyst",
+    img: "/testimonials/Frame 1000002775.png",
+  },
   {
     name: "Meenal Botadkar",
     role: "Data Operations Analyst",
-    img: "/avatars/2.png",
+    img: "/testimonials/Frame 1000002776 (1).png",
   },
-  { name: "Sanket Tiwade", role: "AWS Consultant", img: "/avatars/3.png" },
+  {
+    name: "Sanket Tiwade",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002776 (2).png",
+  },
   {
     name: "Palash A Ranvir",
     role: "MERN Stack Developer",
-    img: "/avatars/4.png",
+    img: "/testimonials/Frame 1000002776 (3).png",
   },
-  { name: "Vivek Talwekar", role: "Python Developer", img: "/avatars/5.png" },
+  {
+    name: "Vivek Talwekar",
+    role: "Python Developer",
+    img: "/testimonials/Frame 1000002776 (4).png",
+  },
   {
     name: "Vikrant Shivkumar Pali",
     role: "Python Developer",
-    img: "/avatars/6.png",
+    img: "/testimonials/Frame 1000002776 (5).png",
   },
-  { name: "Sarthaki Chikhale", role: "Java Engineer", img: "/avatars/7.png" },
+  {
+    name: "Sarthaki Chikhale",
+    role: "Java Engineer",
+    img: "/testimonials/Frame 1000002776 (6).png",
+  },
   {
     name: "Nikhil Jawalkar",
     role: "Frontend Developer",
-    img: "/avatars/8.png",
+    img: "/testimonials/Frame 1000002776.png",
   },
   {
     name: "Rushabh Ramkrushna Bandewar",
     role: "AWS Consultant",
-    img: "/avatars/9.png",
+    img: "/testimonials/Frame 1000002777 (1).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002777 (2).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002777 (3).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002777 (4).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002777 (5).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002777.png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002778 (1).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002778.png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002779 (1).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002779 (2).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002779 (3).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002779 (4).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002779 (5).png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002779.png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/9.png",
+  },
+  {
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/9.png",
   },
 ];
 
@@ -44,17 +137,19 @@ export default function Testimonials() {
 
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
         {/* Left block: heading + copy + CTA */}
-        <div className="max-w-2xl">
-          <h2 className="text-4xl sm:text-5xl font-semibold tracking-tight text-white/95">
-            Real Stories. Real Transformations. Real Results.
+        <div className="max-w-3xl">
+          <h2 className=" sm:text-[64px] font-['Graphikthin'] leading-tight tracking-tight text-white/95">
+            Real stories. real transformations. real results.
           </h2>
-          <p className="mt-4 text-sm sm:text-base text-neutral-300">
+          <p className="mt-4 text-sm font-['Graphikmid'] sm:text-[16px] text-neutral-300">
             Behind every testimonial is a journey of persistence, mentorship,
             and growth - proof that the right guidance can change everything.
           </p>
-          <button className="mt-6 rounded-full border border-emerald-500/60 px-5 py-2.5 text-emerald-400 text-sm hover:bg-emerald-500/10 transition">
-            Enroll Now
-          </button>
+          <Link href="/signup">
+            <button className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
+              Enroll Now
+            </button>
+          </Link>
         </div>
 
         {/* Cards grid */}
@@ -62,7 +157,7 @@ export default function Testimonials() {
           {people.map((p, i) => (
             <article
               key={i}
-              className="rounded-xl border border-white/10 bg-neutral-900/70 p-5 sm:p-6 backdrop-blur-lg ring-1 ring-white/5"
+              className="rounded-xl border border-white/10 bg-neutral-900/70 p-5 sm:p-4 backdrop-blur-lg ring-1 ring-white/5"
             >
               <div className="flex items-center gap-4">
                 <img
@@ -86,6 +181,8 @@ export default function Testimonials() {
             </article>
           ))}
         </div>
+
+        <HeroSection />
       </div>
     </section>
   );

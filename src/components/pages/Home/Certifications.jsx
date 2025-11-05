@@ -89,11 +89,12 @@ export default function Certifications() {
 //   );
 // }
 
-function CertCard({ icon, title, gradient }) {
+function CertCard({ icon, title, gradient, link }) {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div
+    <Link
+      href={link}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       className="relative rounded-[10px] h-[215px] w-[305px] shadow-sm transition-all duration-300 hoverscale-[1.025] hover:shadow-lg backdrop-blur-[1.5px] p-[1px] overflow-hidden"
@@ -122,7 +123,7 @@ function CertCard({ icon, title, gradient }) {
           {title}
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 /* ==== Certification Definitions ==== */
@@ -130,6 +131,7 @@ function CertCard({ icon, title, gradient }) {
 const certs = [
   {
     title: "JavaScript Training",
+    link: "/tech/javascript",
     icon: (
       <img
         alt="JS"
@@ -141,6 +143,7 @@ const certs = [
   },
   {
     title: "React.js Training",
+    link: "/tech/react-js",
     icon: (
       <img
         alt="React"
@@ -152,6 +155,7 @@ const certs = [
   },
   {
     title: "Vue.js Training",
+    link: "/tech/vue-js",
     icon: (
       <img
         alt="Vue"
@@ -163,6 +167,7 @@ const certs = [
   },
   {
     title: "Next.js Training",
+    link: "/tech/next-js",
     icon: (
       <img
         alt="Next.js"
@@ -174,6 +179,7 @@ const certs = [
   },
   {
     title: "Node.js Training",
+    link: "/tech/node-js",
     icon: (
       <svg
         width="56"
@@ -199,6 +205,7 @@ const certs = [
   },
   {
     title: "Python Training",
+    link: "/tech/python",
     icon: (
       <img
         alt="Python"
@@ -210,6 +217,7 @@ const certs = [
   },
   {
     title: "Java Training",
+    link: "/tech/java",
     icon: (
       <img
         alt="Java"
@@ -221,6 +229,7 @@ const certs = [
   },
   {
     title: "Data Analysis Training",
+    link: "/tech/data-analysis",
     icon: (
       <svg
         width="93"
@@ -279,6 +288,7 @@ const certs = [
   },
   {
     title: "Tableau Training",
+    link: "/tech/tableau",
     icon: (
       <svg
         width="97"
@@ -339,6 +349,7 @@ const certs = [
   },
   {
     title: "DevOps Training",
+    link: "/tech/dev-ops",
     icon: (
       <svg
         width="122"
@@ -372,6 +383,7 @@ const certs = [
   },
   {
     title: "Aws Training",
+    link: "/tech/aws",
     icon: (
       <img
         alt="AWS"
@@ -383,6 +395,7 @@ const certs = [
   },
   {
     title: "Machine Learning Training",
+    link: "/tech/machine-learning",
     icon: (
       <svg
         width="89"
@@ -414,6 +427,7 @@ const certs = [
   },
   {
     title: "Salesforce Training",
+    link: "/tech/salesforce",
     icon: (
       <img
         alt="Salesforce"
@@ -425,6 +439,7 @@ const certs = [
   },
   {
     title: "AI Agents Training",
+    link: "/tech/ai-agents",
     icon: (
       <svg
         width="96"
@@ -486,6 +501,7 @@ const certs = [
   },
   {
     title: "AI Prompt Engineering",
+    link: "/tech/ai-prompt-eng",
     icon: (
       <svg
         width="96"

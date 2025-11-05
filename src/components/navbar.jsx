@@ -189,16 +189,51 @@ export default function Navbar() {
 
   const programsData = {
     bootcamp: [
-      ["JavaScript Training", "Python Training", "AWS Training"],
-      ["React.js Training", "Java Training", "Machine Learning Training"],
-      ["Vue.js Training", "Data Analysis Training", "Salesforce Training"],
-      ["Next.js Training", "Tableau Training", "AI Agents Training"],
-      ["Node.js Training", "DevOps Training", "AI Prompt Engineering"],
+      [
+        { title: "JavaScript Training", link: "/tech/javascript" },
+        { title: "Python Training", link: "/tech/python" },
+        { title: "AWS Training", link: "/tech/aws" },
+      ],
+      [
+        { title: "React.js Training", link: "/tech/react-js" },
+        { title: "Java Training", link: "/tech/java" },
+        { title: "Machine Learning Training", link: "/tech/machine-learning" },
+      ],
+      [
+        { title: "Vue.js Training", link: "/tech/vue-js" },
+        { title: "Data Analysis Training", link: "/tech/data-analysis" },
+        { title: "Salesforce Training", link: "/tech/salesforce" },
+      ],
+      [
+        { title: "Next.js Training", link: "/tech/next-js" },
+        { title: "Tableau Training", link: "/tech/tableau" },
+        { title: "AI Agents Training", link: "/tech/ai-agents" },
+      ],
+      [
+        { title: "Node.js Training", link: "/tech/node-js" },
+        { title: "DevOps Training", link: "/tech/dev-ops" },
+        { title: "AI Prompt Engineering", link: "/tech/ai-prompt-eng" },
+      ],
     ],
     certification: [
-      ["Full Stack Web Development with GenAI"],
-      ["Data Science with GenAI"],
-      ["DevOps and Cloud Computing"],
+      [
+        {
+          title: "Full Stack Web Development with GenAI",
+          link: "/job-bootcamp-full-stack-development",
+        },
+      ],
+      [
+        {
+          title: "Data Science with GenAI",
+          link: "/data-science-with-genAI-bootcamp",
+        },
+      ],
+      [
+        {
+          title: "DevOps and Cloud Computing",
+          link: "/devOps-and-cloud-computing-bootcamp",
+        },
+      ],
     ],
   };
 
@@ -281,7 +316,42 @@ export default function Navbar() {
               </p>
 
               {/* Bootcamp Programs */}
+
+              {/* Bootcamp Programs */}
               {activeCategory === "certification" && (
+                <div className="grid grid-cols-3 gap-x-[60px] gap-y-[35px] text-[16px]">
+                  {programsData.bootcamp.map((col, i) =>
+                    col.map((item, j) => (
+                      <Link
+                        key={`${i}-${j}`}
+                        href={item.link}
+                        className="hover:text-[#30E29D] text-[#E5E5E5]"
+                      >
+                        {item.title}
+                      </Link>
+                    ))
+                  )}
+                </div>
+              )}
+
+              {/* Certification Programs */}
+              {activeCategory === "bootcamp" && (
+                <div className="flex flex-col gap-[35px] text-[16px]">
+                  {programsData.certification.map((col, i) =>
+                    col.map((item, j) => (
+                      <Link
+                        key={`${i}-${j}`}
+                        href={item.link}
+                        className="hover:text-[#30E29D] text-[#E5E5E5]"
+                      >
+                        {item.title}
+                      </Link>
+                    ))
+                  )}
+                </div>
+              )}
+
+              {/* {activeCategory === "certification" && (
                 <div className="grid grid-cols-3 gap-x-[60px] gap-y-[35px] text-[16px]">
                   {programsData.bootcamp.map((col, i) =>
                     col.map((item, j) => (
@@ -297,7 +367,6 @@ export default function Navbar() {
                 </div>
               )}
 
-              {/* Certification Programs */}
               {activeCategory === "bootcamp" && (
                 <div className="flex flex-col gap-[35px] text-[16px]">
                   {programsData.certification.map((col, i) =>
@@ -312,7 +381,7 @@ export default function Navbar() {
                     ))
                   )}
                 </div>
-              )}
+              )} */}
 
               {/* Right side light glow */}
               <div className="absolute top-0 right-0 bottom-0 w-[400px] bggradient-to-l from-[#0b0b0b] to-transparent blur-3xl opacity-30 pointer-events-none"></div>

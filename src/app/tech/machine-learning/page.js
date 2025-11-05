@@ -1,12 +1,12 @@
-import Footer from "@/components/footer";
-import Navbar from "@/components/navbar";
 import Blog from "@/components/pages/Home/Blog";
-import HeroSection from "@/components/pages/Home/HeroSection";
-import CareerLaunchpadHero from "@/components/pages/machineLearning/CareerLaunchpadHero";
-import CourseCurriculum from "@/components/pages/machineLearning/CourseCurriculum";
-import HeroBoot from "@/components/pages/machineLearning/HeroBoot";
-import PlacementSupport from "@/components/pages/machineLearning/PlacementSupport";
-import PlansPricing from "@/components/pages/machineLearning/PlansPricing";
+import CareerLaunchpadHero from "@/components/pages/machine-learning/CareerLaunchpadHero";
+import CourseCurriculum from "@/components/pages/machine-learning/CourseCurriculum";
+import HeroBoot from "@/components/pages/machine-learning/HeroBoot";
+import HeroSection from "@/components/pages/machine-learning/HeroSection";
+import Industry from "@/components/pages/machine-learning/Industry";
+import PlacementSupport from "@/components/pages/machine-learning/PlacementSupport";
+import PlansPricing from "@/components/pages/machine-learning/PlansPricing";
+import Success from "@/components/success";
 import React from "react";
 
 const devOps = () => {
@@ -16,11 +16,12 @@ const devOps = () => {
         <HeroBoot />
         <CareerLaunchpadHero />
         <CourseCurriculum />
-        {/* <Industry /> */}
         <PlacementSupport />
+        <Industry />
         <PlansPricing />
+        <Success />
         {/* <CourseRoadmap /> */}
-        <Blog />
+        {/* <Blog /> */}
         <HeroSection />
       </div>
     </>
