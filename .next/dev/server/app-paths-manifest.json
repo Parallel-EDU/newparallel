@@ -1,3 +1,4 @@
 {
-  "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js"
+  "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js",
+  "/testimonials/page": "app/testimonials/page.js"
 }

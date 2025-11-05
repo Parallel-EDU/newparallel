@@ -1,8 +1,10 @@
 // app/components/Testimonials.jsx  (Next.js 13+)
 // or components/Testimonials.jsx for pages router
+"use client";
 import HeroSection from "@/components/pages/testimonials/HeroSection";
 import Link from "next/link";
 import React from "react";
+import { useModal } from "@/app/context/ModalContext";
 
 const people = [
   {
@@ -114,6 +116,7 @@ const people = [
 ];
 
 export default function Testimonials() {
+  const { openModal } = useModal();
   return (
     <section className="relative w-full bg-black text-white">
       {/* subtle grid background */}
@@ -131,11 +134,13 @@ export default function Testimonials() {
             Behind every testimonial is a journey of persistence, mentorship,
             and growth - proof that the right guidance can change everything.
           </p>
-          <Link href="/signup">
-            <button className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
-              Enroll Now
-            </button>
-          </Link>
+
+          <button
+            onClick={openModal}
+            className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
+          >
+            Enroll Now
+          </button>
         </div>
 
         {/* Cards grid */}

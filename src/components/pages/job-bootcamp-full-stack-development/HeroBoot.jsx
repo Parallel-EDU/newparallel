@@ -246,38 +246,44 @@ const HeroBoot = () => {
                 <div className="bg-[#FFFFFFF2] w-full absolute border-[1px] rounded-tl-[4px] rounded-[tr]-[4px] bottom-[54px] z-[22222] cursor-pointer">
                   <ul>
                     <li
-                      onClick={() => handleOptionSelect("High school student")}
+                      onClick={() =>
+                        handleOptionSelect("Student - Enrolled in College")
+                      }
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
-                      High school student
+                      Student - Enrolled in College
                     </li>
                     <li
-                      onClick={() => handleOptionSelect("College student")}
+                      onClick={() =>
+                        handleOptionSelect("Student - Final Year College")
+                      }
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black py-[16px] text-[17.95px] border-[1px] border-b-[#00000033] leading-[21.54px]"
                     >
-                      College student
+                      Student - Final Year College
                     </li>
                     <li
                       onClick={() =>
-                        handleOptionSelect("Graduate / Postgraduate")
+                        handleOptionSelect("Passed Out - Looking for a Job")
                       }
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
-                      Graduate / Postgraduate
-                    </li>
-                    <li
-                      onClick={() => handleOptionSelect("Working professional")}
-                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
-                    >
-                      Working professional
+                      Passed Out - Looking for a Job
                     </li>
                     <li
                       onClick={() =>
-                        handleOptionSelect("Self-employed / Entrepreneur")
+                        handleOptionSelect("Working - Technical Job")
                       }
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
-                      Self-employed / Entrepreneur
+                      Working - Technical Job
+                    </li>
+                    <li
+                      onClick={() =>
+                        handleOptionSelect("Working - Non Technical Job")
+                      }
+                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
+                    >
+                      Working - Non Technical Job
                     </li>
                   </ul>
                 </div>
