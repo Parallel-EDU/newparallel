@@ -54,7 +54,7 @@ export default function Page() {
           {/* Header Image */}
           <div className="rounded-2xl overflow-hidden mb-10">
             <Image
-              src="/home/Frame 1000003040 copy.png"
+              src="/home/Frame 1000003040 copy 3.png"
               alt="AI communication illustration"
               width={1000}
               height={600}

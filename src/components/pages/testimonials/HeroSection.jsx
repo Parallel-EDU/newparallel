@@ -1,9 +1,11 @@
 "use client";
 
+import { useModal } from "@/app/context/ModalContext";
 import style from "@/styles/style.module.css";
 import Link from "next/link";
 
 export default function HeroSection() {
+  const { openModal } = useModal();
   return (
     <section
       className="relative flex flex-col items-center justify-center text-center min-h-[650px] px-6 overflow-hidden"

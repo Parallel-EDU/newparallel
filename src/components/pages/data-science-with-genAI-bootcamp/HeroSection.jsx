@@ -1,9 +1,11 @@
 "use client";
 
+import { useModal } from "@/app/context/ModalContext";
 import style from "@/styles/style.module.css";
 import Link from "next/link";
 
 export default function HeroSection() {
+  const { openModal } = useModal();
   return (
     <section
       className="relative flex flex-col items-center justify-center text-center min-h-[650px] px-6 overflow-hidden"
@@ -46,11 +48,14 @@ export default function HeroSection() {
           AI-powered Bootcamp.
         </p>
 
-        <Link href="/signup" className="z-[99999]">
-          <button className="mt-10 border border-[#1BD44F] text-[#1BD44F]  font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] px-8 py-[11px] rounded-md text-lg font-medium hover:bg-[#1BD44F]/10 transition-all duration-300">
+        <div className="z-[99999]">
+          <button
+            onClick={openModal}
+            className="mt-10 border border-[#1BD44F] text-[#1BD44F]  font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] px-8 py-[11px] rounded-md text-lg font-medium hover:bg-[#1BD44F]/10 transition-all duration-300"
+          >
             Enroll Now
           </button>
-        </Link>
+        </div>
       </div>
 
       {/* Subtle bottom line */}

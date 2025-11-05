@@ -1,10 +1,11 @@
 // app/components/CareerLaunchpadHero.js
 
 "use client";
-
+import { useModal } from "@/app/context/ModalContext";
 import Link from "next/link";
 
 export default function CareerLaunchpadHero() {
+  const { openModal } = useModal();
   const features = [
     {
       title: "End-to-End DevOps Training",
@@ -55,8 +56,8 @@ export default function CareerLaunchpadHero() {
           Why Choose Parallel
         </span>
         <h1 className="text-white py-6 font-['Graphikthin'] text-5xl sm:text-[64px]">
-          Not Just Tools - Real DevOps <br />
-          Expertise.
+          Not just tools - real DevOps <br />
+          expertise.
         </h1>
         <p className="text-[#E0E0E0] text-[20px] mb-2 max-w-[800px]">
           Go beyond basic tutorials. Master real-world automation, cloud
@@ -92,11 +93,12 @@ export default function CareerLaunchpadHero() {
         </div>
       </div>
       <div className="flex justify-center pt-[56px]">
-        <Link href={"/hire-from-us"}>
-          <button className="group rounded-[8px] font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
-            Join The Next Cohort
-          </button>
-        </Link>
+        <button
+          onClick={openModal}
+          className="group rounded-[8px] font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white"
+        >
+          Join The Next Cohort
+        </button>
       </div>
       {/* <button className="mt-10 bg-transparent border border-[#46F6B7] rounded-lg px-6 py-3 text-[#46F6B7] hover:bg-[#171d20] transition-colors font-medium tracking-wide">
         Join The Next Cohort

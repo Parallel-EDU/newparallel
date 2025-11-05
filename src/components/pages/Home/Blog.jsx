@@ -40,7 +40,7 @@ export default function Blog() {
 }
 
 /* ==== Card ==== */
-function ProjectCard({ color, img, title, desc, link }) {
+function ProjectCard({ color, date, img, title, desc, link }) {
   return (
     <Link
       href={link}
@@ -60,18 +60,23 @@ function ProjectCard({ color, img, title, desc, link }) {
       </div>
       <div className="px5 pt-5 pb6   ">
         <div className="flex items-start justify-start gap-3">
-          <Image
+          {/* <Image
             alt="book-reading--book-reading-learning"
             src="/home/Frame 1000003090.png"
             width={24}
             height={24}
-          />
-          <span>username</span>
+          /> */}
+          <span className="text-[14px] font-['Graphikthin']">{date}</span>
         </div>
         <div className="text-[#E0E0E0] text-[20px] pt-2 mt-2 leading-[1.38]">
           {title}
         </div>
         <div className="text-[#E0E0E0] mt-1 text-[15px]">{desc}</div>
+        <Link href={link} className="flex w-full justify-center pt-2 z-[99999]">
+          <button className="group w-full font-['Graphikmid'] rounded-[8px] border hover:bg-[#30E29D] hover:text-[#292929] border-[#30E29D] px-8 py-[8px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d14]">
+            Read more
+          </button>
+        </Link>
       </div>
     </Link>
   );
@@ -83,14 +88,17 @@ function ProjectCard({ color, img, title, desc, link }) {
 const projects = [
   {
     color: "#EB39C2",
-    img: "/home/Frame 1000003040.png",
+    date: "04/11/2025",
+    img: "/home/Frame 1000003040 copy 2.png",
     title: "Choosing Between Full Stack",
     desc: "",
+
     link: "/blogs/choosing-between-full-stack",
   },
   {
     color: "#2277ea",
-    img: "/home/Frame 1000003040 copy.png",
+    date: "03/11/2025",
+    img: "/home/Frame 1000003040 copy 3.png",
 
     title: "Communication: The Most Underrated ",
     desc: "",
@@ -98,14 +106,17 @@ const projects = [
   },
   {
     color: "#781fe0",
-    img: "/home/Frame 1000003040 (1).png",
+    date: "02/11/2025",
+    img: "/home/Frame 1000003040 copy 4.png",
+
     title: "AI Agents: The Co-Workers You",
     desc: "",
     link: "/blogs/ai-agents-the-Co-Workers-you",
   },
   {
     color: "#DDFB22",
-    img: "/home/Frame 1000003038 (1).png",
+    date: "01/11/2025",
+    img: "/home/Frame 1000003038 (1) copy.png",
     title: "How AWS is Quietly Building",
     desc: "",
     link: "/blogs/how-aws-is-quietly-building",

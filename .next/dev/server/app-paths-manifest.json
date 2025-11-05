@@ -1,7 +1,4 @@
 {
-  "/tech/python/page": "app/tech/python/page.js",
-  "/tech/ai-agents/page": "app/tech/ai-agents/page.js",
-  "/page": "app/page.js",
-  "/tech/javascript/page": "app/tech/javascript/page.js",
-  "/tech/salesforce/page": "app/tech/salesforce/page.js"
+  "/tech/dev-ops/page": "app/tech/dev-ops/page.js",
+  "/page": "app/page.js"
 }

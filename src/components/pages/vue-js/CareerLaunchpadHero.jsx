@@ -1,10 +1,11 @@
 // app/components/CareerLaunchpadHero.js
 
 "use client";
-
+import { useModal } from "@/app/context/ModalContext";
 import Link from "next/link";
 
 export default function CareerLaunchpadHero() {
+  const { openModal } = useModal();
   const features = [
     {
       title: "Hands-On Vue.js Projects",
@@ -93,11 +94,12 @@ export default function CareerLaunchpadHero() {
         </div>
       </div>
       <div className="flex justify-center pt-[56px]">
-        <Link href={"/hire-from-us"}>
-          <button className="group rounded-[8px] hover:bg-[#30E29D] font-['Graphikmid'] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
-            Join The Next Cohort
-          </button>
-        </Link>
+        <button
+          onClick={openModal}
+          className="group rounded-[8px] hover:bg-[#30E29D] font-['Graphikmid'] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white"
+        >
+          Join The Next Cohort
+        </button>
       </div>
       {/* <button className="mt-10 bg-transparent border border-[#46F6B7] rounded-lg px-6 py-3 text-[#46F6B7] hover:bg-[#171d20] transition-colors font-medium tracking-wide">
         Join The Next Cohort

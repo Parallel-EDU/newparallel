@@ -53,7 +53,7 @@ export default function Page() {
           {/* Header Image */}
           <div className="rounded-2xl overflow-hidden mb-10">
             <Image
-              src="/home/Frame 1000003038 (1).png"
+              src="/home/Frame 1000003038 (1) copy.png"
               alt="AWS AI Infrastructure Illustration"
               width={1000}
               height={600}

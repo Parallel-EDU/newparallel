@@ -1,1181 +1,320 @@
-[00:00:06.970] Server  LOG      ✓ Ready in 5.1s
-[00:00:11.363] Server  LOG      ○ Compiling /tech/ai-agents ...
-[00:00:15.690] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
-[00:00:15.690] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
-[00:00:15.732] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
-[00:00:15.732] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
-[00:00:15.733] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[00:00:18.134] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:18.607] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:00:18.607] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:00:18.609] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:00:18.609] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:00:18.609] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:00:18.609] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.609] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.609] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.609] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.610] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:18.611] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:18.611] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:18.612] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:19.448] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:00:19.448] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:00:19.448] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:00:19.448] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:00:19.448] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:19.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:19.448] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:06.064] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:16.212] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
-[00:01:16.212] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
-[00:01:16.212] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
-[00:01:16.212] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:01:16.212] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:16.212] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:16.212] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:16.212] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:16.212] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:16.212] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:16.212] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:16.364] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:16.364] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:16.364] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:16.364] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:19.939] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:19.939] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:19.939] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:19.939] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:19.939] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:44.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:44.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:45.690] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:45.691] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:47.521] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:47.521] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:47.521] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:47.521] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:50.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:50.457] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:50.712] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:50.712] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:50.712] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:50.898] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:50.898] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:50.898] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:01:55.165] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:55.165] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:01:55.165] Browser WARN    GSAP target null not found. https://gsap.com
-[00:01:55.165] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:55.165] Browser WARN    GSAP target  not found. https://gsap.com
-[00:01:55.165] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:04.041] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:04.041] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:04.041] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:04.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:04.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:11.119] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:11.119] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:11.120] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:11.120] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:30.524] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:30.524] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:30.525] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:30.525] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:31.492] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:31.492] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:31.492] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:31.492] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:32.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:32.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:32.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:32.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:35.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:35.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:35.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:35.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:37.469] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:37.471] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:37.474] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:37.474] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:39.457] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:39.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:39.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:39.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:41.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:41.467] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:41.472] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:41.472] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:05.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:03:05.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:05.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:03:05.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:06.108] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:24.038] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:24.039] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:24.039] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:24.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:24.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:46.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:46.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:46.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:46.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:49.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:49.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:49.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:49.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:51.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:51.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:51.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:51.465] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:53.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:53.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:53.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:53.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:55.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:55.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:55.472] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:55.472] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:56.069] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:56.069] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:56.069] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:56.069] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:56.069] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:57.316] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:57.316] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:57.316] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:57.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:57.457] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:27.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:05:27.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:27.468] Browser WARN    GSAP target null not found. https://gsap.com
-[00:05:27.468] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:43.487] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:59.956] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:19.457] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:19.457] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:19.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:19.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:21.454] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:21.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:21.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:21.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:23.497] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:23.504] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:23.506] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:23.506] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:26.468] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:26.471] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:26.474] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:26.474] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:28.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:28.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:28.467] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:28.467] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:30.461] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:30.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:30.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:30.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:33.447] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:33.447] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:33.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:33.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:44.581] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:44.581] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:44.581] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:44.581] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:45.468] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:45.469] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:45.469] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:45.470] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:47.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:47.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:47.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:47.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:50.685] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:50.685] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:50.686] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:50.686] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:51.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:51.453] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:51.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:51.453] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:53.494] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:53.495] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:54.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:54.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:55.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:55.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:55.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:55.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:57.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:57.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:57.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:06:57.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:00.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:00.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:00.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:00.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:14.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:14.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:14.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:14.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:01.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:01.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:01.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:01.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:25.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:25.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:25.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:25.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:27.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:27.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:27.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:27.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:29.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:29.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:29.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:29.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:31.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:31.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:31.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:31.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:34.475] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:34.475] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:34.475] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:34.475] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:35.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:35.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:35.457] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:35.457] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:36.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:36.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:36.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:36.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:39.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:39.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:39.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:39.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:47.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:47.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:47.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:47.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:48.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:48.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:48.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:48.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:50.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:50.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:50.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:50.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:52.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:52.461] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:52.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:52.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:54.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:54.454] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:54.454] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:54.454] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:56.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:56.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:56.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:56.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:59.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:59.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:59.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:59.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:01.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:01.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:01.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:01.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:05.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:05.453] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:05.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:05.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:08.461] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:08.461] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:08.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:08.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:09.571] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:09.579] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:09.590] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:09.590] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:19.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:19.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:19.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:19.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:20.454] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:20.454] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:21.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:21.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:21.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:21.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:21.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:21.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:22.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:22.453] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:22.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:22.453] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:24.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:24.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:24.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:24.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:26.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:26.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:26.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:26.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:53.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:53.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:53.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:53.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:55.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:55.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:55.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:55.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:57.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:57.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:57.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:09:57.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:09.556] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:09.557] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:09.559] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:09.560] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:11.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:11.466] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:11.471] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:11.471] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:13.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:13.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:13.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:13.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:15.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:15.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:15.454] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:15.454] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:17.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:17.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:17.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:17.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:24.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:24.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:24.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:24.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:25.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:25.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:25.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:25.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:27.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:27.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:27.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:27.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:32.457] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:32.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:32.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:32.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:34.472] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:34.472] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:34.472] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:34.472] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:36.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:36.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:36.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:36.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:37.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:37.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:10:37.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:10:37.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:07.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:07.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:07.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:07.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:16.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:16.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:16.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:16.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:17.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:17.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:17.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:17.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:20.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:20.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:20.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:20.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:30.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:30.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:30.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:30.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:32.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:32.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:32.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:32.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:33.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:33.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:33.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:33.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:35.461] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:35.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:35.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:35.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:37.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:37.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:37.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:37.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:40.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:40.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:40.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:40.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:42.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:42.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:42.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:42.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:45.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:45.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:45.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:45.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:55.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:55.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:55.460] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:55.460] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:57.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:57.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:11:57.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:11:57.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:09.648] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:09.649] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:09.667] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:09.668] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:14.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:14.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:14.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:14.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:18.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:18.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:18.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:18.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:32.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:32.465] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:32.471] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:32.472] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:34.471] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:34.471] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:34.471] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:34.471] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:38.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:38.457] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:38.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:38.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:40.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:40.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:40.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:40.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:43.769] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:43.769] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:43.772] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:43.772] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:45.648] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:45.648] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:45.648] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:45.648] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:46.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:46.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:46.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:46.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:48.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:48.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:48.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:48.456] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:59.447] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:59.447] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:59.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:59.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:02.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:02.453] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:02.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:02.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:04.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:04.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:04.467] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:04.467] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:08.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:08.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:08.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:08.465] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:14.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:14.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:14.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:14.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:17.453] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:17.453] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:17.454] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:17.454] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:19.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:19.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:19.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:19.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:21.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:21.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:21.449] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:21.449] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:24.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:24.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:24.448] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:24.448] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:27.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:27.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:27.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:27.465] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:29.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:29.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:29.462] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:29.462] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:32.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:32.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:32.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:32.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:33.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:33.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:33.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:33.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:41.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:41.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:41.455] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:41.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:43.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:43.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:43.454] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:43.455] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:52.456] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:52.459] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:52.460] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:52.460] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:54.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:54.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:54.464] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:54.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:57.459] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:57.464] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:57.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:57.465] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:08.469] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:08.469] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:08.469] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:08.469] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:11.653] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:11.653] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:11.653] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:11.653] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:12.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:12.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:12.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:12.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:14.450] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:14.450] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:14.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:14.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:16.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:16.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:16.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:16.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.350] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.352] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.353] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:18.354] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.481] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:48.482] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:48.482] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:48.482] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:48.482] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:48.482] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:40.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:40.827] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:16:40.827] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:16:40.827] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:16:40.827] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:16:40.827] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:40.827] Browser WARN    GSAP target null not found. https://gsap.com
-[00:16:40.827] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:40.827] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:43.160] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:16:43.491] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:16:43.491] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:16:43.492] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:16:43.492] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:16:43.492] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:16:43.492] Browser WARN    GSAP target null not found. https://gsap.com
-[00:16:43.492] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:59.778] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:07.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:07.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:08.458] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:08.458] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:12.851] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:12.852] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:12.852] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:12.852] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:14.508] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:14.508] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:14.508] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:14.508] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:15.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:15.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:15.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:15.465] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:29.274] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:29.275] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:29.275] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:29.275] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:35.460] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:35.461] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:36.210] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:36.210] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:17:36.210] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:17:36.210] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:17:36.210] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:17:36.210] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:36.210] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:36.210] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:36.210] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:37.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:17:38.494] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:17:38.495] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:17:38.495] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:17:38.495] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:17:38.495] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:17:38.495] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.495] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.495] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.495] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.496] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.496] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.496] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.496] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.496] Browser WARN    GSAP target null not found. https://gsap.com
-[00:17:38.496] Browser WARN    GSAP target  not found. https://gsap.com
-[00:17:38.496] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.496] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:38.496] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.535] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.535] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.535] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.535] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.862] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.862] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.862] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:17:49.862] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:18:26.799] Browser WARN    GSAP target null not found. https://gsap.com
-[00:18:26.799] Browser WARN    GSAP target  not found. https://gsap.com
-[00:18:26.799] Browser WARN    GSAP target  not found. https://gsap.com
-[00:18:27.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:18:27.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:18:52.939] Browser WARN    GSAP target  not found. https://gsap.com
-[00:18:52.939] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:11.715] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:11.715] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:11.715] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:11.715] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:12.190] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:12.190] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:12.191] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:12.191] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:12.471] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:12.471] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:19.285] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:19.285] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:19.650] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:19.922] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:19:19.922] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:19:19.922] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:19:19.922] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:19:19.922] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.922] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.936] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.936] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.936] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:19.936] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:19.936] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:19.936] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:19.936] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:19.936] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:20.223] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:20.670] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:20.670] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:20.670] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:21.502] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:22.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:19:22.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:19:22.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:19:22.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:19:22.464] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:19:22.464] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:19:22.465] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:22.465] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:34.621] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:47.451] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:47.451] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:47.452] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:47.452] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:48.635] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:48.635] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:48.635] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:48.635] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.472] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:49.476] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.476] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:49.476] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.492] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:49.492] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.492] Browser WARN    GSAP target null not found. https://gsap.com
-[00:19:49.492] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.699] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.700] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.700] Browser WARN    GSAP target  not found. https://gsap.com
-[00:19:49.700] Browser WARN    GSAP target  not found. https://gsap.com
-[00:20:02.659] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:02.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:02.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:02.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:02.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:08.637] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:08.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:20:08.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:20:08.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:20:08.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:20:08.852] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:08.852] Browser WARN    GSAP target null not found. https://gsap.com
-[00:20:08.852] Browser WARN    GSAP target  not found. https://gsap.com
-[00:20:08.852] Browser WARN    GSAP target  not found. https://gsap.com
-[00:20:09.404] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:10.453] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:20:10.453] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:20:10.454] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:20:10.454] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:20:10.454] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:20:10.454] Browser WARN    GSAP target null not found. https://gsap.com
-[00:20:10.454] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:03.550] Server  LOG      ✓ Ready in 3.3s
+[00:00:03.559] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:03.559] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:06.642] Server  LOG      ○ Compiling / ...
+[00:00:07.746] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
+[00:00:07.746] Server  ERROR   Invalid DOM property `fill-opacity`. Did you mean `fillOpacity`?
+[00:00:07.746] Server  ERROR   Invalid DOM property `color-interpolation-filters`. Did you mean `colorInterpolationFilters`?
+[00:00:07.746] Server  ERROR   Invalid DOM property `flood-opacity`. Did you mean `floodOpacity`?
+[00:00:07.747] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:00:07.765] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[00:00:07.766] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+[00:00:07.774] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:00:07.775] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:00:10.223] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:10.649] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:10.649] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.js">
+              <SegmentTrieNode>
+              <newHome>
+                <div>
+                  <Hero>
+                  <div>
+                  <Bootcamps>
+                  <div>
+                  <div>
+                  <StudentProjects>
+                  <HeroSection>
+                  <Blog>
+                    <section className="relative o...">
+                      <div>
+                      <div className="relative m...">
+                        <h1>
+                        <div className="grid mt-10...">
+                          <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." ...>
+                            <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+>                             <a
+>                               className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group..."
+>                               ref={function}
+>                               onClick={function onClick}
+>                               onMouseEnter={function onMouseEnter}
+>                               onTouchStart={function onTouchStart}
+>                               href="/blogs/choosing-between-full-stack"
+>                             >
+                                <div>
+                                <div className={"px5 pt-5..."}>
+                                  <div>
+                                  <div>
+                                  <div>
+                                  <LinkComponent href="/blogs/cho..." className="flex w-ful...">
+>                                   <a
+>                                     className="flex w-full justify-center pt-2 z-[99999]"
+>                                     ref={function}
+>                                     onClick={function onClick}
+>                                     onMouseEnter={function onMouseEnter}
+>                                     onTouchStart={function onTouchStart}
+>                                     href="/blogs/choosing-between-full-stack"
+>                                   >
+                          ...
+                        ...
+            ...
+          ...
+
+[00:00:10.649] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:10.649] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.js">
+            <SegmentTrieNode>
+            <newHome>
+              <div>
+                <Hero>
+                <div>
+                <Bootcamps>
+                <div>
+                <div>
+                <StudentProjects>
+                <HeroSection>
+                <Blog>
+                  <section className="relative o...">
+                    <div>
+                    <div className="relative m...">
+                      <h1>
+                      <div className="grid mt-10...">
+                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+                            <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
+                              <div>
++                             <div className={"px5 pt-5 pb6   "}>
+                        ...
+                      ...
+          ...
+        ...
+
+[00:00:10.649] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.649] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.649] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.649] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.649] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.649] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.649] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:10.649] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:10.649] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.649] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:10.649] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.649] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.649] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:14.202] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:16.549] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:16.549] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.js">
+              <SegmentTrieNode>
+              <newHome>
+                <div>
+                  <Hero>
+                  <div>
+                  <Bootcamps>
+                  <div>
+                  <div>
+                  <StudentProjects>
+                  <HeroSection>
+                  <Blog>
+                    <section className="relative o...">
+                      <div>
+                      <div className="relative m...">
+                        <h1>
+                        <div className="grid mt-10...">
+                          <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." ...>
+                            <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+>                             <a
+>                               className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group..."
+>                               ref={function}
+>                               onClick={function onClick}
+>                               onMouseEnter={function onMouseEnter}
+>                               onTouchStart={function onTouchStart}
+>                               href="/blogs/choosing-between-full-stack"
+>                             >
+                                <div>
+                                <div className={"px5 pt-5..."}>
+                                  <div>
+                                  <div>
+                                  <div>
+                                  <LinkComponent href="/blogs/cho..." className="flex w-ful...">
+>                                   <a
+>                                     className="flex w-full justify-center pt-2 z-[99999]"
+>                                     ref={function}
+>                                     onClick={function onClick}
+>                                     onMouseEnter={function onMouseEnter}
+>                                     onTouchStart={function onTouchStart}
+>                                     href="/blogs/choosing-between-full-stack"
+>                                   >
+                          ...
+                        ...
+            ...
+          ...
+
+[00:00:16.549] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:16.549] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="page.js">
+            <SegmentTrieNode>
+            <newHome>
+              <div>
+                <Hero>
+                <div>
+                <Bootcamps>
+                <div>
+                <div>
+                <StudentProjects>
+                <HeroSection>
+                <Blog>
+                  <section className="relative o...">
+                    <div>
+                    <div className="relative m...">
+                      <h1>
+                      <div className="grid mt-10...">
+                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+                            <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
+                              <div>
++                             <div className={"px5 pt-5 pb6   "}>
+                        ...
+                      ...
+          ...
+        ...
+
+[00:00:16.549] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.549] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.549] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.549] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.549] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:16.549] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:16.549] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:16.549] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:16.549] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:16.549] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:16.549] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.549] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:16.549] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:47.637] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:47.637] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:49.479] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:49.479] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:57.485] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:57.485] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.862] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.862] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.862] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:03.480] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:03.480] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:03.480] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:03.480] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:03.480] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:03.480] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:10.758] Browser WARN    Image with src "http://localhost:3000/home/Frame%201000003247.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:25.038] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:25.038] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.038] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.046] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.047] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.047] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:25.047] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:25.047] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:25.047] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:25.047] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:25.047] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.047] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.047] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.047] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.177] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.177] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.177] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:25.177] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

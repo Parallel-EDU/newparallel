@@ -9,6 +9,7 @@ import { Linear, gsap } from "gsap";
 import axios from "axios";
 import Head from "next/head";
 import StatsBar from "../StatsBar";
+import { useModal } from "@/app/context/ModalContext";
 
 const Hero = () => {
   const clientanimation = useRef(null);
@@ -55,6 +56,9 @@ const Hero = () => {
       }
     }
   };
+
+  const { openModal } = useModal();
+
   return (
     <>
       <div className="overflowhidden">
@@ -85,11 +89,14 @@ const Hero = () => {
                 hands-on projects, expert mentorship, and real placement
                 support.
               </p>
-              <Link href="/signup">
-                <button className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
-                  Enroll Now
-                </button>
-              </Link>
+              {/* <Link href="/signup"> */}
+              <button
+                onClick={openModal}
+                className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
+              >
+                Enroll Now
+              </button>
+              {/* </Link> */}
             </div>
 
             <StatsBar />
@@ -237,14 +244,16 @@ const Hero = () => {
                   <ul>
                     <li
                       onClick={() =>
-                        handleOptionSelect("Student enrolled in college")
+                        handleOptionSelect("Job Bootcamp Programs")
                       }
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
                       Job Bootcamp Programs
                     </li>
                     <li
-                      onClick={() => handleOptionSelect("Passed out student")}
+                      onClick={() =>
+                        handleOptionSelect("Certification Programs")
+                      }
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black py-[16px] text-[17.95px] border-[1px] border-b-[#00000033] leading-[21.54px]"
                     >
                       Certification Programs

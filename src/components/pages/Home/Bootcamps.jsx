@@ -99,7 +99,7 @@ function CourseCard({ art, title, bullets, cta, link }) {
         }}
       /> */}
       <div
-        className="rounded-[14px] flex justify-between flex-col border h-[640px] max-lg:h-full border-[#7878784D] bg-[#0A0F16]/70 backdrop-blur-[2px] overflow-hidden"
+        className="rounded-[14px] flex justify-between flex-col border h-[640px] max-xl:h-full border-[#7878784D] bg-[#0A0F16]/70 backdrop-blur-[2px] overflow-hidden"
         // style={{
         //   boxShadow:
         //     "0 10px 30px rgba(0,0,0,0.45), inset 0 0 0 1px rgba(255,255,255,0.04)",

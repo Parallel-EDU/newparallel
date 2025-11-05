@@ -8,6 +8,7 @@ import { Linear, gsap } from "gsap";
 import axios from "axios";
 import Head from "next/head";
 import StatsBar from "../Home/StatsBar";
+import { useModal } from "@/app/context/ModalContext";
 // import StatsBar from "../StatsBar";
 
 const HeroBoot = () => {
@@ -56,6 +57,8 @@ const HeroBoot = () => {
     }
   };
 
+  const { openModal } = useModal();
+
   const items = [
     {
       big: "1800+",
@@ -98,8 +101,8 @@ const HeroBoot = () => {
             <div className="relative z-30 w-full">
               <h1 className="w-[685.41px] widescreen:w-full text-[56.07px] widescreen:text-[84px] widestscreen:text-[94px] widescreen:leading-[100px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[65.73px] text-[#E5E5E5] font-['Graphikmedium'] font-light mb-[20px]">
                 Master Tableau
-                <span className="font-['system-ui'] font-[100]">& </span> Launch
-                Your Career in Data Visualization
+                <span className="font-['system-ui'] font-[100]"> & </span>{" "}
+                launch your career in Data Visualization
                 {/* <span className="font-['Graphik'] font-semibold">
                   {" "}
                   an affordable price.
@@ -111,11 +114,12 @@ const HeroBoot = () => {
                 real-world Tableau projects, get 100% internship opportunities,
                 and earn an industry-recognized certification.
               </p>
-              <Link href="/signup">
-                <button className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
-                  Enroll Now
-                </button>
-              </Link>
+              <button
+                onClick={openModal}
+                className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
+              >
+                Enroll Now
+              </button>
             </div>
 
             <div className="max-w-[562px]">

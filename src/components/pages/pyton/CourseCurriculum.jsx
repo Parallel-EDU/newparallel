@@ -1,5 +1,6 @@
 "use client";
 
+import { useModal } from "@/app/context/ModalContext";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
@@ -62,6 +63,7 @@ const technologies = [
 ];
 
 export default function CourseCurriculum() {
+  const { openModal } = useModal();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
@@ -84,7 +86,7 @@ export default function CourseCurriculum() {
             {modules.map((module) => (
               <div
                 key={module.id}
-                className="flex items-start gap-6 md:gap-8 mb-8 md:mb-12 lg:mb-[20px] max-lg:flex-col"
+                className="flex items-start gap-6 md:gap-8 mb-0 md:mb-12 lg:mb-[20px] max-lg:flex-col"
               >
                 {/* Left: Module Name */}
                 <div className="w-24 md:w-24 flex-shrink-0 pt-8">
@@ -167,7 +169,10 @@ export default function CourseCurriculum() {
 
         {/* CTA Button */}
         <div className="flex justify-center mt-12 md:mt-[56px]">
-          <button className="px-8 md:px-10 py-3 md:py-4 border border-green-500 text-green-500 rounded-lg font-semibold hover:bg-green-500 hover:text-black transition-all text-sm md:text-base">
+          <button
+            onClick={openModal}
+            className="px-8 md:px-10 py-3 md:py-4 border border-[#30E29D] text-[#30E29D] rounded-lg font-semibold hover:bg-[#30E29D] hover:text-black transition-all text-sm md:text-base"
+          >
             Join The Next Cohort
           </button>
         </div>

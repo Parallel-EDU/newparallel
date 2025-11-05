@@ -1,5 +1,7 @@
 // app/components/PlacementSupport.jsx (Next.js 13+)
 // or /components/PlacementSupport.jsx for pages router
+"use client";
+import { useModal } from "@/app/context/ModalContext";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -34,6 +36,7 @@ const features = [
 ];
 
 export default function PlacementSupport() {
+  const { openModal } = useModal();
   return (
     <section className="w-full bg-black text-white">
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
@@ -89,11 +92,12 @@ export default function PlacementSupport() {
         {/* CTA */}
 
         <div className="mt-[75px] flex justify-center">
-          <Link href={"/hire-from-us"}>
-            <button className="group rounded-[8px] font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white">
-              Join The&nbsp;&nbsp;Next Cohort
-            </button>
-          </Link>
+          <button
+            onClick={openModal}
+            className="group rounded-[8px] font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-7 py-[12px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d10] hoveext-white"
+          >
+            Join The&nbsp;&nbsp;Next Cohort
+          </button>
         </div>
       </div>
     </section>

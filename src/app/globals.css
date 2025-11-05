@@ -229,3 +229,37 @@ input::placeholder {
   /* mix-blend-mode: color-dodge; */
   z-index: 2;
 }
+
+@media only screen and (min-width: 1920px) and (max-width: 3000px) {
+  .hiring-bg {
+    content: "";
+    background-image: url("/home/Rectangle 29 (2).png");
+    /* background: linear-gradient(156.63deg, #201da7 8.68%, #30e29d 84.91%); */
+    /* background: linear-gradient(
+    180deg,
+    rgba(48, 226, 157, 0.7) 0%,
+    rgba(43, 71, 195, 0.7) 100%
+  ); */
+    background-position: 50% 90%;
+  }
+  .price-bg::before {
+    background-position: 50% 90%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1025px) {
+  .hiring-bg {
+    content: "";
+    background-image: url("/home/Rectangle 29 (2).png");
+    /* background: linear-gradient(156.63deg, #201da7 8.68%, #30e29d 84.91%); */
+    /* background: linear-gradient(
+    180deg,
+    rgba(48, 226, 157, 0.7) 0%,
+    rgba(43, 71, 195, 0.7) 100%
+  ); */
+    background-position: 50% 90%;
+  }
+  .price-bg::before {
+    background-position: 50% 90%;
+  }
+}

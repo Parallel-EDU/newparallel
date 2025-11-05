@@ -1,5 +1,7 @@
 // app/components/PlansPricing.jsx  (Next.js 13+)
 // or components/PlansPricing.jsx for pages router
+"use client";
+import { useModal } from "@/app/context/ModalContext";
 import Link from "next/link";
 import React from "react";
 
@@ -38,6 +40,7 @@ function CheckIcon() {
 }
 
 export default function PlansPricing() {
+  const { openModal } = useModal();
   return (
     <section className="relative w-full overflow-hidden price-bg z-[999] relaive">
       {/* radial dark gradient background */}
@@ -103,13 +106,12 @@ export default function PlansPricing() {
                     </div>
                   </div>
 
-                  <Link
-                    href="/signup"
+                  <div
+                    onClick={openModal}
                     className="rounded-lg w-full block text-center font-['Graphikmid'] border mt-10 border-emerald-500/60 px-5 py-4 text-[#30E29D]  text-[16px]  transition hover:bg-[#30E29D] hover:text-[#292929] border-[#30E29D]"
-                    type="button"
                   >
                     {p.cta}
-                  </Link>
+                  </div>
                 </div>
               </div>
             </div>
