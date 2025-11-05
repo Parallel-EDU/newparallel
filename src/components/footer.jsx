@@ -23,7 +23,7 @@ export default function Footer() {
       </div>
 
       {/* </div> */}
-      <div className="flex justify-start gap-10 max-sm:flex-col max-hamburger:gap-[50px] z-20">
+      <div className="flex justify-start gap-10 max-sm:flex-col max-hamburger:gap-[50px] z-20 widescreen:justify-between">
         <div className=" w-[390px] widescreen:w-[700px] max-sm:w-full flex-wrap gap-x-[27px] gap-y-[41.34px]">
           <div className="w-[210px] widescreen:w-[40%] widestscreen:w-[50%]">
             <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
@@ -273,7 +273,7 @@ export default function Footer() {
             <h1 className="text-[#E5E5E5] opacity-80 max-smallphone:mb-[10px] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
               Certification Programs
             </h1>
-            <div className="flex mt-[16px]">
+            <div className="flex mt-[16px] widescreen:gap-10">
               <div className="w-[197.73px] flex flex-col">
                 <Link
                   href={"/tech/javascript"}
@@ -386,6 +386,7 @@ export default function Footer() {
         viewBox="0 0 1287 240"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
+        className="widescreen:w-full"
       >
         <g clip-path="url(#clip0_3361_9293)">
           <path

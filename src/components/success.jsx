@@ -91,10 +91,10 @@ export default function Success() {
                 alt="Ravi Teja"
               />
               <div>
-                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
-                  Ravi Teja
+                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[40px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
+                  Palash A Ranvir
                 </h1>
-                <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[120%] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
+                <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
                   Placed on 30th May 2024{" "}
                 </h2>
                 {/* <Image
@@ -105,7 +105,7 @@ export default function Success() {
                 /> */}
               </div>
             </div>
-            <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
+            <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[20px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
               I cannot believe I got placed in 4 months. I was finding a job for
               almost 1 year.
             </p>
@@ -127,10 +127,10 @@ export default function Success() {
                 alt="Ravi Teja"
               />
               <div>
-                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
-                  Kruthi R
+                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[40px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
+                  Meenal Botadkar
                 </h1>
-                <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[120%] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
+                <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
                   Placed on 30th May 2024{" "}
                 </h2>
                 {/* <Image
@@ -141,7 +141,7 @@ export default function Success() {
                 /> */}
               </div>
             </div>
-            <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
+            <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[20px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
               The fees you take is completely worth it. Your schedule is packed
               with so many things to learn. Career development along with full
               stack is great! I don’t have to go begging for jobs now.
@@ -164,10 +164,10 @@ export default function Success() {
                 alt="Ravi Teja"
               />
               <div>
-                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
-                  Surya Narayan
+                <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[20px] widescreen:leading-[120%] widescreen:text-[40px]   max-sm:text-[24px] max-sm:leading-[120%] leading-[40.32px] tracking-[-0.98px] text-[#E5E5E5] font-['Graphikthin']">
+                  Sanket Tiwade
                 </h1>
-                <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[120%] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
+                <h2 className="text-[#A1A1A1] text-[20px] widescreen:text-[16px] widestscreen:text-[16px] widescreen:leading-[120%] max-sm:text-base   widescreen:leading-[150%] leading-[24px] font-['Graphikthin'] font-normal opacity-60 mt-[6px] max-sm:mt-[3px] max-sm:mb-[12px]">
                   Placed on 30th May 2024{" "}
                 </h2>
                 {/* <Image
@@ -178,7 +178,7 @@ export default function Success() {
                 /> */}
               </div>
             </div>
-            <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
+            <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[20px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
               A completely hands-on approach. I even got to work on a REAL
               project as a part of their QUICK BATCH program.
             </p>

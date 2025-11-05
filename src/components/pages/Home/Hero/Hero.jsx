@@ -73,7 +73,7 @@ const Hero = () => {
         <main className="px-20 z-50 relative max-md:px-10 max-sm:px-5 max-md:pt-[50px] max-sm:pb-0 max-sm:pt-[30px] flex justify-between max-hamburger:items-center max-smalllaptop:gap-5 max-hamburger:flex-col pb-[29.5px] pt-[76.5px]">
           <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%]">
             <div className="relative z-30 w-full">
-              <h1 className="w-[685.41px] widescreen:w-full text-[74.07px] widescreen:text-[84px] widestscreen:text-[94px] font-medium max-hamburger:w-full max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-3 max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[80.73px] text-[#E5E5E5] font-['Graphikmedium'] mb-5">
+              <h1 className="w-[685.41px] widescreen:w-full text-[74.07px] widescreen:text-[84px] widescreen:leading-[100px] widestscreen:text-[94px] font-medium max-hamburger:w-full max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-3 max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[80.73px] text-[#E5E5E5] font-['Graphikmedium'] mb-5">
                 Upskill and get placed at
                 <span className="font-['Graphik'] font-semibold">
                   {" "}
@@ -86,7 +86,7 @@ const Hero = () => {
                 support.
               </p>
               <Link href="/signup">
-                <button className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
+                <button className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
                   Enroll Now
                 </button>
               </Link>
@@ -241,21 +241,13 @@ const Hero = () => {
                       }
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
-                      Student enrolled in college{" "}
+                      Job Bootcamp Programs
                     </li>
                     <li
                       onClick={() => handleOptionSelect("Passed out student")}
                       className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black py-[16px] text-[17.95px] border-[1px] border-b-[#00000033] leading-[21.54px]"
                     >
-                      Passed out student{" "}
-                    </li>
-                    <li
-                      onClick={() =>
-                        handleOptionSelect("College Representative")
-                      }
-                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
-                    >
-                      Student pursuing education
+                      Certification Programs
                     </li>
                   </ul>
                 </div>
@@ -265,7 +257,7 @@ const Hero = () => {
               onClick={handleSubmit}
               className="w-full h-[53px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border-[#30E29D] hover:bg-[#30E29D] hover:text-[#292929] transition-all border-[1px] rounded-[8px] font-semibold text-[#30E29D] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]"
             >
-              Talk To Our Experts
+              Enroll Now
             </button>
             {filled === "done" && (
               <div className="flex items-center justify-center gap-[12.87px] absolute w-[299px] z-30 max-sm:w-full max-sm:static h-[75px] bg-[white] rounded-[9px] bottom-0 left-[-347px]">

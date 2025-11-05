@@ -11,7 +11,7 @@ export default function Bootcamps() {
     <section className="relative overflow-hidden">
       {/* Background wash at 292.01deg */}
 
-      <div className="relative mx-auto max-w-[1300px] px-4 sm:px-6 pt-10 sm:pt-14 pb-16">
+      <div className="relative mx-auto max-w-[1300px] px-4 sm:px-6 pt-10 sm:pt-0 pb-16">
         {/* Breadcrumb */}
         <p className="text-[16px] text-[#B9C7D6] font-['Graphikthin']">
           Our courses -{" "}
