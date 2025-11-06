@@ -8,10 +8,10 @@ const accent = { color: "#22E19D" }; // color for “Job bootcamp programs”
 
 export default function Bootcamps() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden ">
       {/* Background wash at 292.01deg */}
 
-      <div className="relative mx-auto max-w-[1300px] px-4 sm:px-6 pt-10 sm:pt-0 pb-16">
+      <div className="relative mx-auto max-w-[1300px] px-4 smpx-6 pt-10 sm:pt-0 pb-16 max-xl:p-5 max-lg:p-10 max-md:p-4">
         {/* Breadcrumb */}
         <p className="text-[16px] text-[#B9C7D6] font-['Graphikthin']">
           Our courses -{" "}
@@ -29,7 +29,7 @@ export default function Bootcamps() {
         </p>
 
         {/* Heading */}
-        <h2 className="mt-6 text-[#E5E5E5] font-['Graphikthin'] font-[300] fontmedium tracking-[-0.02em] leading-[1.05] text-[44px] sm:text-[58px] md:text-[68px]">
+        <h2 className="mt-6 text-[#E5E5E5] font-['Graphikthin'] font-[300] fontmedium tracking-[-0.02em] leading-[1.05] text-[44px] max-sm:text-[32px] md:text-[68px]">
           Bootcamps that get you hired
         </h2>
 

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HiringPartners() {
   return (
-    <section className="relative overflow-hidden pt-40 pb-16">
+    <section className="relative overflow-hidden pt-40 pb-16 max-lg:pt-20">
       {/* Background radial glow at bottom */}
       {/* <div
         className="pointer-events-none absolute inset-0"
@@ -16,7 +16,7 @@ export default function HiringPartners() {
         }}
       /> */}
 
-      <div className="relative mx-auto max-w-[1280px] px-4 sm:px-8">
+      <div className="relative mx-auto max-w-[1280px] px-4 max-xl:p-10 max-md:p-4 smpx-8">
         {/* Breadcrumb */}
         <span
           style={{
@@ -32,9 +32,9 @@ export default function HiringPartners() {
         </span>
 
         {/* Heading */}
-        <h1 className="text-[#E5E5E5] font-['Graphikthin'] mt-6  tracking-[-0.018em] leading-[1.04] text-[40px] sm:text-[64px] mb-2">
+        <h1 className="text-[#E5E5E5] font-['Graphikthin'] max-sm:text-[32px] mt-6  tracking-[-0.018em] leading-[1.04] text-[64px]  mb-2">
           Our graduates don’t just learn
-          <br />- they get hired.
+          <br className="max-lg:hidden" />- they get hired.
         </h1>
 
         {/* Subhead */}

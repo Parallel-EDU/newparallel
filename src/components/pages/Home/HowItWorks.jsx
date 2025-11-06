@@ -16,9 +16,9 @@ export default function HowItWorks() {
         }}
       />
 
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-6">
+      <div className="relative mx-auto max-w-7xl px-4 smpx-6 max-xl:p-10 max-md:p-4 ">
         {/* Heading */}
-        <h2 className="text-white/96 text-[#E5E5E5] font-['Graphikthin'] font-normal tracking-[-0.01em] text-center text-[64px] sm:text-[64px]">
+        <h2 className="text-white/96 text-[#E5E5E5] font-['Graphikthin'] font-normal tracking-[-0.01em] text-center text-[64px] max-sm:text-[32px]">
           How Parallel gets you hired
         </h2>
         <div className="text-[#C2CBD6] text-center text-[16px] sm:text-[17px] mt-6 mb-10">

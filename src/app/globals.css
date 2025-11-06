@@ -43,8 +43,7 @@ input[type="radio"]:checked {
   width: 100%;
   height: 100%;
   background-size: 78%;
-
-  background-image: url("/home/Rectangle\ 9.svg");
+  background-image: url("/home/Rectangle\ 9.png");
   background-repeat: no-repeat;
   z-index: -1;
 
@@ -230,6 +229,12 @@ input::placeholder {
   z-index: 2;
 }
 
+@media only screen and (min-width: 1500px) and (max-width: 5000px) {
+  body {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+}
 @media only screen and (min-width: 1920px) and (max-width: 3000px) {
   .hiring-bg {
     content: "";

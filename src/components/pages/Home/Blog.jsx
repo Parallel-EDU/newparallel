@@ -6,11 +6,11 @@ import Link from "next/link";
 
 export default function Blog() {
   return (
-    <section className="relative overflow-hidden pt-10 pb-20">
+    <section className="relative overflow-hidden pt-10 pb-0 ">
       <div className="absolute w-[100%] h-[822px] z[1] top-0 left-0 overflow-hidden">
         <div className={`${style.backgroundbox22223}`}></div>
       </div>
-      <div className="relative mx-auto max-w-7xl px-4 sm:px-8   z-[99999]">
+      <div className="relative mx-auto max-w-7xl px-4 spx-8  max-xl:p-10  max-md:p-4 z-[99999]">
         {/* Heading */}
         <h1 className="text-white/95 font-['Graphikthin'] font-medium tracking-[-0.018em] leading-[1.08] text-[42px] sm:text-[64px] mb-3">
           Blogs{" "}
@@ -68,7 +68,7 @@ function ProjectCard({ color, date, img, title, desc, link }) {
           /> */}
           <span className="text-[14px] font-['Graphikthin']">{date}</span>
         </div>
-        <div className="text-[#E0E0E0] text-[20px] pt-2 mt-2 leading-[1.38]">
+        <div className="text-[#E0E0E0] text-[20px] pt-2 mt-2 leading-[1.38] max-xl:text-[16px]">
           {title}
         </div>
         <div className="text-[#E0E0E0] mt-1 text-[15px]">{desc}</div>

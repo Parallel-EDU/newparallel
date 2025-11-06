@@ -8,11 +8,11 @@ import Link from "next/link";
 
 export default function StudentProjects() {
   return (
-    <section className="relative overflow-hidden pt-10 pb-20">
+    <section className="relative overflow-hidden pt-10 pb-20 ">
       <div className="absolute w-[100%] h-[822px] top-0 left-0  overflow-hidden">
         <div className={`${style.backgroundbox2222}`}></div>
       </div>
-      <div className="relative mx-auto max-w-[1280px] px-4 sm:px-8 z-[9999]">
+      <div className="relative mx-auto max-w-[1280px] px-4 smpx-8 z-[9999] max-xl:p-10 max-md:p-4">
         {/* Heading */}
         <h1 className="text-[#E5E5E5] font- font-['Graphikthin'] tracking-[-0.018em] leading-[1.08] text-[42px] sm:text-[64px]  6">
           See what our students build

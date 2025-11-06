@@ -43,7 +43,7 @@ export default function Success() {
     };
   });
   return (
-    <div className="overflow-x-hidden w-full py-20 max-xl:px-10">
+    <div className="overflow-x-hidden w-full py-20 max-xl:px-10 max-md:p-4 ">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-2">
         <span
           style={{
@@ -59,9 +59,9 @@ export default function Success() {
         </span>
 
         {/* Heading */}
-        <h1 className="text-[#E5E5E5] font-['Graphikthin'] mt-5  tracking-[-0.018em] leading-[1.04] text-[40px] sm:text-[64px] mb-2">
+        <h1 className="text-[#E5E5E5] font-['Graphikthin'] mt-5  tracking-[-0.018em] leading-[1.04] text-[32px] sm:text-[64px] mb-2">
           People benefitting from
-          <br />
+          <br className="max-lg:hidden" />
           our new age method of learning.
         </h1>
 
@@ -74,7 +74,7 @@ export default function Success() {
       </div>
       <div
         // ref={successanimation}
-        className="flex gap-[20px] max-xpx-10 max-w-7xl mx-auto mt-20 ml20 max-sm:ml-[25px] max-lg:flex-col max-lg:items-center  w[5880px] widescreen:w-[7000px]"
+        className="flex gap-[20px] max-xpx-10 max-w-7xl mx-auto mt-20 ml20 max-sm:ml-[0px] max-lg:flex-col max-lg:items-center  w[5880px] widescreen:w-[7000px]"
       >
         <div
           className={`${style.container} w-[468px] max-sm:w-[320px] widescreen:w-[600px]`}

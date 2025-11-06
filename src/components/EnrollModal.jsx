@@ -22,6 +22,11 @@ export default function EnrollModal() {
     setIsOpen(!isOpenn);
   };
 
+  const handleClose = () => {
+    closeModal(); // from context
+    setIsOpen(false); // your local state
+  };
+
   const handleOptionSelect = (option) => {
     setRole(option);
     setIsOpen(false);
@@ -61,7 +66,8 @@ export default function EnrollModal() {
       <div className="relative h-[695px] widescreen:h-auto max-md:overflow-scroll mt-10 max-md:mt-0 bg-[#000] text-white rounded-2xl p-10 w-full max-w-[1100px] mx-4 shadow-xl border border-white/10">
         {/* Close Icon */}
         <button
-          onClick={closeModal}
+          // onClick={closeModal}
+          onClick={handleClose}
           className="absolute top-5 right-5 text-gray-400 hover:text-white transition"
         >
           <X size={24} />
@@ -243,7 +249,7 @@ export default function EnrollModal() {
                       onClick={() =>
                         handleOptionSelect("Student - Enrolled in College")
                       }
-                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
+                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w[368px] cursor-pointer text-black border-[1px] border-b-[#00000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
                       Student - Enrolled in College
                     </li>
@@ -251,7 +257,7 @@ export default function EnrollModal() {
                       onClick={() =>
                         handleOptionSelect("Student - Final Year College")
                       }
-                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black py-[16px] text-[17.95px] border-[1px] border-b-[#00000033] leading-[21.54px]"
+                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w[368px] cursor-pointer text-black py-[16px] text-[17.95px] border-[1px] border-b-[#00000033] leading-[21.54px]"
                     >
                       Student - Final Year College
                     </li>
@@ -259,7 +265,7 @@ export default function EnrollModal() {
                       onClick={() =>
                         handleOptionSelect("Passed Out - Looking for a Job")
                       }
-                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
+                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
                       Passed Out - Looking for a Job
                     </li>
@@ -267,7 +273,7 @@ export default function EnrollModal() {
                       onClick={() =>
                         handleOptionSelect("Working - Technical Job")
                       }
-                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
+                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
                       Working - Technical Job
                     </li>
@@ -275,7 +281,7 @@ export default function EnrollModal() {
                       onClick={() =>
                         handleOptionSelect("Working - Non Technical Job")
                       }
-                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w-[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
+                      className="pl-[17.91px] max-sm:px-[10px] max-sm:text-base widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[150%] max-sm:w-full w[368px] cursor-pointer text-black border-[1px] border-b-[#0000033] py-[16px] text-[17.95px] leading-[21.54px]"
                     >
                       Working - Non Technical Job
                     </li>

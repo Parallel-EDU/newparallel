@@ -56,7 +56,7 @@ export default function CareerLaunchpadHero() {
         <span
           style={{
             background:
-              "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
+              "linear-gradient(90deg,  #30E29D   30%, #201DA7 147.01%)",
             WebkitBackgroundClip: "text",
             WebkitTextFillColor: "transparent",
             backgroundClip: "text",

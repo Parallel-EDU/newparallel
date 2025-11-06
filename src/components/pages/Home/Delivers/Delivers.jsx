@@ -6,7 +6,7 @@ import Link from "next/link";
 const Delivers = () => {
   return (
     <>
-      <div className="pt-[102.57px] d-sec relative max-sm:py-[32px] max-sm:px-[20px] max-md:px-[40px] relative pb-[50.43px] pl-[80px] pr-[79px]">
+      <div className="pt-[102.57px] d-sec max-xl:p-10 max-md:p-4 relative max-sm:py-[32px] max-sm:px-[16`px] max-md:px-[40px] relative pb-[50.43px] pl-[80px] pr-[79px]">
         {/* <div
           className="absolute w-[50%] left-10 rounded-full"
           style={{

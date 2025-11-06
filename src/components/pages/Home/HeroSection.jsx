@@ -8,7 +8,7 @@ export default function HeroSection() {
   const { openModal } = useModal();
   return (
     <section
-      className="relative flex flex-col items-center justify-center text-center min-h-[650px] px-6 overflow-hidden"
+      className="relative flex flex-col items-center justify-center text-center min-h-[550px] px-6 overflow-hidden"
       style={{
         background: `
           linear-gradient(
@@ -51,7 +51,7 @@ export default function HeroSection() {
         <div className="z-[99999]">
           <button
             onClick={openModal}
-            className="mt-10 border border-[#1BD44F] text-[#1BD44F]  font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] px-8 py-[11px] rounded-md text-lg font-medium hover:bg-[#1BD44F]/10 transition-all duration-300"
+            className="mt-10 border border-[#30E29D] text-[#30E29D]  font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] px-8 py-[11px] rounded-md text-lg font-medium hover:bg-[#1BD44F]/10 transition-all duration-300"
           >
             Enroll Now
           </button>

@@ -22,7 +22,7 @@ export default function Certifications() {
         }}
       />
 
-      <div className="relative mx-auto max-w-[1300px] px-4 sm:px-6 pt-10 sm:pt-14 pb-12">
+      <div className="relative mx-auto max-w-[1300px] px-4 smpx-6 pt-10 sm:pt-14 pb-12 max-xl:p-10 max-md:p-4">
         {/* Breadcrumb */}
         <div className="text-[16px] text-[#B9C7D6] mb3 font-['Graphikthin']">
           Our courses -{" "}
@@ -40,7 +40,7 @@ export default function Certifications() {
         </div>
 
         {/* Heading */}
-        <h1 className="text-[#E5E5E5] mt-6 font-['Graphikthin'] font-normal tracking-[-0.018em] leading-[1.09] text-[38px] sm:text-[52px] md:text-[64px]">
+        <h1 className="text-[#E5E5E5] mt-6 font-['Graphikthin'] font-normal tracking-[-0.018em] leading-[1.09] text-[38px] max-sm:text-[32px] md:text-[64px]">
           Get certified. get internship
           <br />
           experience. get job-ready.
@@ -49,11 +49,11 @@ export default function Certifications() {
         {/* Subhead */}
         <p className="mt-6 text-[16px] text-[#E0E0E0] font-normal  max-w-xl">
           Build in-demand skills through live projects and internship experience
-          that strengthen your resume.Popular Certification
+          that strengthen your resume.
         </p>
 
         {/* Responsive grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 max-lg:justify-center max-lg:flex max-lg:flex-col max-lg:items-center gap-4 mb-10 mt-[83px]">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 max-lg:justify-center max-lg:flex max-lg:flex-wrap max-lg:items-center gap-4 mb-10 mt-[83px]">
           {certs.map((c) => (
             <CertCard key={c.title} {...c} />
           ))}

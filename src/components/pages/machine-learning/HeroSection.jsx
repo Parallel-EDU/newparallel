@@ -52,7 +52,7 @@ export default function HeroSection() {
         <div className="z-[99999]">
           <button
             onClick={openModal}
-            className="mt-10 border border-[#1BD44F] text-[#1BD44F]  font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] px-8 py-[11px] rounded-md text-lg font-medium hover:bg-[#1BD44F]/10 transition-all duration-300"
+            className="mt-10 border border-[#30E29D] text-[#30E29D]  font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] px-8 py-[11px] rounded-md text-lg font-medium hover:bg-[#1BD44F]/10 transition-all duration-300"
           >
             Enroll Now
           </button>
