@@ -1,8 +1,5 @@
 {
-  "/tech/dev-ops/page": "app/tech/dev-ops/page.js",
-  "/tech/ai-prompt-eng/page": "app/tech/ai-prompt-eng/page.js",
-  "/tech/node-js/page": "app/tech/node-js/page.js",
+  "/tech/salesforce/page": "app/tech/salesforce/page.js",
   "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js",
-  "/tech/ai-agents/page": "app/tech/ai-agents/page.js",
-  "/tech/salesforce/page": "app/tech/salesforce/page.js"
+  "/page": "app/page.js"
 }

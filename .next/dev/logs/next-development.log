@@ -1,770 +1,28 @@
-[00:00:02.921] Server  LOG      ✓ Ready in 2.6s
-[00:00:06.090] Server  ERROR   Invalid DOM property `stroke-opacity`. Did you mean `strokeOpacity`?
-[00:00:06.091] Server  ERROR   Invalid DOM property `stroke-dasharray`. Did you mean `strokeDasharray`?
-[00:00:06.116] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
-[00:00:06.117] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
-[00:00:06.152] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
-[00:00:06.153] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
-[00:00:06.153] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[00:00:07.199] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:07.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:00:07.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:00:07.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:00:07.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:00:07.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:00:07.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:00:07.463] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:07.463] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:07.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:07.463] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:19.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:22.325] Browser WARN    Image with src "http://localhost:3000/home/Frame%201000003247.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:26.673] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:26.673] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:26.673] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:50.275] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:50.275] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:00:50.275] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:50.275] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:50.275] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:50.275] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:01.791] Browser WARN    GSAP target null not found. https://gsap.com
-[00:02:01.791] Browser WARN    GSAP target  not found. https://gsap.com
-[00:02:02.840] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser WARN    GSAP target null not found. https://gsap.com
-[00:03:16.156] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:16.156] Browser WARN    GSAP target null not found. https://gsap.com
-[00:03:16.156] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:16.156] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:16.156] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:41.306] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:41.418] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:03:41.418] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:03:41.418] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:03:41.418] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:03:41.418] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:03:41.418] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:03:41.418] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:41.418] Browser WARN    GSAP target null not found. https://gsap.com
-[00:03:41.418] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:41.418] Browser WARN    GSAP target  not found. https://gsap.com
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:41.779] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:42.705] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:43.962] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:03:43.962] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:03:43.962] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:03:43.962] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:03:43.962] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:03:43.962] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:03:43.962] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:03:43.962] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.962] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.962] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.962] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.962] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:43.963] Browser WARN    GSAP target null not found. https://gsap.com
-[00:03:43.963] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:15.627] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:15.627] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:15.627] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:15.804] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:15.804] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:16.542] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:16.543] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:22.981] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:23.062] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:04:23.062] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:04:23.062] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:04:23.062] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:04:23.062] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:04:23.062] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:04:23.062] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:23.062] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:23.062] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:23.062] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:23.780] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:24.796] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:04:24.796] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:04:24.796] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:04:24.796] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:04:24.796] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:04:24.796] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:04:24.796] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:24.796] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.796] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:24.797] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:24.797] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:26.971] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.971] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.971] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.971] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.971] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:04:26.972] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:26.972] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:04:26.972] Browser WARN    GSAP target null not found. https://gsap.com
-[00:04:26.972] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:26.972] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:26.972] Browser WARN    GSAP target  not found. https://gsap.com
-[00:04:45.943] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:45.943] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:04:45.943] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:07.555] Browser WARN    Image with src "http://localhost:3000/home/Frame%201000003247.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser WARN    GSAP target null not found. https://gsap.com
-[00:05:20.221] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:05:20.221] Browser WARN    GSAP target null not found. https://gsap.com
-[00:05:20.221] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:20.221] Browser WARN    GSAP target  not found. https://gsap.com
-[00:05:20.221] Browser WARN    GSAP target  not found. https://gsap.com
-[00:06:21.835] Browser ERROR   Error sending data: {}
-[00:07:01.876] Browser ERROR   Error sending data: {}
-[00:07:06.439] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:06.440] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:07:06.440] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:07:06.440] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:07:06.440] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:07:06.440] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:07:07.203] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:07:07.483] Browser WARN    Image with src "http://localhost:3000/home/Frame%201000003247.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.792] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:07:07.792] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:07:07.792] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:07:07.792] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:07:07.792] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:07:07.792] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:07:07.792] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.792] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.793] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.793] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.793] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.793] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.793] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:07:07.793] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:07.793] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:13.582] Browser ERROR   Error sending data: {}
-[00:07:25.448] Browser ERROR   Error sending data: {}
-[00:07:42.792] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:42.792] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:49.807] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:49.807] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:51.822] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:51.823] Browser WARN    GSAP target  not found. https://gsap.com
-[00:07:53.811] Browser WARN    GSAP target null not found. https://gsap.com
-[00:07:53.811] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:02.794] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:02.794] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:06.836] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:06.836] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:07.800] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:07.800] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:14.438] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:14.488] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:08:14.488] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:08:14.488] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:08:14.488] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:08:14.488] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:08:15.486] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:15.840] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:08:15.841] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:08:15.841] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:08:15.841] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:08:15.841] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:08:15.841] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:08:15.841] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:15.841] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:15.841] Browser WARN    GSAP target  not found. https://gsap.com
-[00:08:16.056] Browser WARN    Image with src "http://localhost:3000/home/Frame%201000003247.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:23.460] Browser ERROR   Error sending data: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"data":"{\"Name\":\"fsdf\",\"Email\":\"3423\",\"Phonenumber\":\"23423\",\"Role\":\"Working - Technical Job\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"post","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/home","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/settle.js:24:12)\n    at XMLHttpRequest.onloadend (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/adapters/xhr.js:73:66)\n    at Axios.request (webpack-internal:///(app-pages-browser)/./node_modules/axios/lib/core/Axios.js:57:41)\n    at async handleSubmit (webpack-internal:///(app-pages-browser)/./src/components/EnrollModal.jsx:61:34)","status":404}
-[00:08:43.726] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:44.134] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:08:44.134] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:08:44.134] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:08:44.134] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:08:44.134] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:08:46.234] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:46.821] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:08:46.821] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:08:46.821] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:08:46.821] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:08:46.821] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:08:46.821] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:08:46.821] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:08:46.821] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.821] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.821] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.821] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.821] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.821] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:46.822] Browser WARN    GSAP target null not found. https://gsap.com
-[00:08:46.822] Browser WARN    GSAP target  not found. https://gsap.com
-[00:09:19.585] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:03.941] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
-[00:12:03.941] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:12:03.941] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:03.941] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:03.941] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:03.941] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:03.941] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:03.941] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:20.543] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:20.543] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:20.544] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:20.544] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:20.987] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:20.987] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:20.987] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:20.987] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:26.228] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:26.228] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:26.229] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:36.874] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:12:36.874] Browser WARN    GSAP target null not found. https://gsap.com
-[00:12:36.874] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:36.874] Browser WARN    GSAP target  not found. https://gsap.com
-[00:12:36.874] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:10.710] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:10.710] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:10.710] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:14.839] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:14.839] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:14.839] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:14.839] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:14.839] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:44.700] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:13:44.700] Browser WARN    GSAP target null not found. https://gsap.com
-[00:13:44.700] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:44.700] Browser WARN    GSAP target  not found. https://gsap.com
-[00:13:44.700] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:01.823] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:01.823] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:01.823] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:01.823] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:01.823] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:56.131] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
-[00:14:56.131] Browser WARN    GSAP target null not found. https://gsap.com
-[00:14:56.131] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:56.131] Browser WARN    GSAP target  not found. https://gsap.com
-[00:14:56.131] Browser WARN    GSAP target  not found. https://gsap.com
-[00:15:17.562] Browser WARN    GSAP target null not found. https://gsap.com
-[00:15:17.562] Browser WARN    GSAP target  not found. https://gsap.com
-[00:15:17.563] Browser WARN    GSAP target  not found. https://gsap.com
-[00:15:48.798] Browser WARN    GSAP target null not found. https://gsap.com
-[00:15:48.798] Browser WARN    GSAP target  not found. https://gsap.com
-[00:15:49.726] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:08.109] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
-[00:16:08.109] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
-[00:16:08.109] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
-[00:16:08.109] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
-[00:16:08.109] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:16:08.109] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:02.560] Server  LOG      ✓ Ready in 2.3s
+[00:00:07.566] Server  LOG      ○ Compiling /job-bootcamp-full-stack-development ...
+[00:00:08.008] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
+[00:00:08.008] Server  ERROR   Invalid DOM property `fill-opacity`. Did you mean `fillOpacity`?
+[00:00:08.008] Server  ERROR   Invalid DOM property `color-interpolation-filters`. Did you mean `colorInterpolationFilters`?
+[00:00:08.009] Server  ERROR   Invalid DOM property `flood-opacity`. Did you mean `floodOpacity`?
+[00:00:08.009] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:00:08.020] Server  ERROR   Invalid DOM property `stroke-opacity`. Did you mean `strokeOpacity`?
+[00:00:08.020] Server  ERROR   Invalid DOM property `stroke-dasharray`. Did you mean `strokeDasharray`?
+[00:00:08.053] Server  ERROR   Invalid DOM property `stop-opacity`. Did you mean `stopOpacity`?
+[00:00:08.055] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
+[00:00:08.064] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:00:08.101] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[00:00:08.102] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+[00:00:09.992] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.673] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:10.674] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <a> a 
 
   ...
@@ -820,11 +78,471 @@ This will cause a hydration error.%s <a> a
             ...
           ...
 
-[00:16:08.109] Browser ERROR   <%s> cannot contain a nested %s.
+[00:00:10.674] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. a <a>
-[00:16:08.109] Browser WARN    GSAP target null not found. https://gsap.com
-[00:16:08.109] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:08.109] Browser WARN    GSAP target null not found. https://gsap.com
-[00:16:08.109] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:08.109] Browser WARN    GSAP target  not found. https://gsap.com
-[00:16:08.109] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:10.674] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:00:10.674] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/job-bootc..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+          <SegmentViewNode type="page" pagePath="job-bootca...">
+            <SegmentTrieNode>
+            <jobbootcampfullstackdevelopment>
+              <div>
+                <HeroBoot>
+                <CareerLaunchpadHero>
+                <CourseCurriculum>
+                <Industry>
+                <PlacementSupport>
+                <PlansPricing>
+                <CourseRoadmap>
+                <Success>
+                <Blog>
+                  <section className={"relative..."}>
+                    <div>
+                    <div className="relative m...">
+                      <h1>
+                      <div className="grid mt-10...">
+                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+                            <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
+                              <div>
++                             <div className={"px5 pt-5 pb6   "}>
+                        ...
+                      ...
+                ...
+          ...
+        ...
+
+[00:00:10.674] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:10.674] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.674] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:10.674] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.674] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:10.674] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:11.757] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.757] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.758] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.758] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.758] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.758] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.758] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.758] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:11.758] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.002] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.320] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.320] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%203.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.662] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%204.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:12.893] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%205.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:13.139] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:13.139] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:13.139] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:44.969] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:45.625] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/job-bootc..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+            <SegmentViewNode type="page" pagePath="job-bootca...">
+              <SegmentTrieNode>
+              <jobbootcampfullstackdevelopment>
+                <div>
+                  <HeroBoot>
+                  <CareerLaunchpadHero>
+                  <CourseCurriculum>
+                  <Industry>
+                  <PlacementSupport>
+                  <PlansPricing>
+                  <CourseRoadmap>
+                  <Success>
+                  <Blog>
+                    <section className={"relative..."}>
+                      <div>
+                      <div className="relative m...">
+                        <h1>
+                        <div className="grid mt-10...">
+                          <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." ...>
+                            <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+>                             <a
+>                               className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group..."
+>                               ref={function}
+>                               onClick={function onClick}
+>                               onMouseEnter={function onMouseEnter}
+>                               onTouchStart={function onTouchStart}
+>                               href="/blogs/choosing-between-full-stack"
+>                             >
+                                <div>
+                                <div className={"px5 pt-5..."}>
+                                  <div>
+                                  <div>
+                                  <div>
+                                  <LinkComponent href="/blogs/cho..." className="flex w-ful...">
+>                                   <a
+>                                     className="flex w-full justify-start pt-2 z-[99999] text-[#30E29D]"
+>                                     ref={function}
+>                                     onClick={function onClick}
+>                                     onMouseEnter={function onMouseEnter}
+>                                     onTouchStart={function onTouchStart}
+>                                     href="/blogs/choosing-between-full-stack"
+>                                   >
+                          ...
+                        ...
+                  ...
+            ...
+          ...
+
+[00:00:45.625] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:45.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:00:45.625] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/job-bootc..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+          <SegmentViewNode type="page" pagePath="job-bootca...">
+            <SegmentTrieNode>
+            <jobbootcampfullstackdevelopment>
+              <div>
+                <HeroBoot>
+                <CareerLaunchpadHero>
+                <CourseCurriculum>
+                <Industry>
+                <PlacementSupport>
+                <PlansPricing>
+                <CourseRoadmap>
+                <Success>
+                <Blog>
+                  <section className={"relative..."}>
+                    <div>
+                    <div className="relative m...">
+                      <h1>
+                      <div className="grid mt-10...">
+                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+                            <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
+                              <div>
++                             <div className={"px5 pt-5 pb6   "}>
+                        ...
+                      ...
+                ...
+          ...
+        ...
+
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%203.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%204.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%205.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:45.625] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:45.625] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:45.625] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:45.625] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:45.625] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:45.625] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:07.218] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:07.219] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:08.825] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:11.114] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:01:11.786] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/job-bootc..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+            <SegmentViewNode type="page" pagePath="job-bootca...">
+              <SegmentTrieNode>
+              <jobbootcampfullstackdevelopment>
+                <div>
+                  <HeroBoot>
+                  <CareerLaunchpadHero>
+                  <CourseCurriculum>
+                  <Industry>
+                  <PlacementSupport>
+                  <PlansPricing>
+                  <CourseRoadmap>
+                  <Success>
+                  <Blog>
+                    <section className={"relative..."}>
+                      <div>
+                      <div className="relative m...">
+                        <h1>
+                        <div className="grid mt-10...">
+                          <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." ...>
+                            <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+>                             <a
+>                               className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group..."
+>                               ref={function}
+>                               onClick={function onClick}
+>                               onMouseEnter={function onMouseEnter}
+>                               onTouchStart={function onTouchStart}
+>                               href="/blogs/choosing-between-full-stack"
+>                             >
+                                <div>
+                                <div className={"px5 pt-5..."}>
+                                  <div>
+                                  <div>
+                                  <div>
+                                  <LinkComponent href="/blogs/cho..." className="flex w-ful...">
+>                                   <a
+>                                     className="flex w-full justify-start pt-2 z-[99999] text-[#30E29D]"
+>                                     ref={function}
+>                                     onClick={function onClick}
+>                                     onMouseEnter={function onMouseEnter}
+>                                     onTouchStart={function onTouchStart}
+>                                     href="/blogs/choosing-between-full-stack"
+>                                   >
+                          ...
+                        ...
+                  ...
+            ...
+          ...
+
+[00:01:11.786] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:01:11.786] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:01:11.786] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/job-bootc..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+          <SegmentViewNode type="page" pagePath="job-bootca...">
+            <SegmentTrieNode>
+            <jobbootcampfullstackdevelopment>
+              <div>
+                <HeroBoot>
+                <CareerLaunchpadHero>
+                <CourseCurriculum>
+                <Industry>
+                <PlacementSupport>
+                <PlansPricing>
+                <CourseRoadmap>
+                <Success>
+                <Blog>
+                  <section className={"relative..."}>
+                    <div>
+                    <div className="relative m...">
+                      <h1>
+                      <div className="grid mt-10...">
+                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+                            <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
+                              <div>
++                             <div className={"px5 pt-5 pb6   "}>
+                        ...
+                      ...
+                ...
+          ...
+        ...
+
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%203.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%204.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%205.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:11.786] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:11.786] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:11.786] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:11.786] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:11.786] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:11.786] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:11.786] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:15.301] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:15.498] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:01:15.498] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:01:15.498] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:01:15.498] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:01:15.498] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:01:15.498] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:01:15.498] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:01:15.498] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.498] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:15.499] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:15.499] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:15.499] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:16.721] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:19.082] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:01:19.082] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:01:19.082] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:01:19.082] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:01:19.082] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="page.js">
+              <SegmentTrieNode>
+              <newHome>
+                <div>
+                  <Hero>
+                  <Delivers>
+                  <Bootcamps>
+                  <div>
+                  <div>
+                  <StudentProjects>
+                  <Blog>
+                    <section className={"relative..."}>
+                      <div>
+                      <div className="relative m...">
+                        <h1>
+                        <div className="grid mt-10...">
+                          <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." ...>
+                            <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+>                             <a
+>                               className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group..."
+>                               ref={function}
+>                               onClick={function onClick}
+>                               onMouseEnter={function onMouseEnter}
+>                               onTouchStart={function onTouchStart}
+>                               href="/blogs/choosing-between-full-stack"
+>                             >
+                                <div>
+                                <div className={"px5 pt-5..."}>
+                                  <div>
+                                  <div>
+                                  <div>
+                                  <LinkComponent href="/blogs/cho..." className="flex w-ful...">
+>                                   <a
+>                                     className="flex w-full justify-start pt-2 z-[99999] text-[#30E29D]"
+>                                     ref={function}
+>                                     onClick={function onClick}
+>                                     onMouseEnter={function onMouseEnter}
+>                                     onTouchStart={function onTouchStart}
+>                                     href="/blogs/choosing-between-full-stack"
+>                                   >
+                          ...
+                        ...
+                  ...
+            ...
+          ...
+
+[00:01:19.082] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:01:19.082] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:01:19.082] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:19.082] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:19.082] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:19.082] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:19.082] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:19.082] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:19.296] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:19.296] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:19.296] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:19.296] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:31.218] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:31.219] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:34.209] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:34.210] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:38.945] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:38.946] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:43.650] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:43.650] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:43.651] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.

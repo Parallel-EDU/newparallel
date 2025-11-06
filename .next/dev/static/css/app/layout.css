@@ -1479,6 +1479,9 @@ video {
 .h-\[75px\] {
   height: 75px;
 }
+.h-\[80\%\] {
+  height: 80%;
+}
 .h-\[81\%\] {
   height: 81%;
 }
@@ -1508,9 +1511,6 @@ video {
 }
 .h-screen {
   height: 100vh;
-}
-.h-\[80\%\] {
-  height: 80%;
 }
 .max-h-\[32px\] {
   max-height: 32px;
@@ -4743,6 +4743,21 @@ input::placeholder {
   }
   .price-bg::before {
     background-position: 50% 90%;
+  }
+}
+
+@media only screen and (min-width: 100px) and (max-width: 3000px) {
+  .page-break::before {
+    background-position: center;
+  }
+  /* .carrer-bg::before {
+    background-position: center;
+  } */
+  .footer-bg::before {
+    background-position: center top;
+  }
+  .price-bg::before {
+    background-position: center;
   }
 }
 
