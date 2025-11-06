@@ -1,42 +1,477 @@
-[00:00:03.317] Server  LOG      ✓ Ready in 3.1s
-[00:00:06.871] Server  LOG      ○ Compiling / ...
-[00:00:07.334] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
-[00:00:07.335] Server  ERROR   Invalid DOM property `fill-opacity`. Did you mean `fillOpacity`?
-[00:00:07.335] Server  ERROR   Invalid DOM property `color-interpolation-filters`. Did you mean `colorInterpolationFilters`?
-[00:00:07.335] Server  ERROR   Invalid DOM property `flood-opacity`. Did you mean `floodOpacity`?
-[00:00:07.335] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[00:00:07.354] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
-[00:00:07.354] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
-[00:00:07.361] Server  ERROR   Invalid DOM property `stroke-width`. Did you mean `strokeWidth`?
-[00:00:07.362] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
-[00:00:08.779] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
-[00:00:09.220] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:00:09.220] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+[00:00:04.098] Server  LOG      ✓ Ready in 3.9s
+[00:00:18.785] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
+[00:00:18.786] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:00:18.833] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[00:00:18.833] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+[00:00:18.834] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:00:20.273] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.703] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
 This will cause a hydration error.%s <a> a 
 
   ...
-    <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
       <RedirectBoundary>
         <RedirectErrorBoundary router={{...}}>
-          <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-            <SegmentViewNode type="page" pagePath="page.js">
+          <InnerLayoutRouter url="/blogs" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="blogs/page.js">
               <SegmentTrieNode>
-              <newHome>
+              <ClientPageRoot Component={function Blog} serverProvidedParams={{...}}>
+                <Blog params={Promise} searchParams={Promise}>
+                  <section className={"relative..."}>
+                    <div>
+                    <div className="relative m...">
+                      <h1>
+                      <div className="grid mt-10...">
+                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+>                           <a
+>                             className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group b..."
+>                             ref={function}
+>                             onClick={function onClick}
+>                             onMouseEnter={function onMouseEnter}
+>                             onTouchStart={function onTouchStart}
+>                             href="/blogs/choosing-between-full-stack"
+>                           >
+                              <div>
+                              <div className={"px5 pt-5..."}>
+                                <div>
+                                <div>
+                                <div>
+                                <LinkComponent href="/blogs/cho..." className="flex w-ful...">
+>                                 <a
+>                                   className="flex w-full justify-start pt-2 z-[99999] text-[#30E29D]"
+>                                   ref={function}
+>                                   onClick={function onClick}
+>                                   onMouseEnter={function onMouseEnter}
+>                                   onTouchStart={function onTouchStart}
+>                                   href="/blogs/choosing-between-full-stack"
+>                                 >
+                        ...
+            ...
+          ...
+
+[00:00:20.704] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:20.704] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:20.704] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:00:20.704] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:20.704] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:00:20.704] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:20.704] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/blogs" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="blogs/page.js">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Blog} serverProvidedParams={{...}}>
+              <Blog params={Promise} searchParams={Promise}>
+                <section className={"relative..."}>
+                  <div>
+                  <div className="relative m...">
+                    <h1>
+                    <div className="grid mt-10...">
+                      <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                        <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+                          <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
+                            <div>
++                           <div className={"px5 pt-5 pb6   "}>
+                      ...
+          ...
+        ...
+
+[00:00:41.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:42.060] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/blogs" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+            <SegmentViewNode type="page" pagePath="blogs/page.js">
+              <SegmentTrieNode>
+              <ClientPageRoot Component={function Blog} serverProvidedParams={{...}}>
+                <Blog params={Promise} searchParams={Promise}>
+                  <section className={"relative..."}>
+                    <div>
+                    <div className="relative m...">
+                      <h1>
+                      <div className="grid mt-10...">
+                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+>                           <a
+>                             className="rounded-[7px] border-[1px] border-[#ffffff24] p-[16px] transition-all group b..."
+>                             ref={function}
+>                             onClick={function onClick}
+>                             onMouseEnter={function onMouseEnter}
+>                             onTouchStart={function onTouchStart}
+>                             href="/blogs/choosing-between-full-stack"
+>                           >
+                              <div>
+                              <div className={"px5 pt-5..."}>
+                                <div>
+                                <div>
+                                <div>
+                                <LinkComponent href="/blogs/cho..." className="flex w-ful...">
+>                                 <a
+>                                   className="flex w-full justify-start pt-2 z-[99999] text-[#30E29D]"
+>                                   ref={function}
+>                                   onClick={function onClick}
+>                                   onMouseEnter={function onMouseEnter}
+>                                   onTouchStart={function onTouchStart}
+>                                   href="/blogs/choosing-between-full-stack"
+>                                 >
+                        ...
+            ...
+          ...
+
+[00:00:42.060] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:42.060] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:00:42.060] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:00:42.060] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:00:42.060] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:00:42.060] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:42.060] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/blogs" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="blogs/page.js">
+            <SegmentTrieNode>
+            <ClientPageRoot Component={function Blog} serverProvidedParams={{...}}>
+              <Blog params={Promise} searchParams={Promise}>
+                <section className={"relative..."}>
+                  <div>
+                  <div className="relative m...">
+                    <h1>
+                    <div className="grid mt-10...">
+                      <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
+                        <LinkComponent href="/blogs/cho..." className="rounded-[7...">
+                          <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
+                            <div>
++                           <div className={"px5 pt-5 pb6   "}>
+                      ...
+          ...
+        ...
+
+[00:00:43.967] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <div> p 
+
+  ...
+    <RenderFromTemplateContext>
+      <ScrollAndFocusHandler segmentPath={[...]}>
+        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:true, ...}}>
+          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+            <LoadingBoundary name="communicat..." loading={Promise}>
+              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/blogs/com..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="blogs/comm...">
+                        <SegmentTrieNode>
+                        <Page>
+                          <main className="relative m...">
+                            <div className="mx-auto w-...">
+                              <nav>
+                              <section className="max-w-4xl ...">
+                                <h1>
+>                               <p className="text-sm text-gray-400 mb-8 pt-4 flex items-center gap-2">
+>                                 <div className="w-15 h-15">
+                                  ...
+                                ...
+                      ...
+                    ...
+          ...
+
+[00:00:43.967] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:00:48.724] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:00:48.724] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:00:48.724] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:00:48.724] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:00:48.724] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:48.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:48.724] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:48.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:48.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:48.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:48.872] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:48.872] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:48.872] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:48.872] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:53.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:00:53.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:00:53.625] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
+[00:00:55.282] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:55.282] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:55.282] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:55.283] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:55.283] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:55.283] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.731] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:58.732] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:00:58.732] Browser WARN    GSAP target null not found. https://gsap.com
+[00:00:58.732] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.732] Browser WARN    GSAP target  not found. https://gsap.com
+[00:00:58.732] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:00.670] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:00.670] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:00.670] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:00.670] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:00.670] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:00.670] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:02.318] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:02.318] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:02.318] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:01:09.242] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:09.242] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:09.242] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:09.242] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:09.242] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:09.242] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:14.391] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:01:14.391] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:14.391] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:14.391] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:14.391] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:46.904] Browser WARN    GSAP target null not found. https://gsap.com
+[00:01:46.904] Browser WARN    GSAP target  not found. https://gsap.com
+[00:01:47.311] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:18.775] Browser WARN    GSAP target null not found. https://gsap.com
+[00:02:18.775] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:18.775] Browser WARN    GSAP target null not found. https://gsap.com
+[00:02:18.775] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:18.775] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:18.775] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser WARN    GSAP target null not found. https://gsap.com
+[00:02:49.510] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:49.510] Browser WARN    GSAP target null not found. https://gsap.com
+[00:02:49.510] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:49.510] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:49.510] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser WARN    GSAP target null not found. https://gsap.com
+[00:02:58.076] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:02:58.076] Browser WARN    GSAP target null not found. https://gsap.com
+[00:02:58.076] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:58.076] Browser WARN    GSAP target  not found. https://gsap.com
+[00:02:58.076] Browser WARN    GSAP target  not found. https://gsap.com
+[00:03:57.904] Browser WARN    GSAP target null not found. https://gsap.com
+[00:03:57.905] Browser WARN    GSAP target  not found. https://gsap.com
+[00:03:57.905] Browser WARN    GSAP target  not found. https://gsap.com
+[00:04:05.161] Browser WARN    GSAP target null not found. https://gsap.com
+[00:04:05.161] Browser WARN    GSAP target  not found. https://gsap.com
+[00:04:05.161] Browser WARN    GSAP target  not found. https://gsap.com
+[00:04:15.811] Browser WARN    GSAP target null not found. https://gsap.com
+[00:04:15.811] Browser WARN    GSAP target  not found. https://gsap.com
+[00:04:15.811] Browser WARN    GSAP target  not found. https://gsap.com
+[00:04:35.038] Browser WARN    GSAP target null not found. https://gsap.com
+[00:04:35.038] Browser WARN    GSAP target  not found. https://gsap.com
+[00:05:38.787] Browser WARN    GSAP target  not found. https://gsap.com
+[00:05:40.448] Server  ERROR   Invalid DOM property `stroke-opacity`. Did you mean `strokeOpacity`?
+[00:05:40.449] Server  ERROR   Invalid DOM property `stroke-dasharray`. Did you mean `strokeDasharray`?
+[00:05:41.102] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:05:41.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:05:41.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:05:41.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:05:41.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:05:41.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:05:41.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:05:41.326] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:05:41.326] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.326] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.326] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:41.327] Browser WARN    GSAP target null not found. https://gsap.com
+[00:05:41.327] Browser WARN    GSAP target  not found. https://gsap.com
+[00:05:41.327] Browser WARN    GSAP target  not found. https://gsap.com
+[00:05:51.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-opacity fillOpacity
+[00:05:51.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? flood-opacity floodOpacity
+[00:05:51.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? color-interpolation-filters colorInterpolationFilters
+[00:05:51.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-opacity stopOpacity
+[00:05:51.651] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-width strokeWidth
+[00:05:51.651] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+      <RedirectBoundary>
+        <RedirectErrorBoundary router={{...}}>
+          <InnerLayoutRouter url="/data-scie..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+            <SegmentViewNode type="page" pagePath="data-scien...">
+              <SegmentTrieNode>
+              <devOps>
                 <div>
-                  <Hero>
-                  <Delivers>
-                  <Bootcamps>
-                  <div>
-                  <div>
-                  <StudentProjects>
+                  <HeroBoot>
+                  <CareerLaunchpadHero>
+                  <CourseCurriculum>
+                  <Industry>
+                  <PlacementSupport>
+                  <PlansPricing>
+                  <CourseRoadmap>
                   <Blog>
                     <section className={"relative..."}>
                       <div>
@@ -73,91 +508,524 @@ This will cause a hydration error.%s <a> a
             ...
           ...
 
-[00:00:09.220] Browser ERROR   <%s> cannot contain a nested %s.
+[00:05:51.651] Browser ERROR   <%s> cannot contain a nested %s.
 See this log for the ancestor stack trace. a <a>
-[00:00:09.220] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
-
-- A server/client branch `if (typeof window !== 'undefined')`.
-- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
-- Date formatting in a user's locale which doesn't match the server.
-- External changing data without sending a snapshot of it along with the HTML.
-- Invalid HTML tag nesting.
-
-It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
-
-https://react.dev/link/hydration-mismatch
-
-  ...
-    <RedirectBoundary>
-      <RedirectErrorBoundary router={{...}}>
-        <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-          <SegmentViewNode type="page" pagePath="page.js">
-            <SegmentTrieNode>
-            <newHome>
-              <div>
-                <Hero>
-                <Delivers>
-                <Bootcamps>
-                <div>
-                <div>
-                <StudentProjects>
-                <Blog>
-                  <section className={"relative..."}>
-                    <div>
-                    <div className="relative m...">
-                      <h1>
-                      <div className="grid mt-10...">
-                        <ProjectCard color="#EB39C2" date="04/11/2025" img="/home/Fram..." title="Choosing B..." desc="" ...>
-                          <LinkComponent href="/blogs/cho..." className="rounded-[7...">
-                            <a className="rounded-[7..." ref={function} onClick={function onClick} ...>
-                              <div>
-+                             <div className={"px5 pt-5 pb6   "}>
-                        ...
-                      ...
-                ...
-          ...
-        ...
-
-[00:00:09.220] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.220] Browser WARN    Image with src "http://localhost:3000/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.220] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.220] Browser WARN    Image with src "http://localhost:3000/Frame%201000002764%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.220] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.220] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.220] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:09.220] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:09.220] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:09.220] Browser WARN    GSAP target null not found. https://gsap.com
-[00:00:09.220] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:09.220] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:09.220] Browser WARN    GSAP target  not found. https://gsap.com
-[00:00:28.295] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:03:27.482] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
-This will cause a hydration error.%s <div> p 
-
-  ...
-    <RenderFromTemplateContext>
-      <ScrollAndFocusHandler segmentPath={[...]}>
-        <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:true, ...}}>
-          <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
-            <LoadingBoundary name="choosing-b..." loading={Promise}>
-              <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
-                <RedirectBoundary>
-                  <RedirectErrorBoundary router={{...}}>
-                    <InnerLayoutRouter url="/blogs/cho..." tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
-                      <SegmentViewNode type="page" pagePath="blogs/choo...">
-                        <SegmentTrieNode>
-                        <Page>
-                          <main className="relative m...">
-                            <div className="mx-auto w-...">
-                              <nav>
-                              <section className="max-w-4xl ...">
-                                <h1>
->                               <p className="text-sm text-gray-400 mb-8 pt-4 flex items-center gap-2">
->                                 <div className="w-15 h-15">
-                                  ...
-                                ...
-                      ...
-                    ...
-          ...
-
+[00:05:51.651] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(3).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(2).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(4).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(7).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(5).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:52.737] Browser WARN    Image with src "http://localhost:3000/svgs/Frame%201000002764%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:53.168] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6).svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:53.168] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:53.168] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%202.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:53.501] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%203.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:53.501] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%204.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:53.501] Browser WARN    Image with src "http://localhost:3000/home/Vector%20(6)%20copy%205.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser WARN    GSAP target null not found. https://gsap.com
+[00:05:57.254] Browser WARN    GSAP target  not found. https://gsap.com
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:05:57.254] Browser WARN    GSAP target null not found. https://gsap.com
+[00:05:57.254] Browser WARN    GSAP target  not found. https://gsap.com
+[00:05:57.254] Browser WARN    GSAP target  not found. https://gsap.com
+[00:05:57.254] Browser WARN    GSAP target  not found. https://gsap.com
+[00:06:13.693] Browser WARN    Image with src "/home/Frame 1000002775.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:13.693] Browser WARN    Image with src "/home/Frame 1000002776.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:13.693] Browser WARN    Image with src "/home/Frame 1000002776 copy.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser WARN    GSAP target null not found. https://gsap.com
+[00:06:16.519] Browser WARN    GSAP target  not found. https://gsap.com
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:16.519] Browser WARN    GSAP target null not found. https://gsap.com
+[00:06:16.519] Browser WARN    GSAP target  not found. https://gsap.com
+[00:06:16.519] Browser WARN    GSAP target  not found. https://gsap.com
+[00:06:16.519] Browser WARN    GSAP target  not found. https://gsap.com
+[00:06:27.008] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:27.201] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:06:27.201] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:06:27.201] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:06:27.201] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:06:27.201] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:06:27.201] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:06:27.201] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:06:27.201] Browser WARN    GSAP target null not found. https://gsap.com
+[00:06:27.201] Browser WARN    GSAP target  not found. https://gsap.com
+[00:06:27.201] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:07:20.106] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:20.106] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:20.106] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:20.106] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:20.106] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:20.106] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:24.560] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:24.560] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:24.560] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:24.560] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:24.560] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:28.693] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:28.693] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:28.693] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:28.693] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:28.693] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:35.614] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:07:35.614] Browser WARN    GSAP target null not found. https://gsap.com
+[00:07:35.614] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:35.614] Browser WARN    GSAP target  not found. https://gsap.com
+[00:07:35.614] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:15.914] Browser WARN    GSAP target null not found. https://gsap.com
+[00:08:15.914] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:19.314] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:20.874] Browser WARN    GSAP target null not found. https://gsap.com
+[00:08:20.874] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:20.874] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:22.302] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:22.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-opacity strokeOpacity
+[00:08:22.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-dasharray strokeDasharray
+[00:08:22.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:08:22.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:08:22.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:08:22.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:08:22.489] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:08:22.489] Browser WARN    GSAP target null not found. https://gsap.com
+[00:08:22.489] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:22.489] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:42.053] Browser WARN    GSAP target null not found. https://gsap.com
+[00:08:42.053] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:42.908] Browser WARN    GSAP target null not found. https://gsap.com
+[00:08:42.908] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:49.016] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:49.017] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:50.931] Browser WARN    GSAP target null not found. https://gsap.com
+[00:08:50.932] Browser WARN    GSAP target  not found. https://gsap.com
+[00:08:50.932] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:14.601] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:14.601] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:14.601] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:29.838] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:29.838] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:29.838] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:09:35.660] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:35.660] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:35.660] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:35.660] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:35.660] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:35.660] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:40.705] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:40.705] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:40.705] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:40.705] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:40.705] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:44.539] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:44.540] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:09:44.540] Browser WARN    GSAP target null not found. https://gsap.com
+[00:09:44.540] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:44.540] Browser WARN    GSAP target  not found. https://gsap.com
+[00:09:44.540] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:04.576] Browser WARN    GSAP target null not found. https://gsap.com
+[00:10:04.576] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:04.576] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser WARN    GSAP target null not found. https://gsap.com
+[00:10:14.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:14.724] Browser WARN    GSAP target null not found. https://gsap.com
+[00:10:14.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:14.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:14.724] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:29.530] Browser WARN    GSAP target null not found. https://gsap.com
+[00:10:29.530] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:29.530] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser WARN    GSAP target null not found. https://gsap.com
+[00:10:43.913] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser ERROR   Image is missing required "alt" property. Please add Alternative Text to describe the image for screen readers and search engines.
+[00:10:43.913] Browser WARN    GSAP target null not found. https://gsap.com
+[00:10:43.913] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:43.913] Browser WARN    GSAP target  not found. https://gsap.com
+[00:10:43.913] Browser WARN    GSAP target  not found. https://gsap.com

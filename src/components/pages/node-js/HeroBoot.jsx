@@ -117,14 +117,14 @@ const HeroBoot = () => {
               </p>
               <button
                 onClick={openModal}
-                className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
+                className="w-[128px] mt-0 mb-14 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
               >
                 Enroll Now
               </button>
             </div>
 
             <div className="max-w-[562px]">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-10  pb-16 ">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4  pb-16 ">
                 {items.map((it, idx) => (
                   <div key={idx} className="relative card-gradient-border">
                     {/* Top row: big stat or word */}

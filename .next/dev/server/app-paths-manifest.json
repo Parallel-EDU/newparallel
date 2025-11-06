@@ -1,6 +1,8 @@
 {
-  "/page": "app/page.js",
-  "/blogs/page": "app/blogs/page.js",
-  "/blogs/choosing-between-full-stack/page": "app/blogs/choosing-between-full-stack/page.js",
-  "/blogs/communication-the-most-underrated-skill-in-the-AI-world/page": "app/blogs/communication-the-most-underrated-skill-in-the-AI-world/page.js"
+  "/tech/python/page": "app/tech/python/page.js",
+  "/tech/aws/page": "app/tech/aws/page.js",
+  "/tech/react-js/page": "app/tech/react-js/page.js",
+  "/tech/tableau/page": "app/tech/tableau/page.js",
+  "/tech/data-analysis/page": "app/tech/data-analysis/page.js",
+  "/tech/vue-js/page": "app/tech/vue-js/page.js"
 }
