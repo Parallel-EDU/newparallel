@@ -3,6 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/dist/ScrollTrigger";
+import Image from "next/image";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -36,11 +37,11 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Data Science Foundations",
+    title: "DevOps Foundations",
     side: "left",
     items: [
-      "Learn Python, SQL, and data analysis to build your base.",
-      "Work hands-on with Pandas, NumPy, and real datasets.",
+      "Learn Linux, networking, and version control to build a strong foundation.",
+      "Hands-on practice with Git, GitHub, and Bash scripting.",
     ],
   },
   {
@@ -72,10 +73,10 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Statistics & EDA",
+    title: "Scripting & Automation",
     side: "right",
     items: [
-      "Understand data deeply through visualization and storytelling.Use Tableau and Power BI to extract insights that matter.",
+      "Automate workflows and repetitive tasks using Python and shell scripting.",
     ],
   },
   {
@@ -107,11 +108,11 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Machine Learning & AI",
+    title: "CI/CD & Containerization",
     side: "left",
     items: [
-      "Train and deploy ML models with Scikit-Learn, TensorFlow, and Keras.",
-      "Build predictive and classification models from scratch.",
+      "Build pipelines with Jenkins and GitHub Actions.",
+      "Containerize applications with Docker for faster and reliable deployments",
     ],
   },
   {
@@ -144,13 +145,10 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "GenAI Integration",
+    title: "Kubernetes & Orchestration",
     side: "right",
     items: [
-      "Use AI-driven tools to automate data pipelines and generate insights faster.",
-      "Integrate LLMs and GenAI APIs in your projects.",
-      "Write comprehensive tests and documentation",
-      "Deploy and maintain your project in production",
+      "Deploy and manage scalable containerized apps using Kubernetes and Helm.",
     ],
   },
   {
@@ -183,12 +181,11 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Capstone Project & Internship",
+    title: "Cloud Platforms & Infrastructure",
     description: "Get job-ready with intensive interview coaching.",
     side: "left",
     items: [
-      "Work on live projects with real datasets from top domains.",
-      "Gain hands-on experience that hiring managers love.",
+      "Work with AWS, Azure, and GCP to provision, secure, and manage cloud resources.",
     ],
   },
   {
@@ -221,14 +218,109 @@ const roadmapSteps = [
         </defs>
       </svg>
     ),
-    title: "Career Launch & Placement Support",
+    title: "Infrastructure as Code (IaC)",
 
     side: "right",
     items: [
-      "Optimize your portfolio, practice interview questions, and get placed.",
-      "Receive personalized resume and portfolio reviews",
-      "Get 1-on-1 mentoring from industry professionals",
-      "Negotiate offers and launch your tech career",
+      "Automate infrastructure setup and configuration using Terraform and Ansible.",
+    ],
+  },
+  {
+    id: 7,
+    number: (
+      <svg
+        width="60"
+        height="78"
+        viewBox="0 0 60 78"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M58.6084 0.5V3.29102L58.5791 3.37305L32.5449 76.2285L32.4258 76.5596H9.52344L9.76855 75.8887L30.5205 18.9268H0.5V0.5H58.6084Z"
+          stroke="url(#paint0_linear_2933_16142)"
+          stroke-opacity="0.8"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_2933_16142"
+            x1="29.5503"
+            y1="-16.8714"
+            x2="29.5503"
+            y2="76"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#FF6B08" />
+            <stop offset="1" stop-color="#FF6B08" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+      </svg>
+    ),
+    title: "Monitoring, Security & Reliability",
+
+    side: "left",
+    items: [
+      "Monitor systems with Prometheus, Grafana, and ELK Stack.",
+      "Learn DevSecOps practices and ensure high availability of systems.",
+    ],
+  },
+  {
+    id: 8,
+    number: (
+      <svg
+        width="63"
+        height="77"
+        viewBox="0 0 63 77"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M31.5293 0.5C36.7381 0.500013 41.4491 1.32206 45.6543 2.97656H45.6533C49.8589 4.56328 53.224 6.88321 55.7285 9.94434C58.2531 13.0299 59.5059 16.8091 59.5059 21.251C59.5059 25.0698 58.5318 28.2713 56.5508 30.8184C54.8784 33.0459 52.6894 34.8534 49.9971 36.248C53.8684 37.7571 56.8485 39.9117 58.9014 42.7344C61.1418 45.8151 62.2529 49.4833 62.2529 53.7139C62.2529 58.4895 60.9704 62.6018 58.3867 66.0234C55.8116 69.4336 52.2019 72.0286 47.585 73.8203C42.9688 75.6116 37.5448 76.5 31.3252 76.5C25.1766 76.5 19.7913 75.6802 15.1797 74.0283L15.1738 74.0264C10.5569 72.3036 6.94592 69.7773 4.36914 66.4346C1.78238 63.0788 0.500025 58.9981 0.5 54.2227C0.5 49.9225 1.64643 46.1862 3.95508 43.0381C6.06831 40.0943 9.08013 37.8712 12.96 36.3506C10.2646 34.9545 8.07359 33.144 6.40039 30.9131L6.39648 30.9082C4.49167 28.2979 3.55273 25.1024 3.55273 21.3525C3.55278 16.9072 4.84096 13.1255 7.43555 10.04C10.0064 6.91504 13.404 4.5623 17.6104 2.97559C21.8796 1.32299 26.5211 0.5 31.5293 0.5ZM31.5293 43.3252C28.7819 43.3252 26.5278 44.1069 24.7314 45.6465L24.7227 45.6533C22.9635 47.0984 22.0566 49.2152 22.0566 52.0859C22.0567 54.8881 22.9303 57.0124 24.6328 58.5273C26.4286 60.0651 28.6819 60.8457 31.4277 60.8457C34.2469 60.8456 36.4954 60.062 38.2188 58.5303C39.9233 57.0151 40.7987 54.8899 40.7988 52.0859C40.7988 49.2818 39.9234 47.1559 38.2188 45.6406L38.2119 45.6348C36.5594 44.1094 34.3493 43.3252 31.5293 43.3252ZM31.5293 15.543C29.335 15.543 27.4487 16.2178 25.8467 17.5635C24.2763 18.8827 23.4814 20.6697 23.4814 22.9814C23.4815 25.3656 24.2798 27.1837 25.8467 28.5C27.5183 29.8476 29.4396 30.5205 31.6309 30.5205C33.897 30.5205 35.7777 29.8438 37.3057 28.5068L37.3135 28.5C38.8803 27.1837 39.6786 25.3656 39.6787 22.9814C39.6787 20.6697 38.8839 18.8827 37.3135 17.5635C35.7143 16.2201 33.7952 15.543 31.5293 15.543Z"
+          stroke="url(#paint0_linear_2933_16150)"
+        />
+        <defs>
+          <linearGradient
+            id="paint0_linear_2933_16150"
+            x1="31.3765"
+            y1="1"
+            x2="31.3765"
+            y2="113.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop stop-color="#8F1D84" />
+            <stop offset="1" stop-opacity="0" />
+          </linearGradient>
+        </defs>
+      </svg>
+    ),
+    title: "Capstone Project & Internship",
+
+    side: "right",
+    items: [
+      "Deploy a full-scale multi-cloud project with CI/CD, Docker, and Kubernetes under mentor guidance.",
+      "Gain hands-on experience and build a portfolio that impresses recruiters.",
+    ],
+  },
+  {
+    id: 9,
+    number: (
+      <svg
+        width="80"
+        height="77"
+        viewBox="0 0 80 77"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M39.0337 0.5C46.3611 0.50005 52.4339 2.04059 57.2173 5.16016H57.2163C61.9838 8.20133 65.5398 12.4524 67.8833 17.8965C70.2228 23.2636 71.3852 29.5078 71.3853 36.6172V39.0596C71.3853 50.5669 68.7585 59.6143 63.4419 66.1377L62.9194 66.7607C57.3075 73.2732 49.2165 76.5 38.728 76.5C30.0455 76.5 23.1741 74.6208 18.1733 70.8008C13.1636 66.9739 10.2922 61.4798 9.53369 54.377L9.47412 53.8242H29.5786L29.6538 54.2334C29.9745 55.9652 30.738 57.356 31.938 58.4297C33.0936 59.4635 34.9814 60.0322 37.7104 60.0322C41.9115 60.0322 44.8504 58.5022 46.6431 55.4932L46.645 55.4902C48.3644 52.6441 49.381 48.6008 49.6606 43.3193C48.2197 45.2496 46.4641 46.8877 44.394 48.2305L44.3911 48.2324C41.8358 49.865 38.2667 50.6523 33.7417 50.6523C29.0633 50.6523 24.8168 49.757 21.0112 47.958C17.1945 46.1538 14.17 43.4773 11.9478 39.9355L11.9458 39.9326C9.71576 36.3088 8.61475 31.8706 8.61475 26.6445C8.61475 21.4755 9.82201 16.9052 12.2505 12.9502L12.2534 12.9443C14.7508 8.99013 18.2877 5.94391 22.8442 3.80371C27.403 1.59475 32.8049 0.5 39.0337 0.5ZM38.728 16.1543C35.9423 16.1543 33.7448 17.1186 32.0845 19.0342L32.0786 19.041C30.4116 20.9005 29.5601 23.318 29.5601 26.3389C29.5601 29.2194 30.3748 31.5724 31.9771 33.4346L32.2944 33.7695C33.9148 35.3947 36.0435 36.2187 38.728 36.2188C41.5969 36.2188 43.8685 35.3111 45.5933 33.5225C47.3271 31.657 48.2006 29.3422 48.2007 26.543C48.2007 23.4563 47.3173 20.9696 45.5815 19.041L45.5757 19.0342C43.92 17.1238 41.6575 16.1543 38.728 16.1543Z"
+          stroke="#0035F7"
+        />
+      </svg>
+    ),
+    title: "Career Launch & Placement Support",
+
+    side: "left",
+    items: [
+      "Resume optimization, mock interviews, portfolio review, and 1:1 placement guidance.",
     ],
   },
 ];
@@ -369,247 +461,78 @@ export default function CourseRoadmap() {
                           }`}
                         >
                           {idx === 0 && (
-                            <svg
-                              width="11"
-                              height="12"
-                              viewBox="0 0 11 12"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <g
-                                clip-path="url(#paint0_angular_2882_9101_clip_path)"
-                                data-figma-skip-parse="true"
-                              >
-                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
-                                  <foreignObject
-                                    x="-961.988"
-                                    y="-961.988"
-                                    width="1923.98"
-                                    height="1923.98"
-                                  >
-                                    <div
-                                      style={{
-                                        background:
-                                          "conic-gradient(from 90deg,rgba(48, 226, 157, 1) 0deg,rgba(26, 124, 86, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
-                                      }}
-                                      xmlns="http://www.w3.org/1999/xhtml"
-                                    ></div>
-                                  </foreignObject>
-                                </g>
-                              </g>
-                              <path
-                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
-                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.18823529779911041,&#34;g&#34;:0.88627451658248901,&#34;b&#34;:0.61568629741668701,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.10327954590320587,&#34;g&#34;:0.48627451062202454,&#34;b&#34;:0.33781018853187561,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.18823529779911041,&#34;g&#34;:0.88627451658248901,&#34;b&#34;:0.61568629741668701,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.10327954590320587,&#34;g&#34;:0.48627451062202454,&#34;b&#34;:0.33781018853187561,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
-                              />
-                              <defs>
-                                <clipPath id="paint0_angular_2882_9101_clip_path">
-                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
-                                </clipPath>
-                              </defs>
-                            </svg>
+                            <Image
+                              src="/home/Vector (6).svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
                           )}
 
                           {idx === 1 && (
-                            <svg
-                              width="11"
-                              height="12"
-                              viewBox="0 0 11 12"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <g
-                                clip-path="url(#paint0_angular_2882_9085_clip_path)"
-                                data-figma-skip-parse="true"
-                              >
-                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
-                                  <foreignObject
-                                    x="-961.988"
-                                    y="-961.988"
-                                    width="1923.98"
-                                    height="1923.98"
-                                  >
-                                    <div
-                                      xmlns="http://www.w3.org/1999/xhtml"
-                                      style={{
-                                        background:
-                                          "conic-gradient(from 90deg,rgba(255, 224, 67, 1) 0deg,rgba(94, 78, 0, 1) 360deg);height:100%;width:100%;opacity:0.8",
-                                      }}
-                                    ></div>
-                                  </foreignObject>
-                                </g>
-                              </g>
-                              <path
-                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
-                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.87998497486114502,&#34;b&#34;:0.26442307233810425,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.3692307174205780,&#34;g&#34;:0.30898782610893250,&#34;b&#34;:0.0,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.87998497486114502,&#34;b&#34;:0.26442307233810425,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.3692307174205780,&#34;g&#34;:0.30898782610893250,&#34;b&#34;:0.0,&#34;a&#34;:1.0},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
-                              />
-                              <defs>
-                                <clipPath id="paint0_angular_2882_9085_clip_path">
-                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
-                                </clipPath>
-                              </defs>
-                            </svg>
+                            <Image
+                              src="/home/Vector (6) copy.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
                           )}
                           {idx === 2 && (
-                            <svg
-                              width="11"
-                              height="12"
-                              viewBox="0 0 11 12"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <g
-                                clip-path="url(#paint0_angular_2882_9139_clip_path)"
-                                data-figma-skip-parse="true"
-                              >
-                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
-                                  <foreignObject
-                                    x="-961.988"
-                                    y="-961.988"
-                                    width="1923.98"
-                                    height="1923.98"
-                                  >
-                                    <div
-                                      xmlns="http://www.w3.org/1999/xhtml"
-                                      style={{
-                                        background:
-                                          "conic-gradient(from 90deg,rgba(195, 49, 163, 1) 0deg,rgba(195, 49, 163, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
-                                      }}
-                                      // style="background:conic-gradient(from 90deg,rgba(195, 49, 163, 1) 0deg,rgba(195, 49, 163, 0.4) 360deg);height:100%;width:100%;opacity:0.8"
-                                    ></div>
-                                  </foreignObject>
-                                </g>
-                              </g>
-                              <path
-                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
-                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.76470589637756348,&#34;g&#34;:0.19215686619281769,&#34;b&#34;:0.63921570777893066,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
-                              />
-                              <defs>
-                                <clipPath id="paint0_angular_2882_9139_clip_path">
-                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
-                                </clipPath>
-                              </defs>
-                            </svg>
+                            <Image
+                              src="/home/Vector (6) copy 2.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
                           )}
                           {idx === 3 && (
-                            <svg
-                              width="11"
-                              height="12"
-                              viewBox="0 0 11 12"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <g
-                                clip-path="url(#paint0_angular_2882_9120_clip_path)"
-                                data-figma-skip-parse="true"
-                              >
-                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
-                                  <foreignObject
-                                    x="-961.988"
-                                    y="-961.988"
-                                    width="1923.98"
-                                    height="1923.98"
-                                  >
-                                    <div
-                                      xmlns="http://www.w3.org/1999/xhtml"
-                                      style={{
-                                        background:
-                                          "conic-gradient(from 90deg,rgba(5, 173, 196, 1) 0deg,rgba(5, 173, 196, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
-                                      }}
-                                    ></div>
-                                  </foreignObject>
-                                </g>
-                              </g>
-                              <path
-                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
-                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:0.019607843831181526,&#34;g&#34;:0.67843139171600342,&#34;b&#34;:0.76862746477127075,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
-                              />
-                              <defs>
-                                <clipPath id="paint0_angular_2882_9120_clip_path">
-                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
-                                </clipPath>
-                              </defs>
-                            </svg>
+                            <Image
+                              src="/home/Vector (6) copy 3.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
                           )}
                           {idx === 4 && (
-                            <svg
-                              width="11"
-                              height="12"
-                              viewBox="0 0 11 12"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <g
-                                clip-path="url(#paint0_angular_2882_9177_clip_path)"
-                                data-figma-skip-parse="true"
-                              >
-                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
-                                  <foreignObject
-                                    x="-961.988"
-                                    y="-961.988"
-                                    width="1923.98"
-                                    height="1923.98"
-                                  >
-                                    <div
-                                      xmlns="http://www.w3.org/1999/xhtml"
-                                      style={{
-                                        background:
-                                          "conic-gradient(from 90deg,rgba(255, 17, 17, 1) 0deg,rgba(255, 17, 17, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
-                                      }}
-                                    ></div>
-                                  </foreignObject>
-                                </g>
-                              </g>
-                              <path
-                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
-                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.066666670143604279,&#34;b&#34;:0.066666670143604279,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
-                              />
-                              <defs>
-                                <clipPath id="paint0_angular_2882_9177_clip_path">
-                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
-                                </clipPath>
-                              </defs>
-                            </svg>
+                            <Image
+                              src="/home/Vector (6) copy 4.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
                           )}
 
                           {idx === 5 && (
-                            <svg
-                              width="11"
-                              height="12"
-                              viewBox="0 0 11 12"
-                              fill="none"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <g
-                                clip-path="url(#paint0_angular_2882_9155_clip_path)"
-                                data-figma-skip-parse="true"
-                              >
-                                <g transform="matrix(0.009 0 -4.58078e-10 0.0075 4 6.00391)">
-                                  <foreignObject
-                                    x="-961.988"
-                                    y="-961.988"
-                                    width="1923.98"
-                                    height="1923.98"
-                                  >
-                                    <div
-                                      xmlns="http://www.w3.org/1999/xhtml"
-                                      style={{
-                                        background:
-                                          "conic-gradient(from 90deg,rgba(255, 136, 8, 1) 0deg,rgba(255, 136, 8, 0.4) 360deg);height:100%;width:100%;opacity:0.8",
-                                      }}
-                                    ></div>
-                                  </foreignObject>
-                                </g>
-                              </g>
-                              <path
-                                d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z"
-                                data-figma-gradient-fill="{&#34;type&#34;:&#34;GRADIENT_ANGULAR&#34;,&#34;stops&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;stopsVar&#34;:[{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:1.0},&#34;position&#34;:0.0},{&#34;color&#34;:{&#34;r&#34;:1.0,&#34;g&#34;:0.53333336114883423,&#34;b&#34;:0.031372550874948502,&#34;a&#34;:0.40000000596046448},&#34;position&#34;:1.0}],&#34;transform&#34;:{&#34;m00&#34;:18.0,&#34;m01&#34;:-9.1615544306478114e-07,&#34;m02&#34;:-5.0000004768371582,&#34;m10&#34;:-6.2604136284727385e-12,&#34;m11&#34;:15.000000953674316,&#34;m12&#34;:-1.4960942268371582},&#34;opacity&#34;:0.80000001192092896,&#34;blendMode&#34;:&#34;NORMAL&#34;,&#34;visible&#34;:true}"
-                              />
-                              <defs>
-                                <clipPath id="paint0_angular_2882_9155_clip_path">
-                                  <path d="M4.67261 6.00353C4.1868 5.38682 0 0 0 0C0 0 4.68781 0.00353158 5.28134 0.00353158C5.28134 0.00353158 9.28507 4.34072 10.5 6.00717L5.28134 12.0035H1.17507C0.992634 12.0033 0.00919151 12.017 0 12.0035C0 12.0035 3.10786 7.9891 4.67261 6.00353Z" />
-                                </clipPath>
-                              </defs>
-                            </svg>
+                            <Image
+                              src="/home/Vector (6) copy 5.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
+                          )}
+                          {idx === 6 && (
+                            <Image
+                              src="/home/Vector (6) copy.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
+                          )}
+                          {idx === 7 && (
+                            <Image
+                              src="/home/Vector (6) copy 2.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
+                          )}
+                          {idx === 8 && (
+                            <Image
+                              src="/home/Vector (6) copy 3.svg"
+                              alt="svg"
+                              width={15}
+                              height={15}
+                            />
                           )}
                         </div>
                         <span className="text-gray-300 font-['Graphikthin'] font-light text-[16px] opacity-80 text-sm sm:text-base">
