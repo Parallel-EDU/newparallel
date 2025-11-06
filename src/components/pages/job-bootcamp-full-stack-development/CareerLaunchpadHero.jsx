@@ -45,29 +45,29 @@ export default function CareerLaunchpadHero() {
 
   return (
     <section
-      style={{
-        background: `linear-gradient(70deg, rgb(46 42 243 / 19%) 0%, rgba(0, 0, 0, 0) 30%), linear-gradient(0.97deg, rgba(0, 0, 0, 0) 1.71%, #000000 20.96%)`,
-        backdropFilter: `blur(115.2px)`,
-        WebkitBackdropFilter: `blur(115.2px)`, // For Safari support
-      }}
-      className="mi-screen overflow-visible carrer-bg pt-40 flex flex-col items-center justify-center  px-4 py-12"
+      // style={{
+      //   background: `linear-gradient(70deg, rgb(46 42 243 / 19%) 0%, rgba(0, 0, 0, 0) 30%), linear-gradient(0.97deg, rgba(0, 0, 0, 0) 1.71%, #000000 20.96%)`,
+      //   backdropFilter: `blur(115.2px)`,
+      //   WebkitBackdropFilter: `blur(115.2px)`, // For Safari support
+      // }}
+      className="mi-screen relative overflow-hidden carrer-bg pt-40 flex flex-col items-center justify-center  px-4 py-12 max-lg:px-8 max-md:px-8"
     >
-      <div className="max-w-7xl w-full text-left">
+      <div className="max-w-7xl z-[99] relative w-full text-left">
         <span
-          style={{
-            background:
-              "linear-gradient(90deg,  #30E29D   30%, #201DA7 147.01%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-          }}
-          className="font-medium text-[16px] mb-3 tracking-wide"
+          // style={{
+          //   background:
+          //     "linear-gradient(90deg,  #30E29D   30%, #201DA7 147.01%)",
+          //   WebkitBackgroundClip: "text",
+          //   WebkitTextFillColor: "transparent",
+          //   backgroundClip: "text",
+          // }}
+          className="font-medium text-[20px] text-[#E5E5E5] font-['Graphikthin'] mb-3 tracking-wide"
         >
           Why Choose Parallel
         </span>
         <h1 className="text-white py-6 font-['Graphikthin'] text-5xl sm:text-[64px]">
           Not just coding. A complete <br />
-          career launchpad
+          career launchpad.
         </h1>
         <p className="text-[#E0E0E0] text-[20px] mb-2 max-w-[800px]">
           Hands-on learning, mentorship, AI-powered projects, and placement
@@ -75,8 +75,8 @@ export default function CareerLaunchpadHero() {
         </p>
       </div>
       {/* Features Table */}
-      <div className="w-full max-w-7xl mt-[56px]">
-        <div className="bg[#20202a] bg-opacity-90 space-y-2 rounded-xl shadow-lg overflow-hidden">
+      <div className="w-full max-w-7xl mt-[56px] z-[99] relative">
+        <div className="bg[#20202a] bg-opacity-90 space-y-1 rounded-xl shadow-lg overflow-hidden">
           {features.map((item, i) => (
             <div
               key={i}

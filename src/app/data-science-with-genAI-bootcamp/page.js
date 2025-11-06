@@ -20,8 +20,8 @@ const devOps = () => {
         <PlacementSupport />
         <PlansPricing />
         <CourseRoadmap />
-        <HeroSection />
         <Blog />
+        <HeroSection />
       </div>
     </>
   );

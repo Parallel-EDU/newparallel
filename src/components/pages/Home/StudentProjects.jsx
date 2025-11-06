@@ -32,7 +32,7 @@ export default function StudentProjects() {
 
         {/* CTA */}
         <div className="flex justify-center mt-[75px] mt[75px] z-[9999]">
-          <Link href="/#">
+          <Link href="#">
             <button
               className="group rounded-[8px] font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-8 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d14] hoverext-white"
               style={{

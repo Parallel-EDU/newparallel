@@ -1,3 +1,7 @@
 {
-  "/testimonials/page": "app/testimonials/page.js"
+  "/tech/aws/page": "app/tech/aws/page.js",
+  "/tech/java/page": "app/tech/java/page.js",
+  "/tech/python/page": "app/tech/python/page.js",
+  "/tech/react-js/page": "app/tech/react-js/page.js",
+  "/tech/javascript/page": "app/tech/javascript/page.js"
 }

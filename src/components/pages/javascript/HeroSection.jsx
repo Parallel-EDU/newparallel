@@ -8,39 +8,39 @@ export default function HeroSection() {
   const { openModal } = useModal();
   return (
     <section
-      className="relative flex flex-col items-center justify-center text-center min-h-[650px] px-6 overflow-hidden"
-      style={{
-        background: `
-          linear-gradient(
-            179.63deg,
-            #000000 7.03%,
-            rgba(0, 0, 0, 0.514423) 21.31%,
-            rgba(0, 0, 0, 0.514423) 53.15%,
-            rgba(0, 0, 0, 0.514423) 82.77%,
-            #000000 96.68%
-          ),
-          radial-gradient(
-            58.38% 166.81% at 50% 157.82%,
-            rgba(27, 212, 79, 1.7) 0%,
-            rgba(14, 11, 180, 1.43) 73.82%,
-            rgba(0, 0, 0, 0.43) 100%
-          )
-        `,
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
+      className="relative flex page-break flex-col items-center justify-center text-center min-h-[650px] px-6 overflow-hidden"
+      // style={{
+      //   background: `
+      //     linear-gradient(
+      //       179.63deg,
+      //       #000000 7.03%,
+      //       rgba(0, 0, 0, 0.514423) 21.31%,
+      //       rgba(0, 0, 0, 0.514423) 53.15%,
+      //       rgba(0, 0, 0, 0.514423) 82.77%,
+      //       #000000 96.68%
+      //     ),
+      //     radial-gradient(
+      //       58.38% 166.81% at 50% 157.82%,
+      //       rgba(27, 212, 79, 1.7) 0%,
+      //       rgba(14, 11, 180, 1.43) 73.82%,
+      //       rgba(0, 0, 0, 0.43) 100%
+      //     )
+      //   `,
+      //   backgroundRepeat: "no-repeat",
+      //   backgroundSize: "cover",
+      //   backgroundPosition: "center",
+      // }}
     >
-      <div className="absolute w-[100%] h-[622px] -z[1] top-0 left-0 overflow-hidden">
+      {/* <div className="absolute w-[100%] h-[622px] -z[1] top-0 left-0 overflow-hidden">
         <div className={`${style.backgroundbox22223}`}></div>
-      </div>
+      </div> */}
       {/* Subtle top line */}
       {/* <div className="absolute top-0 left-0 w-full h-[1px] bg-white/10"></div> */}
 
       {/* Hero Content */}
       <div className="relative z-[99999] max-w-[1080px] mx-auto">
         <h1 className="text-[64px] leading-tight font-['Graphikthin'] text-white max-md:text-[48px] max-sm:text-[36px]">
-          Upskill in JavaScript, Gain Real-World Experience, and land your dream
+          Upskill in JavaScript, gain real-world experience, and land your dream
           job{" "}
         </h1>
 

@@ -44,14 +44,14 @@ export default function CareerLaunchpadHero() {
     >
       <div className="max-w-7xl w-full text-left">
         <span
-          style={{
-            background:
-              "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-          }}
-          className="font-medium text-[16px] mb-3 tracking-wide"
+          // style={{
+          //   background:
+          //     "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
+          //   WebkitBackgroundClip: "text",
+          //   WebkitTextFillColor: "transparent",
+          //   backgroundClip: "text",
+          // }}
+          className="font-medium text-[20px] text-[#E5E5E5] font-['Graphikthin'] mb-3 tracking-wide"
         >
           Why Choose This Certification?
         </span>
@@ -86,7 +86,7 @@ export default function CareerLaunchpadHero() {
               >
                 {item.title}
               </div>
-              <div className="text- text-[24px] font-['Graphik']  px-5 py-6 bg[#FFFFFF0D] text-[#E0E0E0E5] text-left sm:w-[70%] w-full mt-1 sm:mt-0">
+              <div className="text- text-[24px] font-['Graphik'] tracking-tight max-md:px-5 px-0 py-3 bg[#FFFFFF0D] text-[#E0E0E0E5] text-left sm:w-[70%] w-full mt-1 sm:mt-0">
                 {item.desc}
               </div>
             </div>

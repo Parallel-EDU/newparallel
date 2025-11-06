@@ -106,8 +106,9 @@ export default function Success() {
               </div>
             </div>
             <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[20px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
-              I cannot believe I got placed in 4 months. I was finding a job for
-              almost 1 year.
+              The projects and DSA sessions together built my logic and coding
+              confidence. I cracked my first tech interview right after the
+              course!
             </p>
           </div>
         </div>
@@ -142,9 +143,9 @@ export default function Success() {
               </div>
             </div>
             <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[20px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
-              The fees you take is completely worth it. Your schedule is packed
-              with so many things to learn. Career development along with full
-              stack is great! I don’t have to go begging for jobs now.
+              The trainers actually care about your growth. Their one-on-one
+              feedback during my internship boosted both my skills and
+              confidence.
             </p>
           </div>
         </div>
@@ -179,8 +180,9 @@ export default function Success() {
               </div>
             </div>
             <p className="opacity-80 max-sm:text-sm max-sm:mt-[20px] text-base widescreen:text-[20px] widestscreen:text-[20px] widescreen:leading-[150%] text-[#E0E0E0] mt-[34.73px]">
-              A completely hands-on approach. I even got to work on a REAL
-              project as a part of their QUICK BATCH program.
+              The AWS internship tasks were challenging but practical. They
+              trained us exactly like the industry does. I was job-ready from
+              day one.
             </p>
           </div>
         </div>

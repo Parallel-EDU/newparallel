@@ -84,9 +84,9 @@ const HeroBoot = () => {
   return (
     <>
       <div className="overflowhidden  hero-python relative">
-        <div className="absolute z-20 w-[100%] h-[1022px] top-[0px] overflow-hidden">
+        {/* <div className="absolute z-20 w-[100%] h-[1022px] top-[0px] overflow-hidden">
           <div className={style.backgroundbox123}></div>
-        </div>
+        </div> */}
         {/* <div className="absolute z-20 w-[120%] h-[822px] top-[622px] -right-20 overflow-hidden">
           <div className={style.backgroundcolor3}></div>
         </div> */}
@@ -97,9 +97,9 @@ const HeroBoot = () => {
           <div className={style.backgroundbox}></div>
         </div> */}
         <main className="px-[80px] max-xl:p-[40px] z-50 relative max-md:px-[40px] max-sm:px-[20px] max-md:pt-[50px] max-sm:pb-0 max-sm:pt-[30px] flex justify-between max-hamburger:items-center max-smalllaptop:gap-[20px] max-hamburger:flex-col pb-[29.5px] pt-[76.5px]">
-          <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%]  w-[73%]">
+          <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%]  w-[65%]">
             <div className="relative z-30 w-full">
-              <h1 className="w-[685.41px] widescreen:w-full text-[56.07px] widescreen:text-[84px] widestscreen:text-[94px] widescreen:leading-[100px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[65.73px] text-[#E5E5E5] font-['Graphikmedium'] font-light mb-[20px]">
+              <h1 className="w-[562.41px] widescreen:w-full text-[56.07px] widescreen:text-[84px] widestscreen:text-[94px] widescreen:leading-[100px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[65.73px] text-[#E5E5E5] font-['Graphikthin'] mb-[20px]">
                 Master Machine Learning
                 <span className="font-['system-ui'] font-[100]"> & </span>{" "}
                 launch launch your career in AI
@@ -155,7 +155,7 @@ const HeroBoot = () => {
             </div>
             {/* <StatsBar /> */}
           </div>
-          <div className="w-[457px] widescreen:h-[calc(100%-110px)] widescreen:p-10 h-full widescreen:w-[35%] relative max-sm:w-full z-30 backdrop-blur-sm max-hamburger:w-[70%] flex flex-col z-20 gap-[32px] max-sm:gap-[20px] max-sm:h-auto h-589px] px-[16px] max-sm:px-[20px] max-sm:py-[16px] py-[16px] rounded-[14px] bg-[#FFFFFF1A]">
+          <div className="w-[457px] widescreen:h-[calc(100%-110px)] widescreen:p-10 h-full widescreen:w-[35%] relative max-sm:w-full z-30 backdrop-blur-md max-hamburger:w-[70%] flex flex-col z-20 gap-[32px] max-sm:gap-[20px] max-sm:h-auto h-589px] px-[16px] max-sm:px-[20px] max-sm:py-[16px] py-[16px] rounded-[14px] bg-[#FFFFFF1A]">
             <div className="flex flex-col gap-[16px]">
               <p className="text-[24px]  mb10   font-['Graphikmid'] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] mb[12px] w-[80%] leading-6 text-[#fff]">
                 Looking out for a job ?

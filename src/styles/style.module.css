@@ -37,13 +37,13 @@
   background-image: url("/logos/full-grid.svg");
   width: 100%;
   position: absolute;
-  top: 101px;
+  top: 11px;
   right: 0px;
-  height: 710px;
+  height: 100%;
   background-repeat: no-repeat;
   mix-blend-mode: color-dodge;
   z-index: 22;
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .backgroundbox2 {

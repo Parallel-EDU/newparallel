@@ -9,7 +9,7 @@ const Delivers = () => {
   const { openModal } = useModal();
   return (
     <>
-      <div className="pt-[102.57px] d-sec max-xl:p-10 max-md:p-4 relative max-sm:py-[32px] max-sm:px-[16`px] max-md:px-[40px] relative pb-[50.43px] pl-[80px] pr-[79px]">
+      <div className="pt-[102.57px] d-sec -mt-5 max-xl:p-10 max-md:p-4 relative max-sm:py-[32px] max-sm:px-[16`px] max-md:px-[40px] relative pb-[50.43px] pl-[80px] pr-[79px]">
         {/* <div
           className="absolute w-[50%] left-10 rounded-full"
           style={{

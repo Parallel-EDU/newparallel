@@ -111,7 +111,7 @@ export default function CourseCurriculum() {
                   </svg>
                 </div>
 
-                <div className="absolute left-20 max-md:hidden md:left-[11rem] h-[90%] z-[1] top-6 bottom-0 w-[0.99px] border-l-[0.99px] border-dashed border-gray-600"></div>
+                <div className="absolute left-20 max-md:hidden md:left-[11rem] h-[81%] z-[1] top-[5rem] bottom-0 w-[0.99px] border-l-[0.99px] border-dashed border-gray-600"></div>
 
                 {/* Right: Content Card */}
                 <div className="flex-1">
@@ -130,6 +130,24 @@ export default function CourseCurriculum() {
         </div>
 
         {/* Technologies Section */}
+      </div>
+
+      <div className="flex items-center justify-center pb-8">
+        <svg
+          width="1280"
+          height="1"
+          viewBox="0 0 1280 1"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          className="max-xl:w-full"
+        >
+          <path
+            d="M0 0.5H1280"
+            stroke="#656565"
+            stroke-opacity="0.7"
+            stroke-dasharray="2 2"
+          />
+        </svg>
       </div>
 
       <div className="max-xl:px-8">

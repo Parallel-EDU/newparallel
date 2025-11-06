@@ -436,7 +436,7 @@ export default function CourseCurriculum() {
                         : "none",
                   }}
                 >
-                  <div className="text-xs font-light text-gray-400 mb-1 font-['Graphikthin']">
+                  <div className="text-xs font-light text-gray mb-1 font-['Graphikthin']">
                     {coursePhase.phase}
                   </div>
                   <div className="text-[22px] font-['Graphikthin'] text-[#E0E0E0] font-normal hover:text-white transition-colors">
@@ -577,9 +577,24 @@ export default function CourseCurriculum() {
                         </div>
                       ))}
                 </div>
+                <svg
+                  width="861"
+                  height="1"
+                  viewBox="0 0 861 1"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="max-xl:w-full"
+                >
+                  <path
+                    d="M0 0.5H861"
+                    stroke="#656565"
+                    stroke-opacity="0.7"
+                    stroke-dasharray="2 2"
+                  />
+                </svg>
 
                 {/* Logos */}
-                <div className="relative overflow-hidden">
+                <div className="relative overflow-hidden  pt-5">
                   <div className="flex gap-4 animatemarquee">
                     {coursePhase.logos.map((logo, idx) => (
                       <div key={idx} className="flex items-center">

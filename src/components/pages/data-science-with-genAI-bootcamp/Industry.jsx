@@ -15,7 +15,8 @@ export default function Industry() {
       <div className="relative mx-auto max-w-[1280px] px-4 sm:px-8 z-[9999]">
         {/* Heading */}
         <h1 className="text-[#E5E5E5] font- font-['Graphikthin'] tracking-[-0.018em] leading-[1.08] text-[42px] sm:text-[64px]  6">
-          See what our students build
+          Hands-on projects that showcase your data science expertise to
+          employers.
         </h1>
         {/* Subhead */}
         <p className="text-[16px] font-['Graphikthin'] text-[#E0E0E0] max-w-[660px]  mt-6">
@@ -32,7 +33,7 @@ export default function Industry() {
 
         {/* CTA */}
         <div className="flex justify-center mt-[75px] mt[75px] z-[9999]">
-          <Link href="/#">
+          <Link href="#">
             <button
               className="group rounded-[8px] hover:bg-[#30E29D] font-['Graphikmid'] hover:text-[#292929] border border-[#30E29D] px-8 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d14] hoverext-white"
               style={{
@@ -80,29 +81,27 @@ function ProjectCard({ color, img, title, desc }) {
 const projects = [
   {
     color: "#EB39C2",
-    img: "/home/Frame 1000003040.png",
-    title: "E-Commerce Platform – MERN / Spring Boot + Payment Gateway",
+    img: "/home/Frame 1000003041 (1).png",
+    title: "Customer Churn Prediction",
     desc: "",
   },
   {
     color: "#2277ea",
-    img: "/home/Frame 1000003040 copy.png",
+    img: "/home/Frame 1000003038 (2) copy 2.png",
 
-    title:
-      "AI-Powered Dashboard – Data Analytics + Automation + GenAI insights",
+    title: "Fraud Detection Model  ",
     desc: "",
   },
   {
     color: "#781fe0",
-    img: "/home/Frame 1000003040 (1).png",
-    title:
-      "CI/CD Pipeline Automation – Jenkins pipeline for web app deployment",
+    img: "/home/Frame 1000003038 (2).png",
+    title: "Business Insights Dashboard with Tableau",
     desc: "",
   },
   {
     color: "#DDFB22",
-    img: "/home/Frame 1000003038 (1).png",
-    title: "Recommendation System – Personalized suggestions using ML",
+    img: "/home/Frame 1000003038 (2) copy.png",
+    title: "Resume Classifier with NLP",
     desc: "",
   },
 ];

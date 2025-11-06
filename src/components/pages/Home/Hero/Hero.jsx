@@ -61,19 +61,19 @@ const Hero = () => {
 
   return (
     <>
-      <div className="overflowhidden relative">
-        <div className="absolute z-20 w-full h-[1022px] top-0 overflow-hidden">
+      <div className="overflowhidden main-hero-home relative">
+        {/* <div className="absolute z-20 w-full h-[1022px] top-0 overflow-hidden">
           <div className={style.backgroundcolor}></div>
-        </div>
+        </div> */}
         {/* <div className="absolute z-20 w-[120%] h-[822px] top-[622px] -right-20 overflow-hidden">
           <div className={style.backgroundcolor3}></div>
         </div> */}
-        <div className="absolute z-20 w-full h-[1022px] top-[622px] right-0 overflow-hidden">
+        {/* <div className="absolute z-20 w-full h-[1022px] top-[622px] right-0 overflow-hidden">
           <div className={style.backgroundcolor2}></div>
-        </div>
-        <div className="absolute w-full h-[1022px] top-0 left-0 overflow-hidden">
+        </div> */}
+        {/* <div className="absolute w-full h-[1022px] top-0 left-0 overflow-hidden">
           <div className={style.backgroundbox}></div>
-        </div>
+        </div> */}
         <main className="px-20 z-50 relative max-md:px-10 max-xl:p-10 max-sm:px-5 max-md:pt-[50px] max-sm:pb-0 max-sm:pt-[30px] flex justify-between max-hamburger:items-center max-smalllaptop:gap-5 max-hamburger:flex-col pb-[29.5px] pt-[76.5px]">
           <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%]">
             <div className="relative z-30 w-full">

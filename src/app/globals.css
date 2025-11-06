@@ -29,28 +29,25 @@ input[type="radio"]:checked {
 .hero-python::after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: -50px;
   width: 100%;
-  height: 100%;
-  background-image: url("/logos/Rectangle\ 9.svg");
+  height: 110%;
+  background-image: url("/home/Website.svg");
 
   background-repeat: no-repeat;
 }
-.carrer-bg::after {
+/* .carrer-bg::after {
   content: "";
-  background-image: url("/home/Rectangle 9.png");
+  background-image: url("/svgs/Frame 1000003121.svg");
   position: absolute;
   top: 0px;
-  left: -150px;
+  left: 00px;
   width: 100%;
   height: 100%;
-  background-size: 78%;
-  /* background-image: url("/home/Rectangle 9.png"); */
-  background-repeat: no-repeat;
-  z-index: -1;
-
+  background-size: 100%;
+  z-index: 0;
   backdrop-filter: blur(156px);
-}
+} */
 
 /* Added smooth horizontal scrolling animation for technology logos */
 @keyframes scroll {
@@ -197,8 +194,8 @@ input::placeholder {
 }
 .d-sec::before {
   content: "";
-  background-image: url("/home/Ellipse 328.svg");
-
+  /* background-image: url("/home/Ellipse 328.svg"); */
+  background-image: url("/svgs/Website copy.svg");
   width: 100%;
   position: absolute;
   top: 10px;
@@ -206,28 +203,62 @@ input::placeholder {
   left: 0px;
   height: 100%;
   background-repeat: no-repeat;
-  /* mix-blend-mode: color-dodge; */
+  z-index: 0;
+}
+.footer-bg::before {
+  content: "";
+  background-image: url("/svgs/Ellipse 8.svg");
+
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+.carrer-bg::before {
+  content: "";
+  background-image: url("/svgs/Frame 1000003121.svg");
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+.page-break::before {
+  content: "";
+  background-image: url("/svgs/Page_breaker.svg");
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.main-hero-home::before {
+  content: "";
+  background-image: url("/svgs/Website.svg");
+
+  width: 100%;
+  position: absolute;
+  top: -100px;
+  left: 0px;
+  height: 130%;
+  background-repeat: no-repeat;
   z-index: 0;
 }
 .hiring-bg {
   content: "";
   background-image: url("/home/Rectangle 29 (2).png");
-  /* background: linear-gradient(156.63deg, #201da7 8.68%, #30e29d 84.91%); */
-  /* background: linear-gradient(
-    180deg,
-    rgba(48, 226, 157, 0.7) 0%,
-    rgba(43, 71, 195, 0.7) 100%
-  ); */
-  background-position: 100% 90%;
-
+  background-position: 100% 80%;
   width: 100%;
-  /* position: absolute; */
-  /* top: 10px; */
-  /* backdrop-filter: blur(56px); */
-  /* right: 0px; */
   height: 100%;
   background-repeat: no-repeat;
-  /* mix-blend-mode: color-dodge; */
   z-index: 2;
 }
 

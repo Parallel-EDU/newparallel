@@ -27,7 +27,7 @@ export default function Industry() {
 
         {/* CTA */}
         <div className="flex justify-center pt-2">
-          <Link href="/#">
+          <Link href="#">
             <button className="group rounded-[8px] font-['Graphikmid'] hover:bg-[#30E29D] hover:text-[#292929] border border-[#30E29D] px-8 py-[11px] text-[15px] text-[#30E29D] transition-colors hover:bg-[#22e19d14] hoverext-white">
               View More Projects
             </button>

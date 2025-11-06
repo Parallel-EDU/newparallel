@@ -355,7 +355,7 @@ export default function CourseRoadmap() {
       className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24"
     >
       <h2 className="leading-tight lg:text-[64px] font-['Graphikthin'] font-light tracking-tight mb-16 text-pretty">
-        Your next 6-9 months fast-track roadmap to a data science career{" "}
+        Your next 6-9 months fast-track roadmap to a data science career.{" "}
       </h2>
 
       {/* Timeline Container */}

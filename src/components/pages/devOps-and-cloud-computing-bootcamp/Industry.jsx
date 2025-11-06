@@ -15,7 +15,7 @@ export default function Industry() {
       <div className="relative mx-auto max-w-[1280px] px-4 sm:px-8 z-[9999]">
         {/* Heading */}
         <h1 className="text-[#E5E5E5] font- font-['Graphikthin'] tracking-[-0.018em] leading-[1.08] text-[42px] sm:text-[64px]  6">
-          See what our students build
+          See what our students build.
         </h1>
         {/* Subhead */}
         <p className="text-[16px] font-['Graphikthin'] text-[#E0E0E0] max-w-[660px]  mt-6">
@@ -32,7 +32,7 @@ export default function Industry() {
 
         {/* CTA */}
         <div className="flex justify-center mt-[75px] mt[75px] z-[9999]">
-          <Link href="/#">
+          <Link href="#">
             <button
               className="group rounded-[8px] hover:bg-[#30E29D] font-['Graphikmid'] hover:text-[#292929] border border-[#30E29D] px-8 py-[14px] text-[16px] text-[#30E29D] transition-colors hover:bg-[#22e19d14] hoverext-white"
               style={{

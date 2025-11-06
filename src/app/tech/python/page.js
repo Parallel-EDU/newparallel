@@ -21,11 +21,11 @@ const devOps = () => {
         <CareerLaunchpadHero />
         <CourseCurriculum />
         <PlacementSupport />
-        <Industry />
+        {/* <Industry /> */}
         <PlansPricing />
         <Success />
         {/* <CourseRoadmap /> */}
-        <Blog />
+        {/* <Blog /> */}
         <HeroSection />
       </div>
     </>

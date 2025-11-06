@@ -15,7 +15,7 @@ const devOps = () => {
         <CareerLaunchpadHero />
         <CourseCurriculum />
         <PlacementSupport />
-        <Industry />
+        {/* <Industry /> */}
         <PlansPricing />
         <Success />
         {/* <CourseRoadmap /> */}

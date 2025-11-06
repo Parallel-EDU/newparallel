@@ -4,13 +4,13 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="pl-[80px]  overflow-hidden max-md:px-[40px] max-sm:px-[20px] pt-[80.58px] pb-[14px] flex flex-col gap-[40px] max-sm:gap-[00px] relative pr-[76px]">
+    <footer className="pl-[80px] footer-bg overflow-hidden max-md:px-[40px] max-sm:px-[20px] pt-[80.58px] pb-[14px] flex flex-col gap-[40px] max-sm:gap-[00px] relative pr-[76px]">
       {/* <div className="overflow-hidden max-smallphone:hidden absolute w-[100%] bottom-[0] left-0 h-[1449.12px]"> */}
       {/* <div
           className={`w-[100%] h-[849.12px] left-[15.49px] absolute bottom-[275.86px] ${style.footer}`}
         ></div> */}
 
-      <div className="absolute -top-40 -z10 h-[500px] flex justify-center">
+      {/* <div className="absolute -top-40 -z10 h-[500px] flex justify-center">
         <div
           className="w-[1100px] h-full rounded-full"
           style={{
@@ -20,7 +20,7 @@ export default function Footer() {
             opacity: 0.8,
           }}
         ></div>
-      </div>
+      </div> */}
 
       {/* </div> */}
       <div className="flex justify-start gap-10 max-sm:flex-col max-hamburger:gap-[50px] z-20 widescreen:justify-between">
