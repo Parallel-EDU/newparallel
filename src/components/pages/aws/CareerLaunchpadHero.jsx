@@ -82,7 +82,7 @@ export default function CareerLaunchpadHero() {
                 //   background:
                 //     "linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), linear-gradient(0deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05))",
                 // }}
-                className="font-medium text-[24px] font-['Graphikthin'] px-5  py-6 text-left text-[#E0E0E0] sm:w-[40%] w-full bg[#FFFFFF0D] "
+                className="font-medium text-[24px] font-['Graphikthin'] px-5  py-3 text-left text-[#E0E0E0] sm:w-[35%] w-full bg[#FFFFFF0D] "
               >
                 {item.title}
               </div>

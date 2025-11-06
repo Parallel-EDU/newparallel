@@ -1,7 +1,8 @@
 {
-  "/tech/aws/page": "app/tech/aws/page.js",
-  "/tech/java/page": "app/tech/java/page.js",
-  "/tech/python/page": "app/tech/python/page.js",
-  "/tech/react-js/page": "app/tech/react-js/page.js",
-  "/tech/javascript/page": "app/tech/javascript/page.js"
+  "/tech/dev-ops/page": "app/tech/dev-ops/page.js",
+  "/tech/ai-prompt-eng/page": "app/tech/ai-prompt-eng/page.js",
+  "/tech/node-js/page": "app/tech/node-js/page.js",
+  "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js",
+  "/tech/ai-agents/page": "app/tech/ai-agents/page.js",
+  "/tech/salesforce/page": "app/tech/salesforce/page.js"
 }

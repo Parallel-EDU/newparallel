@@ -810,6 +810,9 @@ video {
 .top-\[422px\] {
   top: 422px;
 }
+.top-\[4rem\] {
+  top: 4rem;
+}
 .top-\[5rem\] {
   top: 5rem;
 }
@@ -827,9 +830,6 @@ video {
 }
 .top-\[986px\] {
   top: 986px;
-}
-.top-\[4rem\] {
-  top: 4rem;
 }
 .-z-10 {
   z-index: -10;
@@ -1488,6 +1488,9 @@ video {
 .h-\[82px\] {
   height: 82px;
 }
+.h-\[83\%\] {
+  height: 83%;
+}
 .h-\[83px\] {
   height: 83px;
 }
@@ -1506,8 +1509,8 @@ video {
 .h-screen {
   height: 100vh;
 }
-.h-\[83\%\] {
-  height: 83%;
+.h-\[80\%\] {
+  height: 80%;
 }
 .max-h-\[32px\] {
   max-height: 32px;
@@ -1791,6 +1794,9 @@ video {
 .w-\[570px\] {
   width: 570px;
 }
+.w-\[590\.41px\] {
+  width: 590.41px;
+}
 .w-\[597\.58px\] {
   width: 597.58px;
 }
@@ -1928,9 +1934,6 @@ video {
 }
 .w-full {
   width: 100%;
-}
-.w-\[590\.41px\] {
-  width: 590.41px;
 }
 .min-w-\[250px\] {
   min-width: 250px;
@@ -2814,11 +2817,11 @@ video {
 .p-\[1px\] {
   padding: 1px;
 }
-.p-\[27px\] {
-  padding: 27px;
-}
 .p-\[24px\] {
   padding: 24px;
+}
+.p-\[27px\] {
+  padding: 27px;
 }
 .px-0 {
   padding-left: 0px;
@@ -3537,9 +3540,6 @@ video {
 }
 .pt-\[97\.5px\] {
   padding-top: 97.5px;
-}
-.pb-5 {
-  padding-bottom: 1.25rem;
 }
 .text-left {
   text-align: left;
@@ -5603,6 +5603,11 @@ input::placeholder {
     padding-right: 2.5rem;
   }
 
+  .max-md\:px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
   .max-md\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
@@ -5651,11 +5656,6 @@ input::placeholder {
   .max-md\:py-\[80px\] {
     padding-top: 80px;
     padding-bottom: 80px;
-  }
-
-  .max-md\:px-5 {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
   }
 
   .max-md\:pb-0 {
@@ -6466,10 +6466,6 @@ input::placeholder {
 
 @media (min-width: 1024px) {
 
-  .lg\:left-\[11rem\] {
-    left: 11rem;
-  }
-
   .lg\:left-\[10rem\] {
     left: 10rem;
   }
@@ -6579,14 +6575,6 @@ input::placeholder {
 }
 
 @media (min-width: 1280px) {
-
-  .xl\:left-\[11rem\] {
-    left: 11rem;
-  }
-
-  .xl\:left-\[1rem\] {
-    left: 1rem;
-  }
 
   .xl\:left-\[10rem\] {
     left: 10rem;

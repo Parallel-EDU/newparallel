@@ -1,5 +1,6 @@
 "use client";
 import { useModal } from "@/app/context/ModalContext";
+import axios from "axios";
 import { X } from "lucide-react";
 import Image from "next/image";
 import { useRef, useState } from "react";
@@ -50,6 +51,8 @@ export default function EnrollModal() {
       };
       try {
         const response = await axios.post("/api/home", data);
+        const d = response.json();
+        console.log(d);
         setfilled("done");
       } catch (error) {
         console.error("Error sending data:", error);

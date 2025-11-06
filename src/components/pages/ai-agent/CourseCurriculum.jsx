@@ -116,7 +116,7 @@ export default function CourseCurriculum() {
                   </svg>
                 </div>
 
-                <div className="absolute left-20 max-md:hidden md:left-[11rem] h-[81%] z-[1] top-[5rem] bottom-0 w-[0.99px] border-l-[0.99px] border-dashed border-gray-600"></div>
+                <div className="absolute left-20 max-md:hidden md:left-[11rem] h-[83%] z-[1] top-[5rem] bottom-0 w-[0.99px] border-l-[0.99px] border-dashed border-gray-600"></div>
 
                 {/* Right: Content Card */}
                 <div className="flex-1">
