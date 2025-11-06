@@ -126,11 +126,11 @@ export default function Testimonials() {
 
       <div className="mx-auto max-w-7xl px-6 py-16 sm:py-20">
         {/* Left block: heading + copy + CTA */}
-        <div className="max-w-3xl">
-          <h2 className=" sm:text-[64px] font-['Graphikthin'] leading-tight tracking-tight text-white/95">
+        <div className="max-w-4xl">
+          <h2 className=" text-[64px] font-['Graphikthin'] leading-[74px] tracking-tight text-white/95">
             Real stories. Real transformations. Real results.
           </h2>
-          <p className="mt-4 text-sm font-['Graphikmid'] sm:text-[16px] text-neutral-300">
+          <p className="mt-4 text-sm font-['Graphikthin'] max-w-3xl sm:text-[16px] text-neutral-300">
             Behind every testimonial is a journey of persistence, mentorship,
             and growth - proof that the right guidance can change everything.
           </p>
@@ -154,17 +154,17 @@ export default function Testimonials() {
                 <img
                   src={p.img}
                   alt={p.name}
-                  className="h-12 w-12 rounded-full object-cover ring-1 ring-white/10"
+                  className="h-20 w-20 rounded-full object-cover ring-1 ring-white/10"
                 />
                 <div>
-                  <h3 className="text-base font-medium text-white/90">
+                  <h3 className="text-[24px] font-['Graphikthin'] font-normal text-[#E5E5E5] ">
                     {p.name}
                   </h3>
-                  <p className="text-xs text-neutral-400">{p.role}</p>
+                  <p className="text-[16px] text-[#BFBFBF]">{p.role}</p>
                 </div>
               </div>
 
-              <p className="mt-4 text-sm leading-6 text-neutral-300">
+              <p className="mt-4 text-[16px] leading-6 text-[#E0E0E0] ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud.

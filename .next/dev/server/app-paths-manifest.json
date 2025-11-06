@@ -1,6 +1,4 @@
 {
-  "/page": "app/page.js",
   "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js",
-  "/data-science-with-genAI-bootcamp/page": "app/data-science-with-genAI-bootcamp/page.js",
-  "/devOps-and-cloud-computing-bootcamp/page": "app/devOps-and-cloud-computing-bootcamp/page.js"
+  "/testimonials/page": "app/testimonials/page.js"
 }
