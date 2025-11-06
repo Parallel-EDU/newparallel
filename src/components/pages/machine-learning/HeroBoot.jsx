@@ -83,7 +83,7 @@ const HeroBoot = () => {
   ];
   return (
     <>
-      <div className="overflowhidden  hero-python">
+      <div className="overflowhidden  hero-python relative">
         <div className="absolute z-20 w-[100%] h-[1022px] top-[0px] overflow-hidden">
           <div className={style.backgroundbox123}></div>
         </div>
