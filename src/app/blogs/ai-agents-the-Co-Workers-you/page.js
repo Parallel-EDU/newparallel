@@ -55,7 +55,7 @@ export default function Page() {
                 className="wfull rounded-full w-[60px] h-[60px] objectcover"
               />
             </div>
-            Muheeb Syed Saif • 01 Nov 2025
+            Muheeb Syed Saif • 02 Nov 2025
           </p>
 
           {/* Header Image */}

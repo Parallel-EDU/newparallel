@@ -1,5 +1,6 @@
 {
-  "/tech/salesforce/page": "app/tech/salesforce/page.js",
-  "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/blogs/page": "app/blogs/page.js",
+  "/blogs/choosing-between-full-stack/page": "app/blogs/choosing-between-full-stack/page.js",
+  "/blogs/communication-the-most-underrated-skill-in-the-AI-world/page": "app/blogs/communication-the-most-underrated-skill-in-the-AI-world/page.js"
 }
