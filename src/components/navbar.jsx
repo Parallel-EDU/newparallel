@@ -171,7 +171,7 @@ export default function Navbar() {
               </p>
 
               {/* Bootcamp Programs */}
-              {activeCategory === "bootcamp" && (
+              {activeCategory === "certification" && (
                 <div className="grid grid-cols-3 gap-x-[60px] gap-y-[35px] text-[16px]">
                   {programsData.bootcamp.map((col, i) =>
                     col.map((item, j) => (
@@ -189,7 +189,7 @@ export default function Navbar() {
               )}
 
               {/* Certification Programs */}
-              {activeCategory === "certification" && (
+              {activeCategory === "bootcamp" && (
                 <div className="flex flex-col gap-[35px] text-[16px]">
                   {programsData.certification.map((col, i) =>
                     col.map((item, j) => (
