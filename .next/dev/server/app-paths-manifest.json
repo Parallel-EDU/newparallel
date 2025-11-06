@@ -1,8 +1,7 @@
 {
-  "/tech/python/page": "app/tech/python/page.js",
-  "/tech/aws/page": "app/tech/aws/page.js",
+  "/page": "app/page.js",
+  "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js",
   "/tech/react-js/page": "app/tech/react-js/page.js",
-  "/tech/tableau/page": "app/tech/tableau/page.js",
-  "/tech/data-analysis/page": "app/tech/data-analysis/page.js",
+  "/tech/machine-learning/page": "app/tech/machine-learning/page.js",
   "/tech/vue-js/page": "app/tech/vue-js/page.js"
 }
