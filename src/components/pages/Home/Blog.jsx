@@ -6,7 +6,7 @@ import Link from "next/link";
 
 export default function Blog() {
   return (
-    <section className="relative overflow-hidden pt-10 pb-0 ">
+    <section className="relative overflow-hidden pt-10 pb-0 max-md:pt-0 ">
       <div className="absolute w-[100%] h-[822px] z[1] top-0 left-0 overflow-hidden">
         <div className={`${style.backgroundbox22223}`}></div>
       </div>

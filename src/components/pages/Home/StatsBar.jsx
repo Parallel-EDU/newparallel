@@ -3,7 +3,7 @@
 
 export default function StatsBar() {
   return (
-    <div className="w-full flex justify-start mt-10">
+    <div className="w-full flex justify-start mt-10 max-md:mt-0">
       <div className="relative w-full max-w-[707px] rounded-2xl overflow-hidden">
         {/* Dark base */}
         <div className="relative rounded-2xl bg-[#00B0F014]">

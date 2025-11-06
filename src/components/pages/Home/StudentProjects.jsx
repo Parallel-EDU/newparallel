@@ -15,7 +15,7 @@ export default function StudentProjects() {
       <div className="relative mx-auto max-w-[1280px] px-4 smpx-8 z-[9999] max-xl:p-10 max-md:p-4">
         {/* Heading */}
         <h1 className="text-[#E5E5E5] font- font-['Graphikthin'] tracking-[-0.018em] leading-[1.08] text-[42px] sm:text-[64px]  6">
-          See what our students build
+          See what our students build.
         </h1>
         {/* Subhead */}
         <p className="text-[16px] font-['Graphikthin'] text-[#E0E0E0] max-w-[660px]  mt-6">

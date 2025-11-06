@@ -86,7 +86,7 @@ export default function EnrollModal() {
               }}
               className="text-[52px] max-md:text-[24px] font-['Graphikthin'] tracking-tight  leading-tight mb-4"
             >
-              Level Up Your Tech Skills
+              Level Up Your Tech Skills.
             </h2>
             <p className="text-[#FFFFFFE5] font-['Graphikthin'] text-[22px] mb-6">
               Explore hands-on courses in cloud, data, and code—grow your skills

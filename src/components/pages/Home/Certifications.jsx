@@ -24,16 +24,16 @@ export default function Certifications() {
 
       <div className="relative mx-auto max-w-[1300px] px-4 smpx-6 pt-10 sm:pt-14 pb-12 max-xl:p-10 max-md:p-4">
         {/* Breadcrumb */}
-        <div className="text-[16px] text-[#B9C7D6] mb3 font-['Graphikthin']">
+        <div className="text-[20px] text-[#E5E5E5] mb3 font-['Graphikthin']">
           Our courses -{" "}
           <span
-            style={{
-              background:
-                "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
-              WebkitBackgroundClip: "text",
-              WebkitTextFillColor: "transparent",
-              backgroundClip: "text",
-            }}
+          // style={{
+          //   background:
+          //     "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
+          //   WebkitBackgroundClip: "text",
+          //   WebkitTextFillColor: "transparent",
+          //   backgroundClip: "text",
+          // }}
           >
             Certification programs
           </span>
@@ -41,9 +41,9 @@ export default function Certifications() {
 
         {/* Heading */}
         <h1 className="text-[#E5E5E5] mt-6 font-['Graphikthin'] font-normal tracking-[-0.018em] leading-[1.09] text-[38px] max-sm:text-[32px] md:text-[64px]">
-          Get certified. get internship
+          Get certified. Get internship
           <br />
-          experience. get job-ready.
+          experience. Get job-ready.
         </h1>
 
         {/* Subhead */}
@@ -385,7 +385,7 @@ const certs = [
     gradient: "linear-gradient(180deg, #2F8EDF 10%,#23283311 80%)",
   },
   {
-    title: "Aws Training",
+    title: "AWS Training",
     link: "/tech/aws",
     icon: (
       <img

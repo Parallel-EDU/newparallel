@@ -13,6 +13,11 @@ const people = [
     img: "/testimonials/Frame 1000002775.png",
   },
   {
+    name: "Meenal Botadkar",
+    role: " Data Operations Analyst",
+    img: "/testimonials/Frame 1000002776.png",
+  },
+  {
     name: "Sanket Tiwade",
     role: "AWS Consultant",
     img: "/testimonials/Frame 1000002776 (1).png",
@@ -34,20 +39,27 @@ const people = [
     img: "/testimonials/Frame 1000002776 (5).png",
   },
   {
+    name: "Sarthaki Chikhale",
+    role: "Java Engineer",
+    img: "/testimonials/Frame 1000002777.png",
+  },
+  {
     name: "Nikhil Jawalkar ",
     role: "Frontend Developer",
     img: "/testimonials/Frame 1000002776 (6).png",
   },
   {
-    name: "Meenal Botadkar",
-    role: " Data Operations Analyst",
-    img: "/testimonials/Frame 1000002776.png",
+    name: "Rushabh Ramkrushna Bandewar",
+    role: "AWS Consultant",
+    img: "/testimonials/Frame 1000002777 copy.png",
   },
+
   {
     name: "Shubham Ghode",
     role: " Backend Developer",
     img: "/testimonials/Frame 1000002777 (1).png",
   },
+
   {
     name: "Amruta Milind Paithankar",
     role: "Power BI Consultant",
@@ -69,9 +81,9 @@ const people = [
     img: "/testimonials/Frame 1000002777 (5).png",
   },
   {
-    name: "Sarthaki Chikhale",
-    role: "Java Engineer",
-    img: "/testimonials/Frame 1000002777.png",
+    name: "Dharmik Bhuva",
+    role: "Data Analyst",
+    img: "/testimonials/Frame 1000002778.png",
   },
   {
     name: "Shubham P Urkude ",
@@ -79,14 +91,19 @@ const people = [
     img: "/testimonials/Frame 1000002778 (1).png",
   },
   {
-    name: "Dharmik Bhuva",
-    role: "Data Analyst",
-    img: "/testimonials/Frame 1000002778.png",
+    name: "Nayan Kundan Gour ",
+    role: "Java Developer",
+    img: "/testimonials/Frame 1000002779.png",
   },
   {
     name: "Monali Sah ",
     role: "Data Analyst",
     img: "/testimonials/Frame 1000002779 (1).png",
+  },
+  {
+    name: "Saurav Tiwari",
+    role: "SQL Developer",
+    img: "/testimonials/Frame 1000002779 copy.png",
   },
   {
     name: "Aryan Shende ",
@@ -99,6 +116,11 @@ const people = [
     img: "/testimonials/Frame 1000002779 (3).png",
   },
   {
+    name: "Shwet Pardhi ",
+    role: "Data Operations Analyst",
+    img: "/testimonials/Frame 1000002779 copy 2.png",
+  },
+  {
     name: "Shruti Niranjan Dhole ",
     role: "Data Analyst",
     img: "/testimonials/Frame 1000002779 (4).png",
@@ -107,11 +129,6 @@ const people = [
     name: "Rupesh Babanrao Deotale ",
     role: "AWS Consultant",
     img: "/testimonials/Frame 1000002779 (5).png",
-  },
-  {
-    name: "Nayan Kundan Gour ",
-    role: "Java Developer",
-    img: "/testimonials/Frame 1000002779.png",
   },
 ];
 

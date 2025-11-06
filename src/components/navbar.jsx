@@ -352,7 +352,7 @@ export default function Navbar() {
             className={`fixed left-1/2 top-[80px] -translate-x-1/2 w-[90vw] h-[520px] drope-down max-w-[1280px] bg-black text-white px-[80px] py-[60px] flex justify-center gap-[60px] transition-all duration-300 ease-in-out rounded-lg shadow-2xl ${
               openPrograms
                 ? "opacity-100 visible translate-y-0"
-                : "opacity-0 invisible -translate-y-4"
+                : "opacity-1 visible -translate-y-4"
             }`}
           >
             {/* Left Side */}
@@ -383,7 +383,15 @@ export default function Navbar() {
             </div>
 
             {/* Divider + Programs */}
-            <div className="border-l border-[#30E29D40] pl-[40px] flex-1 relative overflow-y-auto">
+            <div
+              className="pl-[40px] flex-1 relative overflow-y-auto border-l"
+              style={{
+                borderLeft: "1px solid",
+                borderImageSource:
+                  "linear-gradient(156.63deg, #201DA7 8.68%, #30E29D 84.91%)",
+                borderImageSlice: 1,
+              }}
+            >
               <p className="text-[#9CA3AF] mb-4">
                 {activeCategory === "bootcamp"
                   ? "Job Bootcamp Programs"
@@ -423,6 +431,16 @@ export default function Navbar() {
                   )}
                 </div>
               )}
+              {/* <div
+                className="absolute top-0 right-0 bottom-0 w-[400px] pointer-events-none rounded-lg"
+                style={{
+                  border: "1px solid",
+                  borderImageSource:
+                    "linear-gradient(156.63deg, #201DA7 8.68%, #30E29D 84.91%)",
+                  borderImageSlice: 1,
+                  opacity: 0.5,
+                }}
+              ></div> */}
 
               <div className="absolute top-0 right-0 bottom-0 w-[400px] bggradient-to-l from-[#0b0b0b] to-transparent blur-3xl opacity-30 pointer-events-none"></div>
             </div>

@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function HiringPartners() {
   return (
-    <section className="relative overflow-hidden pt-40 pb-16 max-lg:pt-20">
+    <section className="relative overflow-hidden pt-40 pb-16 max-lg:pt-20 max-md:pt-10">
       {/* Background radial glow at bottom */}
       {/* <div
         className="pointer-events-none absolute inset-0"
@@ -19,14 +19,14 @@ export default function HiringPartners() {
       <div className="relative mx-auto max-w-[1280px] px-4 max-xl:p-10 max-md:p-4 smpx-8">
         {/* Breadcrumb */}
         <span
-          style={{
-            background:
-              "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-          }}
-          className="text-[16px]  opacity-[.8] mb-2"
+          // style={{
+          //   background:
+          //     "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
+          //   WebkitBackgroundClip: "text",
+          //   WebkitTextFillColor: "transparent",
+          //   backgroundClip: "text",
+          // }}
+          className="text-[20px] text-[#E5E5E5] opacity-[.8] mb-2"
         >
           Our hiring partners
         </span>

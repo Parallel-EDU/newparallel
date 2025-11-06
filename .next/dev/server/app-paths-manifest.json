@@ -1,4 +1,5 @@
 {
   "/page": "app/page.js",
-  "/tech/python/page": "app/tech/python/page.js"
+  "/blogs/ai-agents-the-Co-Workers-you/page": "app/blogs/ai-agents-the-Co-Workers-you/page.js",
+  "/testimonials/page": "app/testimonials/page.js"
 }

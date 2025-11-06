@@ -46,14 +46,14 @@ export default function Success() {
     <div className="overflow-x-hidden w-full py-20 max-xl:px-10 max-md:p-4 ">
       <div className="relative mx-auto max-w-7xl px-4 sm:px-2">
         <span
-          style={{
-            background:
-              "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
-            WebkitBackgroundClip: "text",
-            WebkitTextFillColor: "transparent",
-            backgroundClip: "text",
-          }}
-          className="text-[16px]  opacity-[.8] mb-2"
+          // style={{
+          //   background:
+          //     "linear-gradient(90deg,  #30E29D   0%, #201DA7 147.01%)",
+          //   WebkitBackgroundClip: "text",
+          //   WebkitTextFillColor: "transparent",
+          //   backgroundClip: "text",
+          // }}
+          className="text-[20px] text-[#E5E5E5] opacity-[.8] mb-2"
         >
           Success stories
         </span>

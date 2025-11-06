@@ -92,7 +92,7 @@ const Hero = () => {
               {/* <Link href="/signup"> */}
               <button
                 onClick={openModal}
-                className="w-[128px] mt-12 mb-20 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
+                className="w-[128px] mt-12 mb-20 max-md:mb-8 font-['Graphikmid'] h-[40px] widescreen:h-auto widescreen:py-[12px] widescreen:w-[170px] widescreen:py-[16px]  widescreen:px-[16px] border[#30E29D] bg-[#30E29D] text-[#292929] transition-all border[1px] rounded-lg   text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
               >
                 Enroll Now
               </button>

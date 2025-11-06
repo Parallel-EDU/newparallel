@@ -45,8 +45,17 @@ export default function Page() {
           <h1 className="text-2xl md:text-3xl font-semibold leading-snug mb-3">
             AI Agents: The Co-Workers You Didn’t Know You’d Have in 2026
           </h1>
-          <p className="text-sm text-gray-400 mb-8">
-            by Writer_name • 12 Aug 2025
+          <p className="text-sm text-gray-400 mb-8 pt-4 flex items-center gap-2">
+            <div className="w-15 h-15">
+              <Image
+                src="/home/muheeb.webp"
+                alt="AI Agents illustration"
+                width={60}
+                height={60}
+                className="wfull rounded-full w-[60px] h-[60px] objectcover"
+              />
+            </div>
+            Muheeb Syed Saif • 01 Nov 2025
           </p>
 
           {/* Header Image */}

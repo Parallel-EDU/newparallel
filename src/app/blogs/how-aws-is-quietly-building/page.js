@@ -46,8 +46,17 @@ export default function Page() {
             How AWS is Quietly Building the Next Generation of AI Infrastructure
             (and Nobody’s Talking About It)
           </h1>
-          <p className="text-sm text-gray-400 mb-8">
-            by Writer_name • 12 Aug 2025
+          <p className="text-sm text-gray-400 mb-8 pt-4 flex items-center gap-2">
+            <div className="w-15 h-15">
+              <Image
+                src="/home/muheeb.webp"
+                alt="AI Agents illustration"
+                width={60}
+                height={60}
+                className="wfull rounded-full w-[60px] h-[60px] objectcover"
+              />
+            </div>
+            Muheeb Syed Saif • 04 Nov 2025
           </p>
 
           {/* Header Image */}

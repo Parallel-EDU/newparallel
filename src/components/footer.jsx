@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="pl-[80px]  overflow-hidden max-md:px-[40px] max-sm:px-[20px] pt-[80.58px] pb-[14px] flex flex-col gap-[40px] max-sm:gap-[80px] relative pr-[76px]">
+    <footer className="pl-[80px]  overflow-hidden max-md:px-[40px] max-sm:px-[20px] pt-[80.58px] pb-[14px] flex flex-col gap-[40px] max-sm:gap-[00px] relative pr-[76px]">
       {/* <div className="overflow-hidden max-smallphone:hidden absolute w-[100%] bottom-[0] left-0 h-[1449.12px]"> */}
       {/* <div
           className={`w-[100%] h-[849.12px] left-[15.49px] absolute bottom-[275.86px] ${style.footer}`}
@@ -30,8 +30,8 @@ export default function Footer() {
               Address
             </h1>
             <p className="mt-[16px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
-              Wework Galaxy Shanthala Nagar, Ashok Nagar, Bengaluru, Karnataka
-              560001
+              Wework Galaxy <br /> Shanthala Nagar, Ashok Nagar, Bengaluru,
+              Karnataka 560001
             </p>
 
             <p className="mt-[12px] flex items-center gap-3 text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid">
@@ -78,12 +78,12 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex flex-col widescreen:w-[30%] w-[30%] mt-10">
+          <div className="flex flex-col widescreen:w-[30%] w-[50%] mt-10">
             {/* <h1 className="text-[#E5E5E5] opacity-80 mb-[10px] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
               Follow us
             </h1> */}
 
-            <div className="flex items-center gap-3 justify-center">
+            <div className="flex items-center gap-8 justify-center">
               <a
                 href={
                   "https://www.instagram.com/parallel.edu_/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
@@ -423,11 +423,11 @@ export default function Footer() {
         </defs>
       </svg>
 
-      <div className="opacity-70 flex justify-between widescreen:w-full max-smallphone:hidden">
+      <div className="opacity-70 flex justify-between widescreen:w-full max-smallphone:hidden border-t border-[#252525] pt-4 max-lg:flex-col">
         <p className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
-          Copyright @ ParallelEduTech. All Rights Reserved{" "}
+          Copyright @ Parallel Edutech Pvt Ltd. All Rights Reserved
         </p>
-        <div className="flex mt-[5.37px] gap-[13.9px]">
+        <div className="flex mt-[5.37px] gap-[13.9px] max-lg:flex-col">
           <p className="text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid">
             Pricing & Refund Policy
           </p>
@@ -435,7 +435,7 @@ export default function Footer() {
             Privacy Policy
           </p>
           <p className="text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid">
-            Terms of Service
+            Terms & Conditions
           </p>
         </div>
       </div>
