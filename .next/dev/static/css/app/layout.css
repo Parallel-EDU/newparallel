@@ -4436,17 +4436,19 @@ input[type="radio"]:checked {
   width: 100%;
   height: 100%;
   background-image: url("/logos/Rectangle\ 9.svg");
+
   background-repeat: no-repeat;
 }
 .carrer-bg::after {
   content: "";
+  background-image: url("/home/Rectangle 9.png");
   position: absolute;
   top: 0px;
   left: -150px;
   width: 100%;
   height: 100%;
   background-size: 78%;
-  background-image: url("/home/Rectangle\ 9.png");
+  /* background-image: url("/home/Rectangle 9.png"); */
   background-repeat: no-repeat;
   z-index: -1;
 
@@ -4637,11 +4639,15 @@ input::placeholder {
     max-width: 1440px;
     margin: 0 auto;
   }
+
+  .carrer-bg::after {
+    left: 0;
+  }
 }
 @media only screen and (min-width: 1920px) and (max-width: 3000px) {
   .hiring-bg {
     content: "";
-    background-image: url("/home/Rectangle 29 (2).png");
+    background: url("/home/Rectangle 29 (2).png");
     /* background: linear-gradient(156.63deg, #201da7 8.68%, #30e29d 84.91%); */
     /* background: linear-gradient(
     180deg,

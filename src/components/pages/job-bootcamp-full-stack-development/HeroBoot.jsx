@@ -61,7 +61,7 @@ const HeroBoot = () => {
   const { openModal } = useModal();
   return (
     <>
-      <div className="overflowhidden">
+      <div className="overflowhidden relative">
         <div className="absolute z-20 w-[100%] h-[1022px] top-[0px] overflow-hidden">
           <div className={style.backgroundbox123}></div>
         </div>
