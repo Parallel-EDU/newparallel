@@ -1,12 +1,24 @@
-[00:00:03.058] Server  LOG      ✓ Ready in 2.8s
-[00:00:06.808] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
-[00:00:06.808] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
-[00:00:06.847] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
-[00:00:06.847] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
-[00:00:06.847] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
-[00:00:08.489] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:09.055] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
-[00:00:09.055] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
-[00:00:09.056] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
-[00:00:09.056] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
-[00:00:09.056] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:00:01.952] Server  LOG      ✓ Ready in 1700ms
+[00:03:24.165] Server  LOG      ○ Compiling /testimonials ...
+[00:03:24.502] Server  ERROR    ⨯ ReferenceError: useEffect is not defined
+[00:03:25.985] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:26.594] Browser ERROR   uncaughtError: ReferenceError: useEffect is not defined
+[00:03:34.149] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:34.586] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:03:35.169] Server  ERROR   Invalid DOM property `clip-path`. Did you mean `clipPath`?
+[00:03:35.170] Server  ERROR   Invalid DOM property `stroke-linecap`. Did you mean `strokeLinecap`?
+[00:03:35.294] Server  ERROR   Invalid DOM property `fill-rule`. Did you mean `fillRule`?
+[00:03:35.295] Server  ERROR   Invalid DOM property `clip-rule`. Did you mean `clipRule`?
+[00:03:35.296] Server  ERROR   Invalid DOM property `stop-color`. Did you mean `stopColor`?
+[00:03:36.939] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:37.270] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:03:37.270] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:03:37.270] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:03:37.270] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:03:37.270] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor
+[00:08:45.687] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:08:45.901] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stroke-linecap strokeLinecap
+[00:08:45.901] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-path clipPath
+[00:08:45.901] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? fill-rule fillRule
+[00:08:45.901] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? clip-rule clipRule
+[00:08:45.902] Browser ERROR   Invalid DOM property `%s`. Did you mean `%s`? stop-color stopColor

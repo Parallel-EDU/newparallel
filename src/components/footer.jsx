@@ -423,7 +423,7 @@ export default function Footer() {
         </defs>
       </svg>
 
-      <div className="opacity-70 flex justify-between widescreen:w-full max-smallphone:hidden border-t border-[#252525] pt-4 max-lg:flex-col">
+      <div className="opacity-70 flex justify-between widescreen:w-full max-smallphone:hidden border-t border-[#484747] pt-4 max-lg:flex-col">
         <p className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
           Copyright @ Parallel Edutech Pvt Ltd. All Rights Reserved
         </p>
