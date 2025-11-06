@@ -352,7 +352,7 @@ export default function Navbar() {
             className={`fixed left-1/2 top-[80px] -translate-x-1/2 w-[90vw] h-[520px] drope-down max-w-[1280px] bg-black text-white px-[80px] py-[60px] flex justify-center gap-[60px] transition-all duration-300 ease-in-out rounded-lg shadow-2xl ${
               openPrograms
                 ? "opacity-100 visible translate-y-0"
-                : "opacity-1 visible -translate-y-4"
+                : "opacity-0 invisible -translate-y-4"
             }`}
           >
             {/* Left Side */}
