@@ -77,9 +77,10 @@ const HeroBoot = () => {
           <div className="max-hamburger:w-full widescreen:w-[60%] max-xl:w-[73%] w-[60%]">
             <div className="relative z-30 w-full">
               <h1 className="w-[685.41px] widescreen:w-full text-[56.07px] widescreen:text-[84px] widestscreen:text-[94px] widescreen:leading-[100px] font-medium max-hamburger:w-[100%]  max-smalllaptop:w-[510px] max-bigscreen:w-[676px] max-smalllaptop:tracking-[-4.5px] max-smalllaptop:text-[66px] max-sm:text-[60px] max-smallphone:text-[42px] max-sm:tracking-normal max-sm:mb-[12px] max-smalllaptop:leading-[102%] font-light tracking-[-3.5px] leading-[65.73px] text-[#E5E5E5] font-['Graphikmedium'] font-light mb-[20px]">
-                Become a job-ready devOps{" "}
-                <span className="font-['system-ui'] font-[100]">& </span> Cloud
-                engineer and get placed in just 6-9 months
+                Become a Job-Ready Data Scientist and Get Placed in Just 6-9
+                Months
+                {/* <span className="font-['system-ui'] font-[100]">& </span> Cloud
+                engineer and get placed in just 6-9 months */}
                 {/* <span className="font-['Graphik'] font-semibold">
                   {" "}
                   an affordable price.
