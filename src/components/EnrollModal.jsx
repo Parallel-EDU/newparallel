@@ -52,7 +52,7 @@ export default function EnrollModal() {
     }
   };
 
-  const { openModal } = useModal();
+  // const { openModal } = useModal();
 
   if (!isOpen) return null;
 
