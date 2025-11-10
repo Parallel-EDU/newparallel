@@ -4,6 +4,7 @@ import axios from "axios";
 import { X } from "lucide-react";
 import Image from "next/image";
 import { useRef, useState } from "react";
+import { toast } from "react-toastify";
 
 export default function EnrollModal() {
   const { isOpen, closeModal } = useModal();
@@ -19,6 +20,7 @@ export default function EnrollModal() {
   // const clientanimation = useRef(null);
   // const leadinganimation = useRef(null);
 
+  const [loading, setLoading] = useState(false);
   const toggleMenu = () => {
     setIsOpen(!isOpenn);
   };
@@ -33,6 +35,7 @@ export default function EnrollModal() {
     setIsOpen(false);
   };
   const handleSubmit = async (e) => {
+    setLoading(true);
     e.preventDefault();
     if (Name === "") {
       setfilled("name");
@@ -50,12 +53,21 @@ export default function EnrollModal() {
         Role,
       };
       try {
-        const response = await axios.post("/api/home", data);
+        const response = await axios.post("/api/enroll", data);
         const d = response.json();
         console.log(d);
-        setfilled("done");
+        toast(
+          "Thank you " + Name + "! Your form has been submitted successfully."
+        );
+        // window.alert(
+        //   "Thank you " + Name + "! Your form has been submitted successfully."
+        // );
+        // setfilled("done");
+        closeModal();
       } catch (error) {
         console.error("Error sending data:", error);
+      } finally {
+        setLoading(false);
       }
     }
   };
@@ -296,7 +308,8 @@ export default function EnrollModal() {
               onClick={handleSubmit}
               className="w-full h-[53px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border-[#30E29D] hover:bg-[#30E29D] hover:text-[#292929] transition-all border-[1px] rounded-[8px] font-semibold text-[#30E29D] text-[16px]   widescreen:leading-[150%] font-[19.2px]"
             >
-              Enroll Now
+              {/* Enroll Now */}
+              {loading ? "Submitting..." : "Enroll Now"}{" "}
             </button>
             {filled === "done" && (
               <div className="flex items-center justify-center gap-[12.87px] absolute w-[299px] z-30 max-sm:w-full max-sm:static h-[75px] bg-[white] rounded-[9px] bottom-0 left-[-347px]">

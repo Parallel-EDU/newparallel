@@ -10,6 +10,7 @@ import Head from "next/head";
 import StatsBar from "../Home/StatsBar";
 import { useModal } from "@/app/context/ModalContext";
 // import StatsBar from "../StatsBar";
+import { toast } from "react-toastify";
 
 const HeroBoot = () => {
   const clientanimation = useRef(null);
@@ -22,6 +23,7 @@ const HeroBoot = () => {
   const [Phonenumber, setPhonenumber] = useState("");
   // const clientanimation = useRef(null);
   // const leadinganimation = useRef(null);
+  const [loading, setLoading] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -33,6 +35,7 @@ const HeroBoot = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setLoading(true);
     if (Name === "") {
       setfilled("name");
     } else if (Email === "") {
@@ -49,14 +52,19 @@ const HeroBoot = () => {
         Role,
       };
       try {
-        const response = await axios.post("/api/home", data);
+        const response = await axios.post(
+          "/api/certifications/machine-learning",
+          data
+        );
+        toast.success("Thank you! Your form has been submitted successfully.");
         setfilled("done");
       } catch (error) {
         console.error("Error sending data:", error);
+      } finally {
+        setLoading(false);
       }
     }
   };
-
   const { openModal } = useModal();
 
   const items = [
@@ -338,9 +346,9 @@ const HeroBoot = () => {
               onClick={handleSubmit}
               className="w-full h-[53px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border-[#30E29D] hover:bg-[#30E29D] hover:text-[#292929] transition-all border-[1px] rounded-[8px] font-semibold text-[#30E29D] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]"
             >
-              Enroll Now
+              {loading ? "Submitting..." : "Enroll Now"}{" "}
             </button>
-            {filled === "done" && (
+            {/* {filled === "done" && (
               <div className="flex items-center justify-center gap-[12.87px] absolute w-[299px] z-30 max-sm:w-full max-sm:static h-[75px] bg-[white] rounded-[9px] bottom-0 left-[-347px]">
                 <Image
                   alt="right check"
@@ -353,7 +361,7 @@ const HeroBoot = () => {
                   hours.
                 </p>
               </div>
-            )}
+            )} */}
           </div>
         </main>
       </div>

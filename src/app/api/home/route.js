@@ -1,13 +1,12 @@
 import { google } from "googleapis";
+import { NextResponse } from "next/server";
 
-export default async function handler(req, res) {
-  if (req.method !== "POST") {
-    res.status(405).json({ success: false, message: "Method not allowed" });
-    return;
-  }
-
+export async function POST(req) {
   try {
-    const { Name, Email, Phonenumber, Role } = req.body;
+    const body = await req.json();
+    const { Name, Email, Phonenumber, Role } = body;
+
+    // parallel-home-page@parallel-home-page-from.iam.gserviceaccount.com
 
     const credentials = {
       client_email: "parallel@linen-adapter-410807.iam.gserviceaccount.com",
@@ -18,7 +17,7 @@ export default async function handler(req, res) {
         ),
     };
 
-    // Authorize the client
+    // Authorize Google Sheets API
     const auth = new google.auth.GoogleAuth({
       credentials,
       scopes: ["https://www.googleapis.com/auth/spreadsheets"],
@@ -27,9 +26,9 @@ export default async function handler(req, res) {
     const sheets = google.sheets({ version: "v4", auth });
 
     const spreadsheetId = "1bMjc3HGGWfcVOTDvxNtbdIQLQAFgJ8wp1O68ce56iJo";
-    const range = "Sheet1!A1:F1";
+    const range = "Home page!A1:F1";
 
-    // Append the data to the spreadsheet
+    // Append data
     await sheets.spreadsheets.values.append({
       spreadsheetId,
       range,
@@ -39,11 +38,22 @@ export default async function handler(req, res) {
       },
     });
 
-    res
-      .status(200)
-      .json({ success: true, message: "Form submitted successfully" });
+    return NextResponse.json({
+      success: true,
+      message: "Form submitted successfully",
+    });
   } catch (error) {
     console.error("Error occurred:", error.message);
-    res.status(500).json({ success: false, message: "Failed to submit form" });
+    return NextResponse.json(
+      { success: false, message: "Failed to submit form" },
+      { status: 500 }
+    );
   }
+}
+
+export function GET() {
+  return NextResponse.json(
+    { success: false, message: "Method not allowed" },
+    { status: 405 }
+  );
 }

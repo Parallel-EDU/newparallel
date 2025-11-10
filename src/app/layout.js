@@ -5,6 +5,7 @@ import Footer from "@/components/footer";
 import { ModalProvider } from "./context/ModalContext";
 import EnrollModal from "@/components/EnrollModal";
 import ScrollToTop from "./ScrollToTop";
+import { ToastContainer } from "react-toastify";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
           <ScrollToTop />
           <Navbar />
           {children}
+          <ToastContainer position="bottom-right" draggable />
           <EnrollModal /> {/* Global popup available everywhere */}
           <Footer />
         </ModalProvider>

@@ -25,9 +25,11 @@ export default async function handler(req, res) {
     });
 
     const sheets = google.sheets({ version: "v4", auth });
+    const spreadsheetId = "1bMjc3HGGWfcVOTDvxNtbdIQLQAFgJ8wp1O68ce56iJo";
 
-    const spreadsheetId = "1KnsmjiDj6rF0oz2Eg2uNZnpa9mJwDUcg5nepzLwLifk";
-    const range = "Sheet1!A1:F1";
+    // const spreadsheetId = "1KnsmjiDj6rF0oz2Eg2uNZnpa9mJwDUcg5nepzLwLifk";
+    // const range = "Sheet1!A1:F1";
+    const range = "Sheet2!A1:F1";
 
     // Append the data to the spreadsheet
     await sheets.spreadsheets.values.append({

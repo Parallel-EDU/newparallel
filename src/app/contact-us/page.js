@@ -17,7 +17,10 @@ export default function Contact() {
   const [Email, setEmail] = useState("");
   const [Phone_Number, setPhone_Number] = useState("");
   const [Message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+
   const handleSubmit = async (e) => {
+    setLoading(true);
     e.preventDefault();
     const data = {
       Name,
@@ -35,6 +38,8 @@ export default function Contact() {
       );
     } catch (error) {
       console.error("Error sending data:", error);
+    } finally {
+      setLoading(false);
     }
   };
   const handleChange = (e) => {
@@ -285,7 +290,7 @@ export default function Contact() {
             onClick={handleSubmit}
             className="text-[16px] widescreen:text-[20px] widescreen:w-full widescreen:h-auto widescreen:py-[12px] widestscreen:py-[18px] widestscreen:text-[24px] widescreen:leading-[150%] w-[755px] max-hamburger:w-full h-[53px] flex justify-center items-center font-semibold relative bg-[#30E29D] text-black rounded-[8px] leading-[53px]"
           >
-            Contact us{" "}
+            {loading ? "Submitting..." : "Contact us"}{" "}
           </button>
         </div>
       </div>

@@ -10,6 +10,7 @@ import axios from "axios";
 import Head from "next/head";
 import StatsBar from "../StatsBar";
 import { useModal } from "@/app/context/ModalContext";
+import { toast } from "react-toastify";
 
 const Hero = () => {
   const clientanimation = useRef(null);
@@ -20,8 +21,10 @@ const Hero = () => {
   const [Name, setName] = useState("");
   const [Email, setEmail] = useState("");
   const [Phonenumber, setPhonenumber] = useState("");
+
   // const clientanimation = useRef(null);
   // const leadinganimation = useRef(null);
+  const [loading, setLoading] = useState(false);
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -32,6 +35,7 @@ const Hero = () => {
     setIsOpen(false);
   };
   const handleSubmit = async (e) => {
+    setLoading(true);
     e.preventDefault();
     if (Name === "") {
       setfilled("name");
@@ -50,9 +54,16 @@ const Hero = () => {
       };
       try {
         const response = await axios.post("/api/home", data);
+        // window.alert(
+        //   "Thank you " + Name + "! Your form has been submitted successfully."
+        // );
+        toast.success("Thank you! Your form has been submitted successfully.");
+
         setfilled("done");
       } catch (error) {
         console.error("Error sending data:", error);
+      } finally {
+        setLoading(false);
       }
     }
   };
@@ -266,9 +277,10 @@ const Hero = () => {
               onClick={handleSubmit}
               className="w-full h-[53px] widescreen:h-auto widescreen:py-[12px] widescreen:py-[16px] border-[#30E29D] hover:bg-[#30E29D] hover:text-[#292929] transition-all border-[1px] rounded-[8px] font-semibold text-[#30E29D] text-[16px] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] font-[19.2px]"
             >
-              Enroll Now
+              {/* Enroll Now */}
+              {loading ? "Submitting..." : "Enroll Now"}{" "}
             </button>
-            {filled === "done" && (
+            {/* {filled === "done" && (
               <div className="flex items-center justify-center gap-[12.87px] absolute w-[299px] z-30 max-sm:w-full max-sm:static h-[75px] bg-[white] rounded-[9px] bottom-0 left-[-347px]">
                 <Image
                   alt="right check"
@@ -281,7 +293,7 @@ const Hero = () => {
                   hours.
                 </p>
               </div>
-            )}
+            )} */}
           </div>
         </main>
       </div>

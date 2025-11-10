@@ -1,7 +1,6 @@
 {
+  "/tech/ai-agents/page": "app/tech/ai-agents/page.js",
   "/page": "app/page.js",
-  "/job-bootcamp-full-stack-development/page": "app/job-bootcamp-full-stack-development/page.js",
-  "/tech/react-js/page": "app/tech/react-js/page.js",
-  "/tech/machine-learning/page": "app/tech/machine-learning/page.js",
-  "/tech/vue-js/page": "app/tech/vue-js/page.js"
+  "/tech/ai-prompt-eng/page": "app/tech/ai-prompt-eng/page.js",
+  "/tech/aws/page": "app/tech/aws/page.js"
 }
