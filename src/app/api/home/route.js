@@ -1,5 +1,6 @@
 import { google } from "googleapis";
 import { NextResponse } from "next/server";
+import nodemailer from "nodemailer";
 
 export async function POST(req) {
   try {
@@ -36,6 +37,43 @@ export async function POST(req) {
       resource: {
         values: [[Name, Email, Phonenumber, Role]],
       },
+    });
+
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_APP_PASSWORD,
+        // user: "hello@paralleledu.com", // your Gmail address
+        // pass: "ijht vrxe vrpu ewex", // your 16-char app password
+      },
+    });
+
+    await transporter.sendMail({
+      from: "hello@paralleledu.com",
+      to: Email,
+      subject: "Thanks for contacting us!",
+      html: `
+        <p>Hi ${Name},</p>
+        <p>Thank you for reaching out to <strong>Parallel Education</strong>.</p>
+        <p>Our team will get back to you within <strong>24 hours</strong>.</p>
+        <br/>
+        <p>Best regards,<br/>Parallel Education Team</p>
+      `,
+    });
+
+    await transporter.sendMail({
+      from: "hello@paralleledu.com",
+      to: "hello@paralleledu.com",
+      subject: "New Contact Form Submission",
+      html: `
+        <h3>New Contact Form Submission</h3>
+        <p><strong>Name:</strong> ${Name}</p>
+        <p><strong>Email:</strong> ${Email}</p>
+        <p><strong>Phone:</strong> ${Phonenumber}</p>
+        <p><strong>I am:</strong> ${Role}</p>
+
+      `,
     });
 
     return NextResponse.json({
