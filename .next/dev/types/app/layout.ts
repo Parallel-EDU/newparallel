@@ -1,4 +1,4 @@
-// File: /Users/amankapil/Desktop/newparallel-1/src/app/layout.js
+// File: /Users/amankapil/Desktop/codelinear_work/newparallel/src/app/layout.js
 import * as entry from '../../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
