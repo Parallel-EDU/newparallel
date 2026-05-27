@@ -1,0 +1,37 @@
+name: Auto Merge aman to main
+
+on:
+  push:
+    branches:
+      - aman
+
+jobs:
+  merge-to-main:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Merge aman into main
+        run: |
+          # Fetch all branches to ensure we have references to main
+          git fetch origin main
+          
+          # Checkout main
+          git checkout main
+          
+          # Merge the aman branch into main (using origin/aman to ensure we get the pushed state)
+          git merge origin/aman --no-edit
+          
+          # Push the changes back to origin main
+          git push origin main
