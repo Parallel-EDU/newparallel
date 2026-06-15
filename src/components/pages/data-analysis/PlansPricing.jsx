@@ -20,7 +20,7 @@ const plans = [
       "Personalized placement assistance",
       "Cancel anytime in first 7 days (full refund)",
     ],
-    price: "₹24,999",
+    price: "₹9,999",
     mrp: "₹39,000",
     cta: "Enroll Now",
   },

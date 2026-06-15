@@ -23,7 +23,7 @@ const jobbootcampfullstackdevelopment = () => {
         <PlacementSupport />
         <PlansPricing />
         <CourseRoadmap />
-        <Success />
+        {/* <Success /> */}
         <Blog />
         <HeroSection />
       </div>

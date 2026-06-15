@@ -237,7 +237,7 @@ export default function Workshop() {
           </div>
         </div>
       </section>
-      <section className="pt-[107.84px] pb-[56px] max-md:py-[30px] px-[80px] max-md:px-[40px] max-sm:px-[20px]">
+      {/* <section className="pt-[107.84px] pb-[56px] max-md:py-[30px] px-[80px] max-md:px-[40px] max-sm:px-[20px]">
         <h1 className="text-[64px] text-center mb-[74.16px] max-hamburger:text-[48px] max-sm:text-[36px] widescreen:text-[70px] widestscreen:text-[80px] widescreen:leading-[120%] max-sm:tracking-tighter max-hamburger:leading-[120%] leading-[61.68px] font-['Graphikthin'] text-[#E5E5E5] tracking-[-2.56px] max-sm:tracking-tight">
           What your students will get{" "}
         </h1>
@@ -558,8 +558,8 @@ export default function Workshop() {
             </div>
           </div>
         </div>
-      </section>
-      <section className="flex flex-col relative items-center widescreen:pt-[100px] pt-[49.9px] pb-[134px] max-md:py-[30px] px-[80px] max-md:px-[40px] max-sm:px-[20px]">
+      </section> */}
+      {/* <section className="flex flex-col relative items-center widescreen:pt-[100px] pt-[49.9px] pb-[134px] max-md:py-[30px] px-[80px] max-md:px-[40px] max-sm:px-[20px]">
         <h1 className="text-[36px] widescreen:text-[40px] widestscreen:text-[50px] widescreen:leading-[120%] text-center mb-[50.16px] max-hamburger:text-[28px] max-hamburger:leading-[120%] leading-[41.68px] font-['Graphikthin'] text-[#E5E5E5] tracking-[-1.08px]">
           What your students will get{" "}
         </h1>
@@ -571,7 +571,7 @@ export default function Workshop() {
           alt="What your students will get"
           className="max-xl:w-full widescreen:w-[1280px] widestscreen:w-[1440px] widescreen:h-auto max-xl:h-auto"
         />
-      </section>
+      </section> */}
       <section className="py-[168.5px] max-md:px-[40px] max-sm:px-[20px] max-md:py-[40px] relative px-[62.74px]">
         <div className="absolute w-[100%] h-[100vh] top-0 left-0 overflow-hidden">
           <div className={style.fullgrid}></div>
@@ -670,7 +670,7 @@ export default function Workshop() {
           />
         </div>
       </section>
-      <section className="relative z-20 py-[80px]">
+      {/* <section className="relative z-20 py-[80px]">
         <p className=" text-[20px] widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[120%] pl-20 max-md:px-[40px] max-sm:px-[20px] leading-[19.28px] text-[#E5E5E5] opacity-80 font-['Graphikthin'] font-light mb-[20px]">
           Success stories
         </p>
@@ -678,7 +678,7 @@ export default function Workshop() {
           People benefitting from our new age method of learning.{" "}
         </h1>
         <Success />
-      </section>
+      </section> */}
       <div className="pt-[92.84px] max-sm:py-10 max-sm:px-[20px] max-md:px-[40px]  relative z-20 pb-[95px] pl-[80px] pr-[79px]">
         <div className="flex justify-between">
           <p className="w-[792.98px] widescreen:w-[950px] widestscreen:w-[1100px] font-['Graphikthin'] text-[64px] widescreen:text-[74px] widestscreen:text-[84px]  widescreen:leading-[120%] font-light leading-[61.68px] tracking-[-2.56px] max-sm:tracking-tight text-[#E5E5E5] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%]">
@@ -762,7 +762,7 @@ export default function Workshop() {
           </div>
         </div>
       </div>
-      <section className="pl-[80px] max-sm:py-10 max-sm:px-[20px] max-md:px-[40px] relative z-20 pr-[79px] pt-[92.84px] pb-[93px]">
+      {/* <section className="pl-[80px] max-sm:py-10 max-sm:px-[20px] max-md:px-[40px] relative z-20 pr-[79px] pt-[92.84px] pb-[93px]">
         <h1 className="w-[868px] widestscreen:w-[50%] max-hamburger:w-full  max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] text-[64px] widescreen:text-[74px] widestscreen:text-[84px]  widescreen:leading-[120%] leading-[61.68px] font-['Graphikthin'] tracking-[-2.56px] max-sm:tracking-tight text-[#E5E5E5]">
           Workshops conducted by passionate industry experts
         </h1>
@@ -851,7 +851,7 @@ export default function Workshop() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <div className="py-[70.5px] flex justify-between max-md:flex-col gap-[20px] max-md:gap-[50px] relative z-20 px-[80px] max-sm:px-[20px] max-md:px-[40px]">
         <div className="w-[675.77px] widescreen:w-[800px] widestscreen:w-[1000px] max-md:w-full">
           <p className="text-[64px] widescreen:text-[74px] widestscreen:text-[84px] widescreen:leading-[120%] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] mb-[41px] leading-[61.88px] tracking-[-2.56px] max-sm:tracking-tight font-['Graphikthin']">

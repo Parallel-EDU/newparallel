@@ -36,7 +36,7 @@ const newHome = () => {
       </div>
       <div className="hiring-bg">
         <HiringPartners />
-        <Success />
+        {/* <Success /> */}
       </div>
       <StudentProjects />
       <Blog />

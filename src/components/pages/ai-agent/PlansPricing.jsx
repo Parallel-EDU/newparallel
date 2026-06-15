@@ -16,7 +16,7 @@ const plans = [
 
       "cancel anytime in first 7 days (full refund)",
     ],
-    price: "₹29,999",
+    price: "₹9,999",
     mrp: "₹44,999",
     cta: "Enroll Now",
   },

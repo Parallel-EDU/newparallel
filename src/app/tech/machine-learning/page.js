@@ -19,7 +19,7 @@ const devOps = () => {
         <PlacementSupport />
         {/* <Industry /> */}
         <PlansPricing />
-        <Success />
+       {/* <Success /> */}
         {/* <CourseRoadmap /> */}
         {/* <Blog /> */}
         <HeroSection />

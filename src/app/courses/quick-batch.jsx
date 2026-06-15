@@ -282,7 +282,7 @@ export default function Nocode() {
           </div>
         </section>
       </div>
-      <section className="relative z-20 py-20">
+      {/* <section className="relative z-20 py-20">
         <p className=" text-[20px] widescreen:text-[25px] widestscreen:text-[30px] widescreen:leading-[120%] pl-20 max-md:px-10 max-sm:px-5 leading-[19.28px] text-[#E5E5E5] opacity-80 font-['Graphikthin'] font-light mb-[20px]">
           Success stories
         </p>
@@ -290,7 +290,7 @@ export default function Nocode() {
           People benefitting from our new age method of learning.{" "}
         </h1>
         <Success />
-      </section>{" "}
+      </section> */}
       <section className="pt-[84px] pb-[123px] max-md:py-20 max-sm:py-10 px-[80px] max-md:px-[40px] max-sm:px-[20px]">
         <h1 className="w-full text-center mb-[54px] max-md:mb-[32px] max-sm:mb-[24px] text-[#E5E5E5] text-[64px] widescreen:text-[74px] widestscreen:text-[84px]  widescreen:leading-[120%] font-['Graphikthin'] max-hamburger:text-[45px] max-sm:text-[32px] max-hamburger:leading-[120%] text-[64px] widescreen:text-[74px] widestscreen:text-[84px]  widescreen:leading-[120%] leading-[61.68px] tracking-[-2.56px]">
           Courses we offer

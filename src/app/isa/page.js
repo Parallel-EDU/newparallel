@@ -194,7 +194,7 @@ export default function Courses() {
           </Link>
         </div>
       </section>
-      <section className="relative z-20 py-[80px]">
+      {/* <section className="relative z-20 py-[80px]">
         <p className="text-[20px] pl-20 max-md:px-[40px] max-sm:px-[20px] leading-[19.28px] text-[#E5E5E5] opacity-80 font-['Graphikthin'] font-light mb-[20px]">
           Success stories
         </p>
@@ -202,7 +202,7 @@ export default function Courses() {
           People benefitting from our new age method of learning.{" "}
         </h1>
         <Success />
-      </section>{" "}
+      </section> */}
       <Upskill />
     </>
   );

@@ -16,7 +16,7 @@ const plans = [
 
       "Learn practical prompt design, GenAI integrations, 1:1 mentorship, 100% internship, and placement support",
     ],
-    price: "₹29,999",
+    price: "₹9,999",
     mrp: "₹44,999",
     cta: "Enroll Now",
   },

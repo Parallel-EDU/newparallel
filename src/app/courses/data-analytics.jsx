@@ -729,7 +729,7 @@ export default function Nocode() {
           </div>
         </section>
       </div>
-      <Success />
+     {/* <Success /> */}
       <section className="pt-[161px] max-md:py-20 max-bigscreen:px-[80px] max-md:px-[40px] max-sm:px-[20px]  relative z-10 pb-[229px] pl-[172px] pr-[80px] flex justify-between max-hamburger:flex-col max-xl:gap-[50px] items-center">
         <div className="bg-[#D82F2F] max-md:w-full max-md:left-0 blur-[256px] w-[403px] z-10 h-[300px] left-[140px] top-[171px] absolute rounded-[100%] z-10"></div>
         <div

@@ -82,7 +82,7 @@ export default function Fees() {
           We will not charge you until you get placed.
         </p>
       </section>
-      <section className="relative z-20 py-[80px]">
+      {/* <section className="relative z-20 py-[80px]">
         <p className="text-[20px] pl-20 max-md:px-[40px] max-sm:px-[20px] leading-[19.28px] text-[#E5E5E5] opacity-80 font-['Graphikthin'] font-light mb-[20px]">
           Success stories
         </p>
@@ -90,7 +90,7 @@ export default function Fees() {
           People benefitting from our new age method of learning.{" "}
         </h1>
         <Success />
-      </section>{" "}
+      </section> */}
       <section className="py-[120.5px] max-md:px-[40px] max-smallphone:gap-[10px] max-sm:px-[20px] max-md:pt-[50px] max-sm:pt-[30px] pl-[80px] flex flex-col gap-[51px]">
         <p className="text-[#E5E5E5] text-[32px] widescreen:text-[38px] widestscreen:text-[44px] widescreen:leading-[120%] max-md:text-[24px] max-md:leading-[120%] max-smallphone:text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] max-hamburger:leading-[120%] font-['Graphikthin'] leading-[30.84px] tracking-[-0.6px]">
           What you will be paying us

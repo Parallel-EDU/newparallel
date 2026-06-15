@@ -26,12 +26,11 @@ export default function Footer() {
       <div className="flex justify-start gap-10 max-sm:flex-col max-hamburger:gap-[50px] z-20 widescreen:justify-between">
         <div className=" w-[390px] widescreen:w-[700px] max-sm:w-full flex-wrap gap-x-[27px] gap-y-[41.34px]">
           <div className="w-[210px] widescreen:w-[40%] widestscreen:w-[50%]">
-            <h1 className="text-[#E5E5E5] opacity-80 text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
-              Address
+            <h1 className="text-[#E5E5E5] opacity-80 text-[24px] widescreen:text-[40px] widestscreen:text-[44px] widescreen:leading-[150%]">
+              Parallel
             </h1>
             <p className="mt-[16px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]">
-              Wework Galaxy <br /> Shanthala Nagar, Ashok Nagar, Bengaluru,
-              Karnataka 560001
+             We want to make upskilling accessible to everyone.
             </p>
 
             <p className="mt-[12px] flex items-center gap-3 text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid">
@@ -218,12 +217,12 @@ export default function Footer() {
             >
               Contact us
             </Link>
-            <Link
+            {/* <Link
               href={"/testimonials"}
               className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] hover:underline cursor-pointer hover:decoration-solid w-[130px] widescreen:w-full text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
             >
               Alumni Reviews
-            </Link>
+            </Link> */}
             <Link
               href={"/#"}
               className="mt-[4px] widescreen:mt-[6px] widestscreen:mt-[8px] text-[#E5E5E5] hover:underline cursor-pointer hover:decoration-solid w-[150px] widescreen:w-full text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%]"
