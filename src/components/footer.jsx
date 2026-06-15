@@ -85,9 +85,9 @@ export default function Footer() {
 
             <div className="flex items-center gap-8 justify-center">
               <a
-                href={
-                  "https://www.instagram.com/parallel.edu_/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
-                }
+                // href={
+                //   "https://www.instagram.com/parallel.edu_/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                // }
                 target="_blank"
                 className="mt-[0px] text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid"
               >
@@ -110,7 +110,7 @@ export default function Footer() {
               </a>
               <a
                 target="_blank"
-                href="https://www.linkedin.com/company/parallel-edutech-pvt-ltd/"
+                // href="https://www.linkedin.com/company/parallel-edutech-pvt-ltd/"
                 className="mt-[0px]  text-[#E5E5E5] text-base widescreen:text-[20px] widestscreen:text-[24px] widescreen:leading-[150%] hover:underline cursor-pointer hover:decoration-solid"
               >
                 <svg
