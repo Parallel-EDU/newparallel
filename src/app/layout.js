@@ -31,6 +31,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* 
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -39,9 +40,58 @@ export default function RootLayout({ children }) {
           <Navbar />
           {children}
           <ToastContainer position="bottom-right" draggable />
-          <EnrollModal /> {/* Global popup available everywhere */}
+          <EnrollModal />
           <Footer />
         </ModalProvider>
+      </body>
+      */}
+      <body style={{ margin: 0, fontFamily: 'sans-serif' }}>
+        <div style={{ 
+          display: 'flex', 
+          justifyContent: 'center', 
+          alignItems: 'center', 
+          height: '100vh', 
+          width: '100vw',
+          backgroundColor: '#111',
+          backgroundImage: 'linear-gradient(156.63deg, #201da7 8.68%, #30e29d 84.91%)',
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          zIndex: 9999
+        }}>
+          <div style={{ 
+            padding: '50px 40px', 
+            backgroundColor: '#fff', 
+            borderRadius: '16px', 
+            boxShadow: '0 10px 40px rgba(0,0,0,0.2)', 
+            textAlign: 'center',
+            maxWidth: '450px',
+            width: '90%'
+          }}>
+            <h2 style={{ marginTop: 0, marginBottom: '16px', fontSize: '28px', color: '#111', fontWeight: '800', letterSpacing: '-0.5px' }}>
+              We've Moved!
+            </h2>
+            <p style={{ marginBottom: '32px', color: '#555', lineHeight: '1.6', fontSize: '16px' }}>
+        Please click below to continue to our platform.
+            </p>
+            <a 
+              href="https://tech.paralleledu.com" 
+              style={{ 
+                display: 'inline-block', 
+                padding: '16px 32px', 
+                background: '#111', 
+                color: '#fff', 
+                textDecoration: 'none', 
+                borderRadius: '8px', 
+                fontWeight: 'bold',
+                fontSize: '18px',
+                boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
+              }}
+            >
+              Continue to New Site
+            </a>
+          </div>
+        </div>
       </body>
     </html>
   );
