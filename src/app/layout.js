@@ -88,7 +88,7 @@ export default function RootLayout({ children }) {
                 boxShadow: '0 4px 15px rgba(0, 0, 0, 0.2)',
               }}
             >
-              Continue to New Site
+             Click here to continue
             </a>
           </div>
         </div>
