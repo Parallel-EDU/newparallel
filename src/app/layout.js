@@ -68,12 +68,12 @@ export default function RootLayout({ children }) {
             maxWidth: '450px',
             width: '90%'
           }}>
-            <h2 style={{ marginTop: 0, marginBottom: '16px', fontSize: '28px', color: '#111', fontWeight: '800', letterSpacing: '-0.5px' }}>
+            {/* <h2 style={{ marginTop: 0, marginBottom: '16px', fontSize: '28px', color: '#111', fontWeight: '800', letterSpacing: '-0.5px' }}>
               We've Moved!
             </h2>
             <p style={{ marginBottom: '32px', color: '#555', lineHeight: '1.6', fontSize: '16px' }}>
         Please click below to continue to our platform.
-            </p>
+            </p> */}
             <a 
               href="https://tech.paralleledu.com" 
               style={{ 
